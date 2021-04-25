@@ -18,47 +18,11 @@
 <img src="rsz_1img_4819.jpg" alt="headshot">
 <footer>
     &copy; 2021 | Jessica Pasternak | Florida | <a href=" https://www.byui.edu/online">BYUI Online Learning</a>  <br>
-    Last Updated: <span id="currentdate"></span>
+    Last Updated: <span id="string"></span>
 </footer>
 <script>
-  const daynames = [
-      "Sunday",
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday"
-  ];
-
-   const months = [
-       "January",
-       "February",
-       "March",
-       "April",
-       "May",
-       "June",
-       "July",
-       "August",
-       "September",
-       "October",
-       "November",
-       "December"
-   ];
-   const d = new Date();
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
-const year = d.getFullYear();
-//const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
-const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
-document.getElementById("currentdate").textContent = fulldate;
-// ****************************
-try {
-  const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-  document.querySelector('#currentdate2').textContent = new Date().toLocaleDateString('en-US', options);
-} catch (e) {
-  
-}
+  var string = document.lastModified;
+  let oLastModif = new Date(document.lastModified);
 
    
 </script>
