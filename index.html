@@ -7,9 +7,13 @@
  <h1>Jessica Pasternak</h1>
 </body>
 <footer>
-    <span id="currentdate"></span>
+    &copy; 2021 | Jessica Pasternak | Today's Date: <span id="currentdate"></span>
 </footer>
-<script src="js/currentdate.js"></script>
+<script>
+    const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+    document.getElementById('currentdate').textContent  new Date().toLocaleDateString('en-US', options);
+   
+</script>
    
     
 </html>  
