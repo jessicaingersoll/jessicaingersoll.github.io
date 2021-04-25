@@ -18,11 +18,11 @@
 <img src="rsz_1img_4819.jpg" alt="headshot">
 <footer>
     &copy; 2021 | Jessica Pasternak | Florida | <a href=" https://www.byui.edu/online">BYUI Online Learning</a>  <br>
-    Last Updated: <span id="string"></span>
+    Last Updated: <span id="lastupdate"></span>
 </footer>
 <script>
-  var string = document.lastModified;
-  let oLastModif = new Date(document.lastModified);
+  document.querySelector('#currentyear').textContent = new Date().getFullYear();
+document.querySelector('#lastupdate').textContent = document.lastModified;
 
    
 </script>
