@@ -27,19 +27,16 @@ ul a:hover{
 h2 {
     font-family: "Ubuntu Condensed", sans-serif;
     color: #84564E;
-   margin-left: 3em;
+   margin-left: -6em;
    
 }
 ul li {
     font-family: "Ubuntu Condensed", sans-serif;
     color: #84564E;
-    margin-left: 3em;
+    margin-left: -8em;
 }
 
-  img {
-    margin-left: 25em;
-    margin-top: -9em;
-  }
+ 
 footer {
     font-family: "Ubuntu Condensed", sans-serf;
     padding: 1.5em; 
@@ -52,9 +49,11 @@ footer {
   text-align: center;
 }
   main {
-    background-color: #E1D8CF;
+    background-image: url("rsz_1img_4819.jpg");
+  background-size: cover;
     margin-left: 8em;
     margin-right: 8em;
     margin-top: -1.5em;
-    padding: 2em;
+    padding: 14em;
+    
   }
