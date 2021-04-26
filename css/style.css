@@ -13,8 +13,11 @@ h3 {
 ul li {
     font-family: "Ubuntu Condensed", sans-serif;
     color: #84564E;
-}
 
+}
+a:hover {
+    color: 
+}
 footer {
     font-family: "Ubuntu Condensed", sans-serf;
     padding: 1.5em; 
