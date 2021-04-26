@@ -3,7 +3,7 @@
 h1 {
     font-family: "Ubuntu Condensed", sans-serif;
     padding: 2em;
-    background-color: yellow;
+    background-color: #393442;
     color: #E1D8CF;
 }
 h3 {
@@ -20,4 +20,9 @@ footer {
     padding: 1.5em; 
     background-color: #393442;
     color: #E1D8CF;
+}
+img {
+    margin-top: -3em;
+    width: 600px;
+    height: 400px;
 }
