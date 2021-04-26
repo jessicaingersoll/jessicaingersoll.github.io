@@ -47,7 +47,7 @@ footer {
   text-align: center;
 }
 main {
-  background-image: url('#IMG_4819.jpg');
+  background-image: url('..IMG_4819.jpg');
   background-size: cover;
   margin-left: 8em;
   margin-right: 8em;
