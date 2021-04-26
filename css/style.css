@@ -1,59 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
 
 h1 {
-    font-family: "Ubuntu Condensed", sans-serif;
-    padding: 2em;
-    background-color: #393442;
-    color: #E1D8CF;
-    margin-left: 4em;
-    margin-right: 4em;
-    border-radius: 20px 20px 0px 0px;
-    text-align: center;
-}
-  
-ul a {
-    color: #84564E;
-  }
-  footer a {
-    color: #E1D8CF;
-  }
-ul a:hover{
-    color: #393442;
-  }
-  footer a:hover {
-    color: #84564E;
-  }
-  
-h2 {
-    font-family: "Ubuntu Condensed", sans-serif;
-    color: #84564E;
-   margin-left: -6em;
-   
-}
-ul li {
-    font-family: "Ubuntu Condensed", sans-serif;
-    color: #84564E;
-    margin-left: -8em;
+  font-family: "Ubuntu Condensed", sans-serif;
+  padding: 2em;
+  background-color: #393442;
+  color: #e1d8cf;
+  margin-left: 4em;
+  margin-right: 4em;
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
 }
 
- 
+ul a {
+  color: #84564e;
+}
+footer a {
+  color: #e1d8cf;
+}
+ul a:hover {
+  color: #393442;
+}
+footer a:hover {
+  color: #84564e;
+}
+
+h2 {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #84564e;
+  margin-left: -6em;
+}
+ul li {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #84564e;
+  margin-left: -8em;
+}
+
 footer {
-    font-family: "Ubuntu Condensed", sans-serf;
-    padding: 1.5em; 
-    background-color: #393442;
-    color: #E1D8CF;
-   margin-left: 8em;
+  font-family: "Ubuntu Condensed", sans-serf;
+  padding: 1.5em;
+  background-color: #393442;
+  color: #e1d8cf;
+  margin-left: 8em;
   margin-right: 8em;
   margin-top: -1em;
   border-radius: 0px 0px 20px 20px;
   text-align: center;
 }
-  main {
-    background-image: url("IMG_4819.jpg");
+main {
+  background-image: url("IMG_4819.jpg");
   background-size: cover;
-    margin-left: 8em;
-    margin-right: 8em;
-    margin-top: -1.5em;
-    padding: 14em;
-    
-  }
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: -1.5em;
+  padding: 14em;
+}
