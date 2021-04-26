@@ -6,35 +6,55 @@ h1 {
     background-color: #393442;
     color: #E1D8CF;
     margin-left: 4em;
-    margin-right: 4.5em;
+    margin-right: 4em;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
 }
+  
+ul a {
+    color: #84564E;
+  }
+  footer a {
+    color: #E1D8CF;
+  }
+ul a:hover{
+    color: #393442;
+  }
+  footer a:hover {
+    color: #84564E;
+  }
+  
 h3 {
     font-family: "Ubuntu Condensed", sans-serif;
     color: #84564E;
-   margin-left: 10em;
-   margin-top: 6em;
+   margin-left: 3em;
+   
 }
 ul li {
     font-family: "Ubuntu Condensed", sans-serif;
     color: #84564E;
-    margin-left: 10em;
-
+    margin-left: 3em;
 }
 
+  img {
+    margin-left: 25em;
+    margin-top: -9em;
+  }
 footer {
     font-family: "Ubuntu Condensed", sans-serf;
     padding: 1.5em; 
     background-color: #393442;
     color: #E1D8CF;
    margin-left: 8em;
-  margin-right: 9em;
-    
+  margin-right: 8em;
+  margin-top: -1em;
+  border-radius: 0px 0px 20px 20px;
+  text-align: center;
 }
-  
-img {
-    margin-top: -14em;
-    width: 900px;
-    height: 500px;
+  main {
+    background-color: #E1D8CF;
     margin-left: 8em;
-    margin-right: 10em;
-}
+    margin-right: 8em;
+    margin-top: -1.5em;
+    padding: 2em;
+  }
