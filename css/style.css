@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 body {
     color: black;
+}
+h1 {
+    font-family: "Ubuntu Condensed", sans-serif;
+    padding: 3em;
+    background-color: #393442;
+    color: #E1D8CF;
 }
