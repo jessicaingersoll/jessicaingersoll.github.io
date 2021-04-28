@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
-
 h1 {
-  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
   padding: 2em;
   background-color: #393442;
   color: #e1d8cf;
@@ -25,7 +23,7 @@ footer a:hover {
 }
 
 h2 {
-  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
   color: #84564e;
   margin-left: -6em;
 }
@@ -36,7 +34,7 @@ ul li {
 }
 
 footer {
-  font-family: "Ubuntu Condensed", sans-serf;
+  font-family: 'Ubuntu Condensed', sans-serif;
   padding: 1.5em;
   background-color: #393442;
   color: #e1d8cf;
