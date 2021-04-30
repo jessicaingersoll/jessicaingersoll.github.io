@@ -24,3 +24,10 @@ h1 {
     border-radius: 0px 0px 20px 20px;
     text-align: center;
   }
+
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    
+  }
