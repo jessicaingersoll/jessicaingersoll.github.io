@@ -1,10 +1,11 @@
 h1 {
   font-family: 'Ubuntu Condensed', sans-serif;
-  padding: 1.5em;
+  padding: 1em;
   background-color: #393442;
   color: #e1d8cf;
-  margin-left: 8em;
-  margin-right: 8em;
+  margin-left: 2.55em;
+  margin-right: 2.55em;
+  margin-bottom: .4em;
   border-radius: 20px 20px 0px 0px;
   text-align: center;
   font-size: 50px;
@@ -46,7 +47,7 @@ footer {
   text-align: center;
 }
 main {
-  background-image: url('../images/IMG_4819.jpg');
+  background-image: url('https://cdn.glitch.com/8c38dd7c-decf-4e7c-ad72-08ab4a8357b3%2Frsz_1img_4819.jpg?v=1619402889024');
   background-size: cover;
   margin-left: 8em;
   margin-right: 8em;
