@@ -27,16 +27,20 @@ p {
 }
 
 img {
-    width: 75%;
-    text-align: center;
+  width: 75%;
+  text-align: center;
 }
 
 a {
   color: #84564e;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
-  a:hover {
-    color: #393442;
-  }
+a:hover {
+  color: #393442;
+}
+a:visited {
+  color: black;
+}
 
 footer a:hover {
   color: #84564e;
