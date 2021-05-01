@@ -3,8 +3,7 @@ h1 {
   padding: 1em;
   background-color: #393442;
   color: #e1d8cf;
-  margin-left: 2.55em;
-  margin-right: 2.57em;
+  margin: auto;
   margin-bottom: 0.4em;
   border-radius: 20px 20px 0px 0px;
   text-align: center;
@@ -47,8 +46,7 @@ footer {
   padding: 1.5em;
   background-color: #393442;
   color: #e1d8cf;
-  margin-left: 8em;
-  margin-right: 8em;
+  margin: auto;
   margin-top: -1em;
   border-radius: 0px 0px 20px 20px;
   text-align: center;
