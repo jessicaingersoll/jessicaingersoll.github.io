@@ -38,12 +38,9 @@ a {
 a:hover {
   color: #393442;
 }
-a:visited {
-  color: black;
-}
 
 footer a:hover {
-  color: #84564e;
+  color: #e1d8cf;
 }
 footer {
   font-family: "Ubuntu Condensed", sans-serif;
