@@ -49,10 +49,9 @@ main {
   margin:auto
   margin-top: -1.5em;
   padding: 14em;
-  text-align: center;
 }
 img {
-  margin: auto;
+  margin-left: -1em;
 }
 
 
