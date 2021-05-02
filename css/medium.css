@@ -1,9 +1,15 @@
 @media only screen and (min-width: 32.5em) {
-    h1 {
-        font-size: 50px;
-      }
-      footer {
-     
-      }
+  main {
+    background-image: url('../images/IMG_4819.jpg');
+    background-size: cover;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: -1.5em;
+    padding: 14em;
+  }
+  img {
+    display: none;
+  }
+}
 }
   
