@@ -1,9 +1,8 @@
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: ) {
   main {
     background-image: url('../images/IMG_4819.jpg');
     background-size: cover;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin: auto;
     margin-top: -1.5em;
     padding: 14em;
   }
@@ -11,13 +10,11 @@
     display: none;
   }
   h1 {
-  margin-left: 2.55em;
-  margin-right: 2.57em;
+  margin: auto;
   }
   footer: {
     footer {
-      margin-left: 8em;
-      margin-right: 8em;
+      margin: auto;
       }
   }
 }
