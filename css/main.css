@@ -39,8 +39,7 @@ footer {
   padding: 1.5em;
   background-color: #393442;
   color: #e1d8cf;
-  margin-left: 8em;
-  margin-right: 8em;
+  margin: auto;
   margin-top: -1em;
   border-radius: 0px 0px 20px 20px;
   text-align: center;
@@ -51,7 +50,7 @@ main {
   margin-top: -1.5em;
   padding: 14em;
 }
-}
+
 
 
 
