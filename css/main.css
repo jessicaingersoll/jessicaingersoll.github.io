@@ -50,8 +50,9 @@ main {
   margin-top: -1.5em;
   padding: 14em;
 }
-img {
+.profile img {
   margin-top: -2em;
+  margin-left: -2em;
 }
 
 
