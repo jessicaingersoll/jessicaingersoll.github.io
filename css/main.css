@@ -51,8 +51,9 @@ main {
   padding: 14em;
 }
 .profile img {
-  margin-top: -2em;
-  margin-left: -2em;
+  width: 60%;
+  margin: auto;
+  display: block;
 }
 
 
