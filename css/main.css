@@ -52,7 +52,7 @@ main {
 }
 img {
   width: 500%;
-  margin: auto;
+  margin-left: -2em;
   display: block;
 }
 
