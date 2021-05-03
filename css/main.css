@@ -49,11 +49,13 @@ main {
   margin: auto;
   margin-top: -1.5em;
   padding: 14em;
+  
 }
 img {
   width: 300%;
   margin-top: -10em;
   display: block;
+  text-align: center;
 }
 
 
