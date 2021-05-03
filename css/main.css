@@ -52,8 +52,7 @@ main {
 }
 img {
   width: 300%;
-  margin-right: 10em;
-  margin-top: -10em;
+  margin: auto;
   display: block;
 }
 
