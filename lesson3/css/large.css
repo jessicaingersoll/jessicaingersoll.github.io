@@ -4,4 +4,9 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
 }
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 }
