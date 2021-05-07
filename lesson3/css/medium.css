@@ -4,4 +4,8 @@
         flex-direction: row;
         justify-content: space-around;
     }
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
