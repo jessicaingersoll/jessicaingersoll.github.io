@@ -12,7 +12,12 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 0;
     }
-    
+    .jungle-mist {
+        grid-column: 1/2;
+    }
+    .anzac {
+        grid-column: 2/3;
+    }
     .neptune {
         grid-column: 3/4;
        
