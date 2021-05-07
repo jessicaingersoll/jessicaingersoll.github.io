@@ -17,4 +17,23 @@ header {
 .color {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.jungle-mist {
+    grid-column: 1/2;
+    background-color: #B6D7D9;
+}
+.anzac {
+    grid-column: 2/3;
+    background-color: #DDB850;
+}
+.edgewater {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: #C8E1E0;
+}
+.lemon-grass {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #909888
 }

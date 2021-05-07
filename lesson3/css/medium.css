@@ -11,22 +11,19 @@
     .color {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        text-align: center;
     }
     .jungle-mist {
-        grid-column: 1/2;
-        background-color: #B6D7D9;
+        grid-column: 1/2;   
     }
     .anzac {
         grid-column: 2/3;
-        background-color: #DDB850;
+       
     }
     .edgewater {
         grid-column: 3/4;
-        background-color: #C8E1E0;
+       
     }
     .lemon-grass {
         grid-column: 4/5;
-        background-color: #909888
     }
 }   
