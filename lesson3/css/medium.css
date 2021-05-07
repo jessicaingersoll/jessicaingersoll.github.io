@@ -12,7 +12,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    .junglemist {
+    .jungle-mist {
         grid-column: 1/2;
         background-color: #B6D7D9;
     }
