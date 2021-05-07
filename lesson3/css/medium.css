@@ -9,7 +9,6 @@
         grid-template-columns: 1fr 1fr;
     }
     .color {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .jungle-mist {
