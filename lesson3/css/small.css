@@ -9,7 +9,7 @@ nav ul {
 }
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100px 1fr;
     color: #5C9894;
 }
 
