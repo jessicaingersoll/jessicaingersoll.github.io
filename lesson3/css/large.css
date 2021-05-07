@@ -5,15 +5,11 @@ nav ul {
     justify-content: space-around;
 }
 
-table {
-  
+.color{
+    display: flex;
 
 }
-th, td {
-    text-align: center;
-
-}
-table:nth-child(1) {
-    background-color: #B6D7D9;
+h1 {
+    display: inline-block;
 }
 }
