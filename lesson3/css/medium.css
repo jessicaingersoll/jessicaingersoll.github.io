@@ -10,6 +10,7 @@
     }
     .color {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0;
     }
     .jungle-mist {
         grid-column: 1/2;   
