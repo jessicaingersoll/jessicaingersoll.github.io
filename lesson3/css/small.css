@@ -8,8 +8,7 @@ nav ul {
     width: 50%;
 }
 header {
-    display: grid;
-    grid-template-columns: 100px 1fr;
+    display: flex;
     color: #5C9894;
 }
 
