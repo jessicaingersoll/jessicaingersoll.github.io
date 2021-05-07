@@ -25,6 +25,7 @@
         background-color: #C8E1E0;
     }
     .lemon-grass {
+        grid-column: 4/5;
         background-color: #909888
     }
 }   
