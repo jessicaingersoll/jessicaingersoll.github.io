@@ -31,7 +31,7 @@ header {
 .neptune {
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color: #7EB4BD;
+    background-color:red;
 }
 .lemon-grass {
     grid-column: 2/3;
