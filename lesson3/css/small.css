@@ -14,5 +14,6 @@ header {
 }
 
 h1 {
-    color: 
+   grid-column: 2/3;
+   justify-content: left;
 }
