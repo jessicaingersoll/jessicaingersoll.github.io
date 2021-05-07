@@ -56,4 +56,6 @@ h2 {
 footer {
     background-color: #7EB4BD;
     margin-top: 1em;
+    padding: 3em;
+    text-align: center;
 }
