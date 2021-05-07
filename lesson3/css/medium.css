@@ -16,4 +16,15 @@
         grid-column: 1/2;
         background-color: #B6D7D9;
     }
-}
+    .anzac {
+        grid-column: 2/3;
+        background-color: #DDB850;
+    }
+    .edgewater {
+        grid-column: 3/4;
+        background-color: #C8E1E0;
+    }
+    .lemon-grass {
+        background-color: #909888
+    }
+}   
