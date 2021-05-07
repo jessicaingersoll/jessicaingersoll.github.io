@@ -11,7 +11,7 @@
     .color {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding-bottom: 2em;
+        text-align: center;
     }
     .jungle-mist {
         grid-column: 1/2;
