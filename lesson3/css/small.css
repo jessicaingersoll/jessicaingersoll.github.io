@@ -41,4 +41,9 @@ header {
 ul {
     background-color: #7EB4BD;
     padding: 3em;
+    list-style: none;
+}
+
+a {
+    color: white;
 }
