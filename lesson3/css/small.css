@@ -9,10 +9,10 @@ nav ul {
 }
 header {
     display: flex;
+    justify-content: flex-start;
     color: #5C9894;
 }
 
 h1 {
-   grid-column: 2/3;
-   justify-content: left;
+   
 }
