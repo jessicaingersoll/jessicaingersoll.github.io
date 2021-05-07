@@ -13,13 +13,7 @@
         grid-template-rows: 0;
     }
     
-    .jungle-mist {
-        background-color: #B6D7D9;
-    }
-    .anzac {
-        background-color: #DDB850;
-    }
-    .neptune{
+    .neptune {
         grid-column: 3/4;
        
     }

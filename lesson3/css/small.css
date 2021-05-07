@@ -38,3 +38,6 @@ header {
     grid-row: 2/3;
     background-color: #909888;
 }
+ul li {
+    background-color: #7EB4BD;
+}
