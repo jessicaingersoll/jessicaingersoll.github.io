@@ -5,16 +5,11 @@ nav ul {
     justify-content: space-around;
 }
 
-.color{
-    display: flex;
 
-}
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .color {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0;
 }
 }
