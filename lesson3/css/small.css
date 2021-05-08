@@ -23,6 +23,7 @@ header {
     grid-template-rows: 1fr 1fr;
     text-align: center;
     color: white;
+    font-family: DM Sans, sans-serif;
 }
 .jungle-mist {
     grid-column: 1/2;
