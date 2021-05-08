@@ -77,3 +77,6 @@ h3 {
 .typo-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+h1 {
+    color: #7EB4BD;
+}
