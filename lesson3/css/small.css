@@ -16,7 +16,6 @@ header {
     justify-content: flex-start;
     align-items: center;
     color: #7EB4BD;
-    font-family: Suez One, serif;
 }
 
 .color {
@@ -83,7 +82,7 @@ h3 {
 }
 h1 {
     color: #7EB4BD;
-    font-family: DM Sans, sans-serif;
+    font-family: Suez One, sans-serif;
 }
 .typo-header-3 {
     color: white;
