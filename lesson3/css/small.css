@@ -74,3 +74,6 @@ footer {
 h3 {
     color: white;
 }
+.typo-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
