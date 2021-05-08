@@ -1,34 +1,32 @@
 @media only screen and (min-width: 32em) {
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    header {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .color {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        
-    }
-    .jungle-mist {
-        grid-column: 1/2;
-    }
-    .anzac {
-        grid-column: 2/3;
-        
-    }
-    .neptune {
-        grid-column: 3/4;
-       grid-row: 1/2;
-    }
-    .lemon-grass {
-        grid-column: 4/5;
-        grid-row: 1/2;
-    }
-    .personas {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}   
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .color {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .jungle-mist {
+    grid-column: 1/2;
+  }
+  .anzac {
+    grid-column: 2/3;
+  }
+  .neptune {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .lemon-grass {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+  .personas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

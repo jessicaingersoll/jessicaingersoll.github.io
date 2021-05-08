@@ -1,116 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
 nav ul {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 20px;
-    font-family: DM Sans, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  font-family: DM Sans, sans-serif;
 }
 
 .logo {
-    width: 50%;
+  width: 50%;
 }
 header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: #7EB4BD;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #7eb4bd;
 }
 
 .color {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    text-align: center;
-    color: white;
-    font-family: DM Sans, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  color: white;
+  font-family: DM Sans, sans-serif;
 }
 .jungle-mist {
-    grid-column: 1/2;
-    background-color: #B6D7D9;
+  grid-column: 1/2;
+  background-color: #b6d7d9;
 }
 .anzac {
-    grid-column: 2/3;
-    background-color: #DDB850;
+  grid-column: 2/3;
+  background-color: #ddb850;
 }
 .neptune {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    background-color:#7EB4BD;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: #7eb4bd;
 }
 .lemon-grass {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    background-color: #909888;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #909888;
 }
 ul {
-    background-color: #7EB4BD;
-    padding: 3em;
-    list-style: none;
+  background-color: #7eb4bd;
+  padding: 3em;
+  list-style: none;
 }
 
 a {
-    color: white;
+  color: white;
 }
 a:hover {
-    color: #DDB850;
+  color: #ddb850;
 }
 h2 {
-    color: #909888;
-    font-family: DM Sans, sans-serif;
-    font-size: 30px;
-    margin: 2em;
+  color: #909888;
+  font-family: DM Sans, sans-serif;
+  font-size: 30px;
+  margin: 2em;
 }
 footer {
-    background-color: #DDB850;
-    margin-top: 1em;
-    padding: 3em;
-    text-align: center;
-    color: white;
-    font-family: DM Sans, sans-serif;
+  background-color: #ddb850;
+  margin-top: 1em;
+  padding: 3em;
+  text-align: center;
+  color: white;
+  font-family: DM Sans, sans-serif;
 }
-.index-p, .typo-p, .target-p {
-    color: white;
-    background-color: #909888;
-    padding: 3em;
-    font-family: DM Sans, sans-serif;
-    font-size: 20px;
+.index-p,
+.typo-p,
+.target-p {
+  color: white;
+  background-color: #909888;
+  padding: 3em;
+  font-family: DM Sans, sans-serif;
+  font-size: 20px;
 }
 
 h3 {
-    color: white;
+  color: white;
 }
 .typo-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 h1 {
-    color: #909888;
-    font-family: Suez One, sans-serif;
-    margin-left: 2em;
+  color: #909888;
+  font-family: Suez One, sans-serif;
+  margin-left: 2em;
 }
 header h1 {
-    margin-left: -1.5em;
+  margin-left: -1.5em;
 }
 .typo-header-3 {
-    color: white;
-    background-color: #DDB850;
-    padding: 2em;
-    font-family: DM Sans, sans-serif;
+  color: white;
+  background-color: #ddb850;
+  padding: 2em;
+  font-family: DM Sans, sans-serif;
 }
 .personas {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
-    color: white;
-    background-color: #7EB4BD;
-    font-family: DM Sans, sans-serif;
-    padding: 2em;
-    font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  color: white;
+  background-color: #7eb4bd;
+  font-family: DM Sans, sans-serif;
+  padding: 2em;
+  font-size: 20px;
 }
 .target-heading {
-    color: #DDB850;
-    font-family: DM Sans, sans-serif;
-    font-size: 25px;
-    margin-left: 2.5em;
+  color: #ddb850;
+  font-family: DM Sans, sans-serif;
+  font-size: 25px;
+  margin-left: 2.5em;
 }
