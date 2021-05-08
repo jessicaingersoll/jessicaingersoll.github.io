@@ -69,6 +69,7 @@ footer {
     color: white;
     background-color: #909888;
     padding: 3em;
+    font-family: DM Sans, sans-serif;
 }
 
 h3 {
@@ -79,6 +80,7 @@ h3 {
 }
 h1 {
     color: #7EB4BD;
+    font-family: DM Sans, sans-serif;
 }
 .typo-header-3 {
     color: white;
