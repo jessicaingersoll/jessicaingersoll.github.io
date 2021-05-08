@@ -89,6 +89,9 @@ h1 {
     font-family: Suez One, sans-serif;
     margin-left: 2em;
 }
+header h1 {
+    margin-left: -1em;
+}
 .typo-header-3 {
     color: white;
     background-color: #DDB850;
