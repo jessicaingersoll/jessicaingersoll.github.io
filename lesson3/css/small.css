@@ -93,5 +93,5 @@ h1 {
 }
 .personas {
     display: flex;
-    
+    justify-content: space-around;
 }
