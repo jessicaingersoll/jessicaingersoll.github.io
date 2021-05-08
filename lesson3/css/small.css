@@ -101,6 +101,7 @@ header h1 {
 .personas {
     display: flex;
     color: white;
+    background-color: #7EB4BD;
     font-family: DM Sans, sans-serif;
     padding: 2em;
     font-size: 20px;
