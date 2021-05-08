@@ -96,6 +96,7 @@ h1 {
     grid-template-columns: 1fr;
     background-color: #7EB4BD;
     color: white;
+    font-family: DM Sans, sans-serif;
 }
 .target-heading {
     color: #DDB850;
