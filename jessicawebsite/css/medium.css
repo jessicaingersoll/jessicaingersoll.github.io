@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32em){
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
 }
 }
