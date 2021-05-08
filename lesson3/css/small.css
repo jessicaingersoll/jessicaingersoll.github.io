@@ -99,9 +99,7 @@ header h1 {
     font-family: DM Sans, sans-serif;
 }
 .personas {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #7EB4BD;
+    display: flex;
     color: white;
     font-family: DM Sans, sans-serif;
     padding: 2em;

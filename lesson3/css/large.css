@@ -10,8 +10,5 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.personas {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 }
