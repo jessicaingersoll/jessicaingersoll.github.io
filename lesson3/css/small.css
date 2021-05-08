@@ -91,3 +91,7 @@ h1 {
     padding: 2em;
     font-family: DM Sans, sans-serif;
 }
+.personas {
+    display: flex;
+    
+}
