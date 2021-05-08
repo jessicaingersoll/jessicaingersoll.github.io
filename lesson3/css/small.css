@@ -101,6 +101,7 @@ header h1 {
 .personas {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 1em;
     color: white;
     background-color: #7EB4BD;
     font-family: DM Sans, sans-serif;
