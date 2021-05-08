@@ -93,5 +93,5 @@ h1 {
 }
 .personas {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
