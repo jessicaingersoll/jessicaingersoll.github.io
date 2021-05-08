@@ -94,4 +94,5 @@ h1 {
 .personas {
     display: grid;
     grid-template-columns: 1fr;
+    background-color: #7EB4BD;
 }
