@@ -68,7 +68,7 @@ footer {
     color: white;
     font-family: DM Sans, sans-serif;
 }
-.index-p, .typo-p {
+.index-p, .typo-p .target-p {
     color: white;
     background-color: #909888;
     padding: 3em;
