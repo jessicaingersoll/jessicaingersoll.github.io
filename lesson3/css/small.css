@@ -62,10 +62,11 @@ footer {
     margin-top: 1em;
     padding: 3em;
     text-align: center;
+    color: white;
 }
 p {
     color: white;
-    background-color: 
+    background-color: #B6D7D9;
 }
 
 h3 {
