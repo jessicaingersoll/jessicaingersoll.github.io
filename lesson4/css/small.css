@@ -11,3 +11,7 @@ header {
      margin-left: 1em;
      font-family: DM Sans, sans-serif;
  }
+.logo {
+    width: 60%;
+    margin-top: 1em;
+}
