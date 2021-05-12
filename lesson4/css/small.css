@@ -3,6 +3,7 @@ header {
    grid-template-columns: 250px 1fr;
    color: #7eb4bd;
    font-family: Suez One, sans-serif;
+   font-size: 10px;
 }
  header p {
      grid-column: 2/3;
