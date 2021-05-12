@@ -1,6 +1,8 @@
 header {
    display: grid;
    grid-template-columns: 250px 1fr;
+   color: #7eb4bd;
+   font-family: Suez One, sans-serif;
 }
  header p {
      grid-column: 2/3;
