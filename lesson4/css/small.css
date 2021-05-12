@@ -8,7 +8,6 @@ header {
 }
  header p {
      grid-column: 2/3;
-     margin-top: -;
      margin-left: 1em;
      font-family: DM Sans, sans-serif;
      color: #ddb850;
