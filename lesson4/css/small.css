@@ -1,6 +1,6 @@
 header {
    display: grid;
-   grid-template-columns: 100px 1fr;
+   grid-template-columns: 1fr 1fr;
    color: #7eb4bd;
    font-family: Suez One, serif;
    font-size: 15px;
@@ -15,6 +15,7 @@ header {
  }
 .logo {
     grid-column: 1/2;
+   
     margin-top: 1em;
     border-left: -2em;
     border-radius: 50px 50px 50px 50px;
