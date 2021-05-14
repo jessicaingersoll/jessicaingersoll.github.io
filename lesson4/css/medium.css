@@ -37,12 +37,13 @@ h2 {
 }
 
 .fiveimages {
-	display: flex;
+	
 	background-color: #909888;
 }
 .fiveimages img {
-
-	width: 30%;
+	display: flex;
+	flex-direction: row;
+	width: 20%;
 }
 .article {
 	margin-left: 3em;
