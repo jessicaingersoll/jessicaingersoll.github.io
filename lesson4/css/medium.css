@@ -52,6 +52,10 @@ h2 {
 }
 .articleimg {
 	width: 300px;
+	float: right;
+    height: 200px;
+    margin-top: -15em;
+    margin-left: 2em;
 }
 .contactinfo {
 	display: grid;

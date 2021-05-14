@@ -100,10 +100,7 @@ footer {
     padding: 1.5em;
 }
 .articleimg {
-    float: right;
-    height: 200px;
-    margin-top: -15em;
-    margin-left: 2em;
+    width: 70%;
 }
 .contactinfo {
     background-color: #7eb4bd;
