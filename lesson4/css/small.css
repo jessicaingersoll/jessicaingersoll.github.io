@@ -72,12 +72,8 @@ footer {
     padding: 4em;
     text-align: center;
 }
-.contentbox {
-    display: block;
+.weathersummary {
     font-family: DM Sans, sans-serif;
-    margin: 10px auto;
     background-color: #909888;
     color: white;
-    padding: 15px;
-    font-style: italic;
 }
