@@ -39,7 +39,7 @@ h2 {
 	bottom: 21em;
 }
 .fivedayforecast {
-	margin-top: -8em;
+	margin-top: -4em;
 }
 .fiveimages img {
 	display: block;
@@ -89,7 +89,7 @@ h2 {
 	margin-top: -10em;
 	margin-left: 3em;
 }
-.socialmedialinks img {
+.socialmedialinks {
 	display: block;
 	width: 10%;
 }
