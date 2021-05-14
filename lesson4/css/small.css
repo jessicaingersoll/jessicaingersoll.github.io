@@ -62,7 +62,8 @@ h2 {
 }
 main {
     background-color: #b6d7d940;
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     margin-top: -1em;
 }
 footer {
@@ -83,5 +84,9 @@ footer {
     color: white; 
     font-size: 30px;
     padding: 2em;
-    margin: none;
+}
+.article {
+    font-family: DM Sans, sans-serif;
+    color: #909888;
+
 }
