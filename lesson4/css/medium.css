@@ -13,6 +13,9 @@
 		display: none;
 	}
 }
+main {
+	margin: auto;
+}
 h2 {
 	text-align: left;
 }
