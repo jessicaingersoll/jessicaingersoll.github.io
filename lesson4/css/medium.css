@@ -43,7 +43,7 @@ h2 {
 .contactinfo {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 3em;
+	grid-gap: 1em;
 	margin: 0em;
 }
 .contactinfo h3 {
@@ -56,7 +56,6 @@ h2 {
 .contactpic {
 	width: 60%;
 	margin-top: -10em;
-	justify-content: left;
 }
 
 }
