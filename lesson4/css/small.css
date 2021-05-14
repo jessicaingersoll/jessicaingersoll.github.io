@@ -63,6 +63,7 @@ h2 {
 main {
     background-color: #b6d7d940;
     padding: 2em;
+    margin-top: -2em;
 }
 footer {
     font-family: DM Sans, sans-serif;
