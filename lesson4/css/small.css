@@ -102,6 +102,8 @@ footer {
 .articleimg {
     float: right;
     height: 200px;
+    margin-top: -15em;
+    margin-left: 2em;
 }
 .contactinfo {
     background-color: #7eb4bd;
