@@ -73,6 +73,7 @@ footer {
     text-align: center;
 }
 .contentbox {
+    display: block;
     font-family: DM Sans, sans-serif;
     margin: 10px auto;
     border: 1px #909888;
