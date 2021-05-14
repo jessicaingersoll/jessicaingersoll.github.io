@@ -23,11 +23,10 @@ h2 {
 	margin-right: 3em;
 }
 .weathersummary {
-	position: absolute;
+	position: ;
 	background: #909888;
 	color: white;
-	top: 10px;
-	margin-left: 10px;
+	
 }
 .fivedayforecast {
 	margin-left: 3em;
