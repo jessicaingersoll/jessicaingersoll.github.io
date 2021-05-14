@@ -93,6 +93,7 @@ footer {
 .article {
     font-family: DM Sans, sans-serif;
     color: #909888;
+    padding: 1.5em;
 }
 .contactinfo {
     background-color: #7eb4bd;
