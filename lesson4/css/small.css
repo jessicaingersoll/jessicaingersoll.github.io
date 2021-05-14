@@ -76,6 +76,8 @@ footer {
     display: block;
     font-family: DM Sans, sans-serif;
     margin: 10px auto;
+    background-color: #909888;
+    color: white;
     border: ;
     padding: 15px;
 }
