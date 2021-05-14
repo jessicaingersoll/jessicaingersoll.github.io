@@ -74,5 +74,7 @@ footer {
 }
 .contentbox {
     font-family: DM Sans, sans-serif;
-
+    margin: 10px auto;
+    border: 1px #909888;
+    padding: 15px;
 }
