@@ -51,6 +51,7 @@ h2 {
 }
 .contactinfo p {
 	grid-column: 2/3;
+	margin-top: -2em;
 }
 .contactpic {
 	width: 60%;
