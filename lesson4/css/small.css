@@ -44,6 +44,7 @@ nav {
     text-decoration: none;
     font-weight: 700%;
     color: white;
+    font-family: DM Sans, sans-serif;
 }
 .navigation a:hover {
     color: #ddb850;
