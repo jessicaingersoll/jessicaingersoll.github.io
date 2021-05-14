@@ -31,7 +31,7 @@ h2 {
 }
 .fiveimages {
 	display: flex;
-	justify-content: space-around;
+	
 }
 .fiveimages img {
 	width: 30%;
