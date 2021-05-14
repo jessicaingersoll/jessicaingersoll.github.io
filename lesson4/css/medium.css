@@ -25,7 +25,8 @@ h2 {
 .fivedayforecast {
 	margin-left: 3em;
 	margin-right: 3em;
-	background-color:none;
+	background-color:
+	padding: 1em;
 }
 .article {
 	margin-left: 3em;
