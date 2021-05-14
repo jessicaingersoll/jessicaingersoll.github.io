@@ -29,6 +29,13 @@ h2 {
 	color: #909888;
 	padding: 0em;
 }
+.fiveimages {
+	display: flex;
+	justify-content: space-around;
+}
+.fiveimages img{
+	width: 30%;
+}
 .article {
 	margin-left: 2em;
 	margin-right: 2em;
