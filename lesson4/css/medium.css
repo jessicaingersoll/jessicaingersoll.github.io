@@ -34,12 +34,15 @@ h2 {
 	background-color: #909888;
 }
 .fiveimages img {
-	
+
 	width: 30%;
 }
 .article {
 	margin-left: 3em;
 	margin-right: 3em;
+}
+.article img {
+	width: 50%;
 }
 .contactinfo {
 	display: grid;
