@@ -38,3 +38,9 @@ h2 {
 .contactinfo h3 {
 	grid-column: 2/3;
 }
+.contactinfo p {
+	grid-column: 2/3;
+}
+.contactinfo img {
+	grid-column: 1/2;
+}
