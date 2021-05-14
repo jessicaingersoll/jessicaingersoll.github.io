@@ -13,4 +13,3 @@ const currentdate = weekday[d.getDay()]+","+d.getDate()+month[d.getMonth()]+ d.g
 
 document.querySelector('#currentdate').textContent = currentdate;
 
-Wednesday, 24 July 2020
