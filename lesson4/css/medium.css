@@ -35,6 +35,8 @@ h2 {
 	color: white;
 	margin-right: 45em;
 	margin-left: 5em;
+	position: relative;
+	bottom: 21em;
 }
 
 .fiveimages {
