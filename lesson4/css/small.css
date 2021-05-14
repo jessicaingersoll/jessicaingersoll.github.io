@@ -91,6 +91,9 @@ footer {
     font-size: 30px;
     padding: 2em;
 }
+.fiveimages img {
+    display: none;
+}
 .article {
     font-family: DM Sans, sans-serif;
     color: #909888;
