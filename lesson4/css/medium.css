@@ -26,6 +26,7 @@ h2 {
 	position: ;
 	background: #909888;
 	color: white;
+
 	
 }
 .fivedayforecast {
@@ -46,6 +47,8 @@ h2 {
 .article {
 	margin-left: 3em;
 	margin-right: 3em;
+	border: 2px solid #909888;
+	margin-bottom: 1em;
 }
 .articleimg {
 	width: 300px;
