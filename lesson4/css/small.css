@@ -74,7 +74,9 @@ footer {
 }
 .weathersummary {
     font-family: DM Sans, sans-serif;
-    background-color: #909888;
-    color: white;
+    color: #909888;
     padding: 1.5em;
+}
+.5dayforecast {
+    font-family: DM Sans, sans-serif; 
 }
