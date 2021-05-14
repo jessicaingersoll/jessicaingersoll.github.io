@@ -95,6 +95,9 @@ footer {
     color: #909888;
     padding: 1.5em;
 }
+.articleimg {
+    width: 100%;
+}
 .contactinfo {
     background-color: #7eb4bd;
     color: white;
