@@ -12,7 +12,6 @@
 	.navigation li:first-child {
 		display: none;
 	}
-}
 h2 {
 	text-align: left;
 	margin-left: 3em;
@@ -45,4 +44,5 @@ h2 {
 .contactpic {
 	width: 60%;
 	margin-top: -10em;
+}
 }
