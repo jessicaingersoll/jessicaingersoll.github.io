@@ -52,3 +52,8 @@ nav {
 .responsive li {
     display: block;
 }
+
+h2 {
+    color: #909888;
+    font-family: DM Sans, sans-serif;
+}
