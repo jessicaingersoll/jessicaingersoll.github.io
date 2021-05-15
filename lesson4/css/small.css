@@ -14,6 +14,10 @@ header {
     left: 20em;
     bottom: 5em;
 }
+.ham:hover {
+    background-color: #909888;
+    color: white;
+}
  header p {
      font-family: DM Sans, sans-serif;
      color: #ddb850;
