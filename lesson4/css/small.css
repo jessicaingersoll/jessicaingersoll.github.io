@@ -11,8 +11,9 @@ header {
 }
 .ham {
     position: relative;
-    left: 20em;
-    bottom: 5em;
+    font-size: 50px;
+    left: 6em;
+    bottom: 2em;
 }
 .ham:hover {
     background-color: #909888;
