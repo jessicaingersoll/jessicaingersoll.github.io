@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-    margin: 0 auto;
+        margin: auto;
 		background-color: #7EB4BD;
 		color: white;
 		margin-top: -1em;
