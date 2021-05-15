@@ -47,6 +47,7 @@ h2 {
 .fivedayforecast {
 	margin-bottom: 2em;
 	text-align: left;
+	margin-top: -2em;
 }
 .fiveimages img {
 	display: block;
