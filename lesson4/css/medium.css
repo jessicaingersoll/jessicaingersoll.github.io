@@ -64,12 +64,13 @@ h2 {
 	margin-bottom: 1em;
 	margin-top: 1em;
 }
-.articleimg {
+.articleimgone {
 	width: 300px;
 	float: right;
     height: 200px;
-    margin-top: -15em;
-    margin-left: 2em;
+}
+.articleimgtwo {
+	display: none;
 }
 .contactinfo {
 	display: grid;
