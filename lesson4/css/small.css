@@ -10,7 +10,9 @@ header {
 
 }
 .ham {
-    grid-column: 3/4;
+    position: relative;
+    left: 20em;
+    bottom: 5em;
 }
  header p {
      font-family: DM Sans, sans-serif;
@@ -92,6 +94,7 @@ footer {
     color: white; 
     font-size: 30px;
     padding: 2em;
+    text-align: center;
 }
 .fiveimages img {
     display: none;
