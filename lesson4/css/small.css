@@ -18,6 +18,7 @@ header h1 {
     left: 5.5em;
     bottom: 2em;
     color: #7eb4bd;
+    text-decoration: none;
 }
 .ham:hover {
     background-color: #909888;
