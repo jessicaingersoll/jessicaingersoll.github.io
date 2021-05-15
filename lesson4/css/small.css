@@ -9,10 +9,13 @@ header {
    align-items: center;
 
 }
+header h1 {
+    margin-top: 2em;
+}
 .ham {
     position: relative;
     font-size: 50px;
-    left: 6em;
+    left: 5.5em;
     bottom: 2em;
 }
 .ham:hover {
