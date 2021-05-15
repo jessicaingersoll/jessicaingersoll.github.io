@@ -8,9 +8,9 @@ header {
 
 }
 .ham {
-    width: 150%;
     position: relative;
     left: 20em;
+    bottom: 3em;
 }
  header p {
      font-family: DM Sans, sans-serif;
