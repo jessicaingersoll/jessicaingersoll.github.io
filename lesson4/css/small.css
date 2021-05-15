@@ -7,6 +7,11 @@ header {
    align-items: center;
 
 }
+.ham {
+    width: 150%;
+    position: relative;
+    left: 20em;
+}
  header p {
      font-family: DM Sans, sans-serif;
      color: #ddb850;
