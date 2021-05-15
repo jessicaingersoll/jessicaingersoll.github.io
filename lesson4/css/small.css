@@ -24,6 +24,8 @@ nav {
 		background-color: #7EB4BD;
 		color: white;
 		margin-top: -1em;
+        position: relative;
+        left: 5em;
 }
 
 .navigation {
