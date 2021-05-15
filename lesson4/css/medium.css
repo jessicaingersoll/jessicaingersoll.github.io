@@ -65,8 +65,10 @@ h2 {
 	margin-top: 1em;
 }
 .articleimgone {
+	display: block;
 	width: 300px;
 	float: right;
+	margin: 10px;
     height: 200px;
 }
 .articleimgtwo {
