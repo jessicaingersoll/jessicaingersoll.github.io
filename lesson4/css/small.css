@@ -17,6 +17,7 @@ header h1 {
     font-size: 50px;
     left: 5.5em;
     bottom: 2em;
+    color: #7eb4bd;
 }
 .ham:hover {
     background-color: #909888;
