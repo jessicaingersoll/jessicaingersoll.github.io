@@ -1,0 +1,136 @@
+header {
+    display: grid;
+    grid-template-columns: 200px 300px 1fr;
+    grid-gap: 1em;
+    color: #7eb4bd;
+    font-family: Suez One, serif;
+    font-size: 15px;
+    background-color: #b6d7d940;
+    align-items: center;
+ 
+ }
+ header h1 {
+     margin-top: 2em;
+ }
+ .ham {
+     position: relative;
+     font-size: 50px;
+     left: 5.5em;
+     bottom: 2em;
+     color: #7eb4bd;
+     text-decoration: none;
+ }
+ .ham:hover {
+     background-color: #909888;
+     color: white;
+ }
+  header p {
+      font-family: DM Sans, sans-serif;
+      color: #ddb850;
+  }
+ .logo {
+     width: 90%;
+     border-radius: 50px 50px 50px 50px;
+     padding: 2em;
+     padding-left: 1em;
+     
+ }
+ 
+ nav {
+         background-color: #7EB4BD;
+         color: white;
+         margin-top: -1em;
+ }
+ 
+ .navigation {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ 
+ .navigation li {
+     display: none;
+ }
+ .navigation a {
+     display: block;
+     padding: 0.75rem;
+     text-align: left;
+     text-decoration: none;
+     color: white;
+     font-family: DM Sans, sans-serif;
+ }
+ .navigation a:hover {
+     color: #ddb850;
+     background-color: #b6d7d940;
+ }
+ .responsive li {
+     display: block;
+ }
+ 
+ h2 {
+     color: #909888;
+     font-family: DM Sans, sans-serif;
+     text-align: center;
+     font-size: 30px;
+ }
+ main {
+     background-color: #b6d7d940;
+     padding-top: 1em;
+     padding-bottom: 2em;
+     margin-top: -1em;
+ }
+ footer {
+     font-family: DM Sans, sans-serif;
+     background-color: #ddb850;
+     color: white;
+     padding: 4em;
+     text-align: center;
+     margin-top: -2em;
+ }
+ .heroimage {
+     width: 100%;
+     height: 300px;
+ 
+ }
+ .weathersummary {
+     font-family: DM Sans, sans-serif;
+     color: #909888;
+     padding: 1.5em;
+ }
+ .fivedayforecast {
+     font-family: DM Sans, sans-serif;
+     background-color: #909888;
+     color: white; 
+     font-size: 30px;
+     padding: 2em;
+     text-align: center;
+ }
+ .fiveimages img {
+     display: none;
+ }
+ .article {
+     font-family: DM Sans, sans-serif;
+     color: #909888;
+     padding: 1.5em;
+ }
+ .articleimgone {
+     display: none;
+ }
+ .articleimgtwo {
+     width: 100%;
+ 
+ }
+ .contactinfo {
+     background-color: #7eb4bd;
+     color: white;
+     font-family: DM Sans, sans-serif;
+     padding: 1.5em;
+ }
+ .contactpic {
+     width: 100%;
+ }
+ .socialmedialinks{
+     display: none;
+ 
+ }
+ 
