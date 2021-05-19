@@ -1,10 +1,7 @@
 const input = document.querySelector('input');
 const button = document.querySelector('button');
 const list = document.querySelector('ul');
-button.addEventListener('click', function() {
-    let myScripture = input.value;
-    input.value = '';
-
+button.addEventListener('click',function() {
     const listItem = document.createElement('li');
     const listText = document.createElement('span');
     const listBnt = document.createElement('button');
@@ -20,3 +17,4 @@ button.addEventListener('click', function() {
     }
     input.focus();
 }
+
