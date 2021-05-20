@@ -1,10 +1,10 @@
 header {
    display: grid;
-   grid-template-columns: 200px 300px 1fr;
+   grid-template-columns: 30% 50% 20%;
    grid-gap: 1em;
    color: #7eb4bd;
    font-family: Suez One, serif;
-   font-size: 15px;
+   font-size: 10px;
    background-color: #b6d7d940;
    align-items: center;
 
@@ -15,8 +15,8 @@ header h1 {
 .ham {
     position: relative;
     font-size: 50px;
-    left: 5.5em;
-    bottom: 2em;
+    right: 2.5em;
+    top: 1.6em;
     color: #7eb4bd;
     text-decoration: none;
 }
@@ -26,6 +26,7 @@ header h1 {
 }
  header p {
      font-family: DM Sans, sans-serif;
+     font-size: 10px;
      color: #ddb850;
  }
 .logo {
