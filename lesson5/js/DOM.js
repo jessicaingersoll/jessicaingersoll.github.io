@@ -16,5 +16,4 @@ button.addEventListener('click',function() {
         list.removeChild(listItem);
     }
     input.focus();
-}
-
+})
