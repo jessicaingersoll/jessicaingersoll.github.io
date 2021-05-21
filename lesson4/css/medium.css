@@ -1,5 +1,7 @@
 @media only screen and (min-width: 40em) {
-
+.background {
+	background-color: #b6d7d940;;
+}
 	nav {
 		margin-top: -1em;
 	}
