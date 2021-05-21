@@ -1,6 +1,6 @@
 header {
    display: grid;
-   grid-template-columns: 30% 40% 20%;
+   grid-template-columns: 20% 60% 20%;
    grid-gap: 1em;
    color: #7eb4bd;
    font-family: Suez One, serif;
@@ -13,7 +13,6 @@ header h1 {
     margin-top: 2em;
 }
 .ham {
-    
     grid-column: 3/4;
     font-size: 40px;
     right: 2.5em;
