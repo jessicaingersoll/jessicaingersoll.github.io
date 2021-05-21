@@ -1,6 +1,6 @@
 header {
     display: grid;
-    grid-template-columns: 200px 300px 1fr;
+    grid-template-columns: 30% 50% 20%;
     grid-gap: 1em;
     color: #7eb4bd;
     font-family: Suez One, serif;
@@ -13,10 +13,9 @@ header {
      margin-top: 2em;
  }
  .ham {
-     position: relative;
+    grid-column: 3/4;
      font-size: 50px;
-     left: 5.5em;
-     bottom: 2em;
+     
      color: #7eb4bd;
      text-decoration: none;
  }
