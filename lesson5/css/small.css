@@ -15,9 +15,9 @@ header {
  .ham {
     grid-column: 3/4;
      font-size: 50px;
-     
      color: #7eb4bd;
      text-decoration: none;
+     text-align: left;
  }
  .ham:hover {
      background-color: #909888;
