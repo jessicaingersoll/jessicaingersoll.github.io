@@ -1,6 +1,7 @@
 header {
     display: grid;
-    grid-template-columns: 30% 50% 20%;
+    grid-template-columns: 30% 50% 15%;
+    grid-gap: .5em;
     color: #7eb4bd;
     font-family: Suez One, serif;
     font-size: 15px;
@@ -18,7 +19,6 @@ header {
      color: #7eb4bd;
      text-decoration: none;
      text-align: center;
-     justify-content: center;
  }
  .ham:hover {
      background-color: #909888;
