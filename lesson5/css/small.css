@@ -35,7 +35,10 @@ header {
      padding-left: 1em;
      
  }
- 
+ .background {
+     background-color: #b6d7d940;
+     margin-top: -2em;
+ }
  nav {
          background-color: #7EB4BD;
          color: white;
@@ -73,8 +76,9 @@ header {
      text-align: center;
      font-size: 30px;
  }
+
  main {
-     background-color: #b6d7d940;
+
      padding-top: 1em;
      padding-bottom: 2em;
      margin-top: -1em;
