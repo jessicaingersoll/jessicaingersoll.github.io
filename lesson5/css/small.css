@@ -10,7 +10,6 @@ header {
  
  }
  header h1 {
-     margin-left: .5em;
      justify-content: center;
  }
  .ham {
@@ -27,7 +26,6 @@ header {
   header p {
       font-family: DM Sans, sans-serif;
       color: #ddb850;
-      margin-left: 1em;
   }
  .logo {
      width: 90%;
