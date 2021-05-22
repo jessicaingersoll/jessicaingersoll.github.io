@@ -1,5 +1,8 @@
 .pancakes {
     display: none;
+    font-family: DM Sans, sans-serif;
+    text-align: center;
+    
 }
 header {
     display: grid;
@@ -73,7 +76,7 @@ header {
      display: block;
  }
  .active {
-     text-decoration: underline;
+    text-decoration: underline;
  }
  h2 {
      color: #909888;
