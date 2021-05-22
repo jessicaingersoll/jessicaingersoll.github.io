@@ -132,7 +132,9 @@ header {
      text-align: center;
  }
  .fiveimages img {
-     display: none;
+    display: block;
+	width: 30%;
+    text-align: center;
  }
  .article {
      font-family: DM Sans, sans-serif;
