@@ -102,6 +102,16 @@ header {
      font-family: DM Sans, sans-serif;
      color: #909888;
      padding: 1.5em;
+     text-align: center;
+ }
+ .weathersummary h3 {
+    border-bottom: 2px solid #909888;
+  
+ }
+ .weatherdetails {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     line-height: .5; 
  }
  .fivedayforecast {
      font-family: DM Sans, sans-serif;
