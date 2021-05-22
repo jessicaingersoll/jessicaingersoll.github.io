@@ -2,7 +2,9 @@
     display: none;
     font-family: DM Sans, sans-serif;
     text-align: center;
-    background-color: #7eb4bd;
+    background-color: #ddb850;
+    color: white;
+    padding: .7em;
 }
 header {
     display: grid;
