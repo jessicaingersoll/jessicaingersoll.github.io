@@ -5,3 +5,11 @@ const d = new Date();
 const currentYear = d.getFullYear();
 
 document.querySelector('#currentYear').textContent = currentYear;
+
+WebFont.load({
+    google: {
+      families: [
+         'Ubuntu Condensed'
+      ]
+    }
+  });
