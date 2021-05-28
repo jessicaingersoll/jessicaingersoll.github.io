@@ -44,7 +44,7 @@ header {
     color: white;
     width: 250px;
     position: absolute;
-    bottom: 8px;
+    bottom: 2.5em;
     left: 7em;
   }
   .weathersummary h3 {
