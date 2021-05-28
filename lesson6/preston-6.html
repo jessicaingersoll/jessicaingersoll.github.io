@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/banner.js"></script>
+    <script defer src="js/windchill.js"></script>
   </head>
 
   <body>
@@ -48,21 +49,23 @@
     <div class="background">
       <main>
         <h2>Preston Idaho</h2>
-        <div>
+        <picture class="hero">
+          <source class="photo-a" media="(max-width: 350px)" srcset="images/heroimage350.jpg">
+          <source class="photo-b" media="(max-width: 800px") srcset="images/heroimage800.jpg">
+          <source class="photo-c" media="(max-width: 1700px") srcset="images/heroimage1700.jpg">
           <img
-            class="heroimage"
             src="../lesson5/images/heropicture.jpg"
             alt="hero image"
           />
-        </div>
+        </picture>
         <div class="weathersummary">
           <h3>Weather Summary</h3>
           <div class="weatherdetails">
-            <p>Currently: <span class="value"> Sunny</span></p>
-            <p class="label">High: <span id = "temperature" class="value">76</span></p>
-            <p class="label">Wind Chill: <span id = "doInputOutput()" class="value"></span></p>
-            <p class="label">Humidity: <span class="value">69%</span></p>
-            <p class="label">Wind Speed: <span id = "windpeed" class="value">5 mph</span></p>
+            <p>Currently: <span>Sunny</span></p>
+            <p class="label">High: <span class="temperature">41</span>&deg;F</p>
+            <p class="label">Wind Speed: <span class="windspeed">5</span>mph</p>
+            <p class="label">Humidity: <span>69%</span></p>
+            <p class="label">Wind Chill: <span id="windchill"></span></p>
         </div>
         </div>
         <div class="fivedayforecast">
@@ -144,12 +147,12 @@
             ultrices sagittis orci a. Sollicitudin tempor id eu nisl nunc mi
             ipsum faucibus.
           </p>
-          <img class="articleimgtwo" src="images/articleimg.jpg" alt="image" />
+          <img class="articleimgtwo" src="../lesson5/images/articleimg.jpg" alt="image" />
         </div>
         <section class="contactsection">
           <div class="contact">
               <div class="contact-map">
-                  <img class="map" src="images/contact.png" alt="map">
+                  <img class="map" src="../lesson5/images/contact.png" alt="map">
               </div>
               <div class="contact-info">
                   <h2>Contact Information</h2>
@@ -157,13 +160,13 @@
                       <p class="addresss">XXX XXXXXX XXXX XXXXXXXX</p>
                       <p class="phone">(XXX)-XXX-XXXX</p>
                       <div class="social">
-                          <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
-                          <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram icon"></a>
-                          <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter icon"></a>
+                          <a href="https://www.facebook.com/"><img src="../lesson5/images/facebook.png" alt="facebook icon"></a>
+                          <a href="https://www.instagram.com/"><img src="../lesson5/images/instagram.png" alt="instagram icon"></a>
+                          <a href="https://twitter.com/?lang=en"><img src="../lesson5/images/twitter.png" alt="twitter icon"></a>
                       </div>
                   </div>
                   <div>
-                    <img class="map-two" src="images/contact.png" alt="map">
+                    <img class="map-two" src="../lesson5/images/contact.png" alt="map">
                   </div>
               </div>
           </div>
