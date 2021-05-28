@@ -68,8 +68,8 @@ nav {
   font-family: DM Sans, sans-serif;
 }
 .navigation a:hover {
-  color: #ddb850;
-  background-color: #b6d7d940;
+  color: white;
+  background-color: #ddb850;
 }
 .responsive li {
   display: block;
@@ -99,9 +99,19 @@ footer {
   text-align: center;
   margin-top: -2em;
 }
-.heroimage {
+picture .photo-a{
   width: 100%;
-  height: 300px;
+}
+picture .photo-b {
+  width: 100%;
+  height: 500px;
+}
+picture .photo-c {
+  width: 100%;
+  height: 400px;
+}
+picture img {
+  width: 100%;
 }
 .weathersummary {
   font-family: DM Sans, sans-serif;
@@ -115,10 +125,9 @@ footer {
   border-bottom: 2px solid white;
 }
 .weatherdetails {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  line-height: 0.5;
+  text-align: left;
 }
+
 .fivedayforecast {
   font-family: DM Sans, sans-serif;
   color: #909888;
