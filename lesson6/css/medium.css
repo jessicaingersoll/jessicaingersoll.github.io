@@ -39,9 +39,9 @@ header {
   .weathersummary {
     background: #909888;
     color: white;
-    width: 15em;
-    position: relative;
-    bottom: 22em;
+    width: 250px;
+    position: absolute;
+    bottom: 5px;
     left: 7em;
   }
   .weathersummary h3 {
@@ -51,7 +51,7 @@ header {
   .fivedayforecast {
     margin-bottom: 2em;
     text-align: left;
-    margin-top: -11em;
+    margin-top: -em;
     padding-top: 1em;
     text-align: center;
     border-top: none;
