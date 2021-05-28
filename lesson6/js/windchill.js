@@ -1,9 +1,9 @@
 let temp = parseFloat(document.querySelector('.temperature').textContent);
-let speed = parseFloat(document.querySelector('.speed').textContent);
+let speed = parseFloat(document.querySelector('.windspeed').textContent);
 
 if (temp <= 50 && speed >= 3) {
     let wc = windChill(temp, speed);
-    document.querySelector('.windchill').textContent = wc.toFixed(2) + "&deg;F";
+    document.querySelector('.windchill').textContent = wc.toFixed(0);
 }
 else {
     document.querySelector('.windchill').textContent = "N/A";
