@@ -36,12 +36,15 @@ header {
   .hero {
     width: 100%;
   }
+  .hero-banner {
+    position: relative;
+  }
   .weathersummary {
     background: #909888;
     color: white;
     width: 250px;
     position: absolute;
-    bottom: 5px;
+    bottom: 8px;
     left: 7em;
   }
   .weathersummary h3 {
