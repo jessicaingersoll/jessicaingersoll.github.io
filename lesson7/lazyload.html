@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Lazy Load</title>
+    <meta
+      name="Lazy Load page "
+      content="Pictures demonstrating Lazing loading"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="lazy.css"/>
+    <script defer src="js/lazy.js"></script>
+  </head>
+  <body>
+      <h1>Lazy Load Images</h1>
+      <section>
+      <picture>
+        <img  src='http://placehold.jp/300x400.png' data-src='images/flowerone.jpg' alt='flower1'>
+      </picture>
+      <picture>
+        <img src='http://placehold.jp/300x400.png' data-src='images/flowertwo.jpg' alt='flower2'>
+   </picture>
+      <picture>
+          <img src='http://placehold.jp/300x400.png' data-src='images/flowerthree.jpg' alt='flower3'>
+    </picture>
+    <picture>
+          <img src='http://placehold.jp/300x400.png' data-src='images/flowerfour.jpg' alt='flower4'>
+    </picture>
+    <picture>
+          <img src='http://placehold.jp/300x400.png' data-src='images/flowerfive.jpg' alt='flower5'>
+    </picture>
+    </section>
+  </body>
+  </html>
