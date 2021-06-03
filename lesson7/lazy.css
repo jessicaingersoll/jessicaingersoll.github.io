@@ -11,10 +11,10 @@ h1 {
 }
 
 img[data-src] {
-    filter: blur(.02em);
+    filter: blur(.2em);
 }
 
 img {
     filter: blur(0em);
-    transition: filter .5s;
+    transition: filter 1s;
 }
