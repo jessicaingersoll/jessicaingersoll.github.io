@@ -31,7 +31,8 @@ imagesToLoad.forEach((img) => {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });
-}
+};
+//Inspired by study group Avery's code
 
 if(localStorage) {
     var lastVisitMessage = "";
@@ -51,15 +52,11 @@ if(localStorage) {
 
 
 
-function getNumberOfDays(lastVisitTime, todaysDate) {
+function getNumberOfDays(lastVisit, todaysDate) {
     const lastVisit = ('lastVisitTime');
     const now = Date.now();
+    var diff = now - lastVisit;
+    const oneDay = diff / (1000 * 60 * 60 * 24);
+    return oneDay;
 
-    const oneDay = 1000 * 60 * 60 * 24;
-
-    const diffInTime = date2.getTime() - date1.getTime();
-
-    const diffInDays = Math.round(diffInTime/oneDay);
-
-    return diffInDays;
 }
