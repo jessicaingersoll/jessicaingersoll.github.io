@@ -181,7 +181,13 @@ picture img {
     width: 10%;
 }
 
-
+.weatherheading {
+  font-family: DM Sans, sans-serif;
+  color: #909888;
+  padding-top: 1em;
+  padding-left: 1em;
+  margin-top: -.5em;
+}
 img[data-src] {
   filter: blur(.2em);
 }
@@ -198,5 +204,5 @@ img {
   margin-bottom: 2em;
 }
 .caption {
-  display: none;
+ color: yellow;
 }
