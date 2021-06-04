@@ -204,5 +204,9 @@ img {
   margin-bottom: 2em;
 }
 .caption {
-  
+  display: none;
+}
+.visit {
+  margin-bottom: 3em;
+  margin-left: 1em;
 }
