@@ -41,7 +41,7 @@ if(localStorage) {
         lastVisitMessage = "Welcome to our site! Enjoy your first visit!";
     }
     else {
-        var todaysDate = new Date.getTime();
+        var todaysDate = new Date();
         var numberOfDays = getNumberOfDays(lastVisit, todaysDate);
         lastVisitMesssage = "The last time you visited this site was" + numberOfDays + "days ago!";
     }
@@ -53,10 +53,7 @@ if(localStorage) {
 
 
 function getNumberOfDays(lastVisit, todaysDate) {
-    const last = ('lastVisitTime');
-    const now = Date.getTime();
-    var diff = now - lastVisit;
+    var diff = todaysDate.getTime() - lastVisit;
     const oneDay = diff / (1000 * 60 * 60 * 24);
     return oneDay;
-
 }
