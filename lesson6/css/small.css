@@ -180,3 +180,17 @@ picture img {
 .social img{
     width: 10%;
 }
+
+
+img[data-src] {
+  filter: blur(.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 1s;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+}

@@ -102,4 +102,8 @@ header {
   .map-two {
 	  display: none;
   }
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
