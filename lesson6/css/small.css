@@ -204,8 +204,11 @@ img {
   margin-bottom: 2em;
 }
 .caption {
-  display: none;
-}
+    padding-left: 1em;
+    font-family: DM Sans, sans-serif;
+    color: #909888;
+ }
+
 .visit {
   margin-bottom: 3em;
   margin-left: 1em;
