@@ -197,6 +197,6 @@ img {
   padding: 2em;
   margin-bottom: 2em;
 }
-picture p {
+.caption {
   display: none;
 }
