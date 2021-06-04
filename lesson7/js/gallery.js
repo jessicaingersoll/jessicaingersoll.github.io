@@ -35,7 +35,6 @@ imagesToLoad.forEach((img) => {
 //Inspired by study group Avery's code
 
 if(localStorage) {
-    var lastVisitMessage = "";
     var lastVisit = localStorage.getItem('lastVisit');
     if (lastVisit == null) {
         lastVisitMessage = "Welcome to our site! Enjoy your first visit!";
