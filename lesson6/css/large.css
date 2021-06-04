@@ -18,4 +18,6 @@
  .caption {
     display: block;
     padding-left: 1em;
+    font-family: DM Sans, sans-serif;
+    color: #909888;
  }

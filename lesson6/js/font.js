@@ -1,7 +1,7 @@
 WebFont.load({
     google: {
       families: [
-         'Ubuntu Condensed'
+         'DM Sans, Suez One'
       ]
     }
   });
