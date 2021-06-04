@@ -1,7 +1,7 @@
 WebFont.load({
     google: {
       families: [
-         'DM Sans, Suez One'
+         'DM Sans', 'Suez One'
       ]
     }
   });
