@@ -213,3 +213,8 @@ img {
   margin-bottom: 3em;
   margin-left: 1em;
 }
+#daysbetween {
+  font-family: DM Sans, sans-serif;
+  color: #909888
+  font-style: italic;
+}
