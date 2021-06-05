@@ -214,9 +214,7 @@ img {
   padding-bottom: 4em;
   background-color: #7eb4bd;
   color: white;
-}
-#daysbetween {
+  text-align: center;
   font-family: DM Sans, sans-serif;
-
   font-style: italic;
 }
