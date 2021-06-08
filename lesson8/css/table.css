@@ -11,6 +11,7 @@ th {
 }
 td {
     padding: .5em;
+    font-size: 13px;
 }
 
 tr:nth-child(2) {
