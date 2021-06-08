@@ -25,3 +25,6 @@ tr:nth-child(2) {
 .highlight {
     color: white;
 }
+tr:nth-child(9) {
+    background-color:  #7fb9c2;
+}
