@@ -4,3 +4,7 @@ table {
     margin: auto;
     margin-top: 2em;
 }
+
+th {
+    font-size: 22px;
+}
