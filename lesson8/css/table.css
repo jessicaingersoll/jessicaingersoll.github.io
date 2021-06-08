@@ -9,3 +9,9 @@ th {
     font-size: 22px;
     padding: .5em;
 }
+td {
+    padding: .5em;
+}
+.headings {
+    color: white;
+}
