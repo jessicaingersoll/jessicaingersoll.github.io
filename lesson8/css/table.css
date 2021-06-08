@@ -3,7 +3,8 @@ table {
     text-align: center;
     margin: auto;
     margin-top: 2em;
-    bordercolor: grey;
+    border-collapse: collapse;
+    border: 1px solid #d3d3d3 ;
 }
 
 th {
@@ -13,6 +14,7 @@ th {
 td {
     padding: .5em;
     font-size: 13px;
+    border: 1px solid #d3d3d3;
 }
 
 tr:nth-child(2) {
