@@ -17,3 +17,9 @@ td {
 tr:nth-child(2) {
     color: white;
 }
+tr:nth-child(8) {
+    font-size: 10px;
+}
+.heading {
+    color: white;
+}
