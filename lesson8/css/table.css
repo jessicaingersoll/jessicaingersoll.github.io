@@ -12,6 +12,7 @@ th {
 td {
     padding: .5em;
 }
-.headings {
+
+#November:nth-child(3) {
     color: white;
 }
