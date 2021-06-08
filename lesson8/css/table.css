@@ -25,6 +25,3 @@ tr:nth-child(2) {
 .highlight {
     color: white;
 }
-tr:nth-child(9) {
-    font-size: 8px;
-}
