@@ -13,6 +13,6 @@ td {
     padding: .5em;
 }
 
-#November:nth-child(3) {
+tr:nth-child(2) {
     color: white;
 }
