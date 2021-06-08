@@ -26,5 +26,5 @@ tr:nth-child(2) {
     color: white;
 }
 tr:nth-child(9) {
-    color: white;
+    font-size: 8px;
 }
