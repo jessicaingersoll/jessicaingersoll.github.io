@@ -3,6 +3,7 @@ table {
     text-align: center;
     margin: auto;
     margin-top: 2em;
+    bordercolor: grey;
 }
 
 th {
@@ -17,9 +18,7 @@ td {
 tr:nth-child(2) {
     color: white;
 }
-tr:nth-child(9) {
-   font-size: 50px;
-}
+
 .heading {
     color: white;
 }
