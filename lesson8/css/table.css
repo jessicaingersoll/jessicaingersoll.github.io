@@ -4,7 +4,8 @@ table {
     margin: auto;
     margin-top: 2em;
     border-collapse: collapse;
-    border: 1px solid #d3d3d3 ;
+    border: 1px solid #d3d3d3;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 th {
@@ -22,5 +23,8 @@ tr:nth-child(2) {
 }
 
 .highlight {
+    color: white;
+}
+tr:nth-child(9) {
     color: white;
 }
