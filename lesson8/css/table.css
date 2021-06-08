@@ -1,4 +1,6 @@
 table {
     font-family: Ubuntu, sans-serif;
     text-align: center;
+    margin: auto;
+    margin-top: 2em;
 }
