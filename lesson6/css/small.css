@@ -218,6 +218,7 @@ figcaption {
   text-align: center;
   font-family: DM Sans, sans-serif;
   font-style: italic;
+  margin-top: -2em;
 }
 img {
   width: 100%;
