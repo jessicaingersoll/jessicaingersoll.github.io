@@ -204,7 +204,6 @@ img {
   margin-bottom: 2em;
 }
 figcaption {
-    padding-left: 1em;
     font-family: DM Sans, sans-serif;
     color: #909888;
  }
@@ -217,4 +216,7 @@ figcaption {
   text-align: center;
   font-family: DM Sans, sans-serif;
   font-style: italic;
+}
+img {
+  width: 100%;
 }
