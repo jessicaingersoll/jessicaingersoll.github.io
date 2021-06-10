@@ -120,3 +120,9 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
