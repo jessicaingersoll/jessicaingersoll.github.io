@@ -206,6 +206,7 @@ img {
 figcaption {
     font-family: DM Sans, sans-serif;
     color: #909888;
+    margin-left: .5em;
  }
 
 .visit {
