@@ -33,10 +33,7 @@ header {
     padding-left: 1em;
     justify-content: center;
   }
-  .background {
-    background-color: #b6d7d940;
-    margin-top: -2em;
-  }
+ 
   nav {
     background-color: #7eb4bd;
     color: white;
@@ -79,6 +76,7 @@ header {
   }
   .background {
     margin-top: -1.5em;
+    color: #b6d7d940;
   }
   main {
     padding-top: 1em;
@@ -167,4 +165,17 @@ form input:focus {
 }
 form input:hover {
   background-color: #ddb850;
+}
+.thanks p {
+  font-family: DM Sans, sans-serif;
+  color: #909888;
+  margin: 2%;
+}
+.thanks {
+  border-radius: 10px;
+  padding: 2em;
+}
+.background {
+  background-color: #b6d7d940;
+
 }
