@@ -162,6 +162,6 @@ form input.submitBtn {
   max-width: 20rem;
 }
 
-input:hover {
-  background-color: #ddb850;
+input:focus {
+  color: #ddb850;
 }
