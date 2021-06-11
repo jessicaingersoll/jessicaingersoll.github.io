@@ -168,6 +168,3 @@ form input:focus {
 form input:hover {
   background-color: #ddb850;
 }
-::selection {
-  background-color: #ddb850;
-}
