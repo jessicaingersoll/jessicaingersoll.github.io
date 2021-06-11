@@ -99,6 +99,7 @@ header {
   .flexly {
     display: flex;
     color: #909888;
+    margin-top: 1em;
   }
   #ratingvalue {
     color: #909888;
