@@ -38,9 +38,42 @@
       </ul>
     </nav>
     <div class="background">
-    
+    <form method="get" actions="thanks.html">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label class="top">First Name*<input type="text" name="fname" required></label>
+        <label class="top">Last Name*<input type="text" name="lname" required></label>
+        <label class="top">Email<input type="email" name="email" placeholder="someone@gamil.com"></label>
+        <label class="top">Phone Number<input type="tel" name="phone" placeholder="1234555123"></label>
+        <label class="top">Zip Code<input type="number" name="zipcode" required></label>
+      </fieldset>
+      <fieldset>
+        <legend>Storm Information</legend>
+        <label class="top">Storm Date<input type="date" name="stormDate"></label>
+        <div>Storm Type</div>
 
+        <label class="top">Storm Severity<input></label>
 
+          <label class="top">Storm Region</label>
+          <select name="stormregion">
+            <option value="">Select Region &#9662;</option>
+            <option value="Preston">Prestion</option>
+            <option value="Soda Springs">Soda Springs</option>
+            <option value="Fish Haven">Fish Haven</option>
+          </select>
+          </label>
+
+          <div>User In-Danger Level</div>
+          <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
+          <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+          <label class="sbs"><input type="radio" name="danger" value="no">No</label>
+      </fieldset>
+
+      <fieldset>
+        Additional information/Comments
+      </fieldset>
+      <input type="submit" value="Submit A Storm" class="submitBtn">
+    </form>
 </div>
     <footer>
         &copy; My Community Weather Page | Jessica Pasternak <br />
