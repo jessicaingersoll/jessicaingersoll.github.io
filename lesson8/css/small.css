@@ -133,10 +133,10 @@ form label.top input, form label.top select {
   font-size: 1rem;
   border: solid 1px #909888;
   padding: .75rem;
-  color: white;
+  color: #909888;
   width: 100%;
   max-width: 20rem;
-  background-color: #e9eae7;
+  background-color: #f4f5f3;
 }
 form label.sbs {
   display: block;
