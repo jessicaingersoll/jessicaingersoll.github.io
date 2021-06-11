@@ -169,11 +169,12 @@ form input:hover {
 .thanks p {
   font-family: DM Sans, sans-serif;
   color: #909888;
-  margin: 2%;
+  margin-left: 2%;
 }
 .thanks {
-  border-radius: 10px;
-  padding: 2em;
+  padding-bottom: 1em;
+  
+
 }
 .background {
   background-color: #b6d7d940;
