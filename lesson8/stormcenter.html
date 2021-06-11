@@ -39,7 +39,7 @@
     </nav>
     <div class="background">
       <h2>Report a Storm</h2>
-    <form method="get" actions="thanks.html">
+    <form method="get" action="thanks.html">
       <fieldset>
         <legend>Personal Information</legend>
         <label class="top">First Name*<input type="text" name="fname" required></label>
@@ -62,10 +62,10 @@
           <option value="Tornado">
         </datalist>
      
-        <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+        <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;</label>
           <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
           <span id="ratingvalue"></span>
-        </label>
+        
         <datalist id="tickmarks">
           <option value="0">
           <option value="1">
