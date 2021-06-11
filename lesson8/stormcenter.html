@@ -51,7 +51,7 @@
       <fieldset>
         <legend>Storm Information</legend>
         <label class="top">Storm Date<input type="date" name="stormDate"></label>
-        
+      <div>
         <label class="top"> Storm Type </label>
         <input list="storms" id="storms" name="storms"/>
         <datalist id="stormtypes">
@@ -61,7 +61,7 @@
           <option value="Thunderstorm"></option>
           <option value="Tornado"></option>
         </datalist>
-
+        </div>
         <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
           <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
           <span id="ratingvalue"></span>
