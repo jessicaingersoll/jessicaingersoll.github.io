@@ -143,7 +143,7 @@ form label.top input, form label.top select {
   color: #565b52;
   width: 100%;
   max-width: 20rem;
-  background-color: ;
+  background-color: white;
 }
 form label.sbs {
   display: block;
@@ -152,7 +152,7 @@ form label.sbs {
 }
 form input.submitBtn {
   border: none;
-  background-color: #ddb850;;
+  background-color: #ddb850;
   color: white;
   font-family: DM Sans, sans-serif;
   border-radius: 1rem;
@@ -160,4 +160,8 @@ form input.submitBtn {
   margin: 0 0 2rem 2%;
   width: 96%;
   max-width: 20rem;
+}
+
+input:focus {
+  background-color: #ddb850;
 }
