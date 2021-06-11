@@ -97,7 +97,7 @@ header {
     width: 100%
   }
   .flexly {
-    display: block;
+    display: flex;
     color: #909888;
   }
 
