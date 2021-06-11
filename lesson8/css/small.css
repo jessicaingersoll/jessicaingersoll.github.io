@@ -124,6 +124,6 @@ header {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: red;
-    font-size: .8rem;
+    color: #909888;
+    font-size: 1rem;
 }
