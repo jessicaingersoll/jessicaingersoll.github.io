@@ -152,7 +152,7 @@ form label.sbs {
 }
 form input.submitBtn {
   border: none;
-  background-color: #ddb850;
+  background-color: #909888;
   color: white;
   font-family: DM Sans, sans-serif;
   border-radius: 1rem;
@@ -163,5 +163,11 @@ form input.submitBtn {
 }
 
 form input:focus {
+  background-color: #ddb850;
+}
+form input:hover {
+  background-color: #ddb850;
+}
+::selection {
   background-color: #ddb850;
 }
