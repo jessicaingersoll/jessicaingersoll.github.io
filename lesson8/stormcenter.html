@@ -52,14 +52,28 @@
         <label class="top">Storm Date<input type="date" name="stormDate"></label>
         <div>Storm Type</div>
 
-        <label class="top" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;<input type="range" id="rating"
-          value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)"
-          onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
+        <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+          <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+          <span id="ratingvalue">5</span>
+        </label>
+        <datalist id="tickmarks">
+          <option value="0">
+          <option value="1">
+          <option value="2">
+          <option value="3">
+          <option value="4">
+          <option value="5">
+          <option value="6">
+          <option value="7">
+          <option value="8">
+          <option value="9">
+          <option value="10">
+        </datalist>
           
           <label class="top">Storm Region</label>
           <select name="stormregion">
             <option value="">Select Region &#9662;</option>
-            <option value="Preston">Prestion</option>
+            <option value="Preston">Preston</option>
             <option value="Soda Springs">Soda Springs</option>
             <option value="Fish Haven">Fish Haven</option>
           </select>
@@ -72,7 +86,10 @@
       </fieldset>
 
       <fieldset>
-        Additional information/Comments
+        <label class="top">Additional Information/Comments 
+          <textarea id="additional" name="comments" rows="5" cols="50"></textarea>
+        </label>
+        
       </fieldset>
       <input type="submit" value="Submit A Storm" class="submitBtn">
     </form>
