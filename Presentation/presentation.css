@@ -51,8 +51,7 @@ h3 {
      position: relative;
      animation-name: examplefour;
      animation-duration: 4s; 
-     animation-direction: alternate-reverse;
-     animation-fill-mode: forwards;
+    
  }
 
  @keyframes examplefour {
