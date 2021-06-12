@@ -51,7 +51,7 @@ h3 {
      position: relative;
      animation-name: examplefour;
      animation-duration: 4s;
-     animation-iteration-count: 3; 
+     animation-iteration-count: infinte; 
  }
 
  @keyframes examplefour {
