@@ -1,12 +1,27 @@
 h1 {
-    background-color: red;
+    font-size: 35px;
+    color: white;
+    background-color: black;
     animation-name: example;
     animation-duration: 4s;
 }
 @keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    from {background-color: black;}
+    to {background-color: gold;}
 }
-h1 {
-    font-size: 35px;
+
+
+h2 {
+    font-size: 30px;
+    color: white;
+    backround-color: red;
+    animation-name: exampletwo;
+    animation-duration: 4s;
+}
+
+@keyframes exampletwo {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    100% {background-color: green;}
 }
