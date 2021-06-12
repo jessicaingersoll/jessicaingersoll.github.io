@@ -41,3 +41,22 @@ h3 {
      75% {background-color: yellowgreen; left: 0px; top: 200px;}
      100% {background-color: purple; left: 0px; top: 0px;}
  }
+
+ div {
+     color: white;
+     width: 100px;
+     height: 100px;
+     background-color: green;
+     position: relative;
+     animation-name: examplefour;
+     animation-duration: 4s;
+     animation-delay: 2s;
+ }
+
+ @keyframes examplefour {
+    0%   {background-color:green; left:0px; top:0px;}
+    25%  {background-color:rgb(0, 60, 128); left:200px; top:0px;}
+    50%  {background-color:yellowgreen; left:200px; top:200px;}
+    75%  {background-color: yellow; left:0px; top:200px;}
+    100% {background-color: turquoise; left:0px; top:0px;}
+  }
