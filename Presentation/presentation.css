@@ -25,7 +25,7 @@ h2 {
     50% {background-color: blue;}
     100% {background-color: green;}
 }
-/*
+
 h3 {
     font-size: 20px;
     color: white;
@@ -33,6 +33,7 @@ h3 {
     position: relative;
     animation-name: examplethree;
     animation-duration: 4s;
+    animation-delay: -2s;
 }
  @keyframes examplethree {
      0% {background-color: turquoise; left:0px; top:0px;}
@@ -50,7 +51,7 @@ h3 {
      position: relative;
      animation-name: examplefour;
      animation-duration: 4s;
-     animation-delay: 2s; /* -2*/
+     animation-iteration-count: 3; 
  }
 
  @keyframes examplefour {
