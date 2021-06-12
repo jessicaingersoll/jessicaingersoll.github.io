@@ -52,7 +52,7 @@ h3 {
      animation-name: examplefour;
      animation-duration: 4s;
      animation-iteration-count: 3; 
-     animation-direction: alternate-reverse;
+     animation-direction: reverse;
  }
 
  @keyframes examplefour {
