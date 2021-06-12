@@ -11,7 +11,7 @@ h1 {
 }
 
 
-h2 {
+/*h2 {
     font-size: 30px;
     color: black;
     background-color: red;
@@ -25,3 +25,19 @@ h2 {
     50% {background-color: blue;}
     100% {background-color: green;}
 }
+*/
+h3 {
+    font-size: 20px;
+    color: white;
+    background-color: purple;
+    position: relative;
+    animation-name: examplethree;
+    animation-duration: 4s;
+}
+ @keyframes examplethree {
+     0% {background-color: turquoise; left:0px; top:0px;}
+     25% {background-color: teal; left: 200px; top: 0px;}
+     50% {background-color: thistle; left: 200px; top: 200px;}
+     75% {background-color: yellowgreen; left: 0px; top: 200px;}
+     100% {background-color: purple; left: 0px; top: 0px;}
+ }
