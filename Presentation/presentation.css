@@ -14,7 +14,7 @@ h1 {
 h2 {
     font-size: 30px;
     color: white;
-    backround-color: red;
+    background-color: red;
     animation-name: exampletwo;
     animation-duration: 4s;
 }
