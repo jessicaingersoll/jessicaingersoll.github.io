@@ -25,7 +25,7 @@ h2 {
     50% {background-color: blue;}
     100% {background-color: green;}
 }
-
+/*
 h3 {
     font-size: 20px;
     color: white;
@@ -42,7 +42,7 @@ h3 {
      75% {background-color: yellowgreen; left: 0px; top: 200px;}
      100% {background-color: purple; left: 0px; top: 0px;}
  }
-
+*/
  div {
      color: white;
      width: 100px;
