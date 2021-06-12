@@ -42,6 +42,7 @@ h3 {
      75% {background-color: yellowgreen; left: 0px; top: 200px;}
      100% {background-color: purple; left: 0px; top: 0px;}
  }
+ */
  div {
      color: white;
      width: 100px;
@@ -60,24 +61,4 @@ h3 {
     50%  {background-color:yellowgreen; left:200px; top:200px;}
     75%  {background-color: yellow; left:0px; top:200px;}
     100% {background-color: turquoise; left:0px; top:0px;}
-  }
-*/
-div {
-    width: 100px;
-    height: 50px;
-    background-color: turquoise;
-    font-weight: bold;
-    position: relative;
-    animation: mymove 5s infinite;
-  }
-  
-  #div1 {animation-timing-function: linear;}
-  #div2 {animation-timing-function: ease;}
-  #div3 {animation-timing-function: ease-in;}
-  #div4 {animation-timing-function: ease-out;}
-  #div5 {animation-timing-function: ease-in-out;}
-  
-  @keyframes mymove {
-    from {left: 0px;}
-    to {left: 300px;}
   }
