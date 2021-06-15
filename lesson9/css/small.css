@@ -1,3 +1,4 @@
-main {
-    background-color: purple;
+div {
+    display: grid;
+    grid-template-columns: 1fr;
 }
