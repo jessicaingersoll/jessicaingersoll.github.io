@@ -13,12 +13,14 @@ fetch(requestURL)
       let h2 = document.createElement('h2');
       let p = document.createElement('p');
        let p2 = document.createElement('p');
-     let image = document.createElement('img');
+     let img = document.createElement('img');
+     let alt = document.createElement(alt);
 
       h2.textContent = prophets[i].name + " " + prophets[i].lastname;
       p.textContent = "Date of Birth: " + prophets[i].birthdate;
       p2.textContent = "Place of Birth: " + prophets[i].birthplace;
-      image.setAttribute('src', prophets[i].imageurl);
+      img.setAttribute('src', prophets[i].imageurl);
+      alt.setAttribute('alt', prophets[i].name + " " + prophets[i].lastname + "-" + prophets[i].order);
 
       card.appendChild(h2);
       card.appendChild(p);
