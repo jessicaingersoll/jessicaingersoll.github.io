@@ -15,14 +15,14 @@ fetch(requestURL)
        let p2 = document.createElement('p');
 
       h2.textContent = prophets[i].name + " " + prophets[i].lastname;
-      p.textContent = "Date of Birth:" + "birthdate";
-      p2.textContent = "Place of Birth:" + "birthplace";
+      p.textContent = "Date of Birth:" + birthdate;
+      p2.textContent = "Place of Birth:" + birthplace;
 
 
       card.appendChild(h2);
       card.appendChild(p);
       card.appendChild(p2);
-      
+
       document.querySelector('div.cards').appendChild(card);
     }
   });
