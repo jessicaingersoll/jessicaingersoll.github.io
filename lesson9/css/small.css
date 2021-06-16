@@ -4,12 +4,8 @@ header {
 div {
     display: grid;
     grid-template-columns: 1fr;
-}
-div {
     background-color: #B6B5C3;
     text-align: center;
-    border: 2px solid #74747C;
-
 }
 h1 {
     color: #4F4F78;
@@ -19,5 +15,8 @@ h2 {
 }
 img {
     width: 80%;
-    height: 350px;
+    height: 550px;
+}
+section {
+    border: 2px solid #74747C;
 }
