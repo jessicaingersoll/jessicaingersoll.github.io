@@ -116,3 +116,6 @@ header {
     color: #909888;
     font-family: DM Sans, sans-serif;
   }
+  .wirelinks a:hover {
+    color: #ddb850;
+  }
