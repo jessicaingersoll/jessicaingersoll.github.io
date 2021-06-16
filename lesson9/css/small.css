@@ -3,6 +3,7 @@ header {
 }
 main {
     display: flex;
+}
 div {
     background-color: #B6B5C3;
     text-align: center;
