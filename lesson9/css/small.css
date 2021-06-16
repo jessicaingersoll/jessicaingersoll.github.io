@@ -9,6 +9,8 @@ div {
     background-color: #CCCCD4;
     padding: 1em;
     box-shadow: 0 0 50px #333;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 h1 {
     color: #4F4F78;
