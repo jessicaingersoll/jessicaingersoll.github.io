@@ -6,6 +6,7 @@ div {
     grid-template-columns: 1fr;
     background-color: #B6B5C3;
     text-align: center;
+    grid-gap: 1em;
 }
 h1 {
     color: #4F4F78;
