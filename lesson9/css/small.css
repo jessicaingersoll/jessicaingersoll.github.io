@@ -1,8 +1,9 @@
 header {
     text-align: center;
 }
-main {
-    display: flex;
+div {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 div {
     background-color: #B6B5C3;
