@@ -5,3 +5,8 @@ main {
     display: grid;
     grid-template-columns: 1fr;
 }
+div {
+    background-color: purple;
+    text-align: center;
+
+}
