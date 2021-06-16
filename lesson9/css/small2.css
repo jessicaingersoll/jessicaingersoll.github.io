@@ -112,4 +112,7 @@ header {
   .social img{
       width: 10%;
   }
-  
+  .wirelinks {
+    color: #909888;
+    font: DM Sans, sans-serif;
+  }
