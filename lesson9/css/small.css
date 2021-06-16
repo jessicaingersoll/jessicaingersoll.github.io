@@ -2,9 +2,7 @@ header {
     text-align: center;
 }
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-}
+    display: flex;
 div {
     background-color: #B6B5C3;
     text-align: center;
