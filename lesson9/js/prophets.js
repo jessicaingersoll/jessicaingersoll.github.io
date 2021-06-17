@@ -19,7 +19,7 @@ fetch(requestURL)
       p.textContent = "Date of Birth: " + prophets[i].birthdate;
       p2.textContent = "Place of Birth: " + prophets[i].birthplace;
       img.setAttribute('src', prophets[i].imageurl);
-      alt.setAttribute('alt', prophets[i].name + " " + prophets[i].lastname + "-" + prophets[i].order); 
+      img.setAttribute('alt', prophets[i].name + " " + prophets[i].lastname + "-" + prophets[i].order); 
 
       card.appendChild(h2);
       card.appendChild(p);
