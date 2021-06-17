@@ -119,4 +119,8 @@ header {
   .wirelinks a:hover {
     color: #ddb850;
   }
+
+  section {
+    background-color: #909888;
+  }
   
