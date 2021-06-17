@@ -20,9 +20,9 @@ const requestURL =
   
         h2.textContent = towns[i].name;
         p.textContent = towns[i].motto;
-        p2.textContent = "Year Founded" + towns[i].yearFounded;
-        p3.textContent = "Population" + towns[i].currentPopulation;
-        p4.textContent = "Annual Rainfall" + towns[i].averageRainfall;
+        p2.textContent = "Year Founded: " + towns[i].yearFounded;
+        p3.textContent = "Population: " + towns[i].currentPopulation;
+        p4.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
   
         display.appendChild(h2);
         display.appendChild(p);
