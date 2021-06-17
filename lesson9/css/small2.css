@@ -69,7 +69,7 @@ header {
   .active {
     text-decoration: underline;
   }
-  h2 {
+  h2  {
     color: #909888;
     font-family: DM Sans, sans-serif;
     text-align: center;
@@ -120,7 +120,7 @@ header {
     color: #ddb850;
   }
 
-  section {
+  main section {
     background-color: #909888;
     color: white;
   }
