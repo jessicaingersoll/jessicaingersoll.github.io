@@ -2,7 +2,7 @@ const requestURL =
   'https://byui-cit230.github.io/weather/data/towndata.json';
 
   console.log(requestURL);
-  
+
   fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -24,11 +24,11 @@ const requestURL =
         p3.textContent = "Population" + towns[i].currentPopulation;
         p4.textContent = "Annual Rainfall" + towns[i].averageRainfall;
   
-        card.appendChild(h2);
-        card.appendChild(p);
-        card.appendChild(p2);
-        card.appendChild(p3);
-        card.appendChild(p4);
+        display.appendChild(h2);
+        display.appendChild(p);
+        display.appendChild(p2);
+        display.appendChild(p3);
+        display.appendChild(p4);
   
         document.querySelector('div.display').appendChild(display);
       }
