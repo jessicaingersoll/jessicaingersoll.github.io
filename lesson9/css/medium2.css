@@ -16,9 +16,8 @@
     .navigation a {
       text-align: center;
     }
-    .navigation li:first-child {
-      display: none;
-    }
+   
+    
     header h1 {
       margin-top: 0em;
     }
