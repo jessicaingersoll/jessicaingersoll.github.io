@@ -143,5 +143,10 @@ header {
   picture img {
     width: 100%;
   }
+
+  .hero {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
   
   
