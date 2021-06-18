@@ -53,6 +53,7 @@
     .display section {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      
     }
     .display section p {
       grid-column: 1/2;
