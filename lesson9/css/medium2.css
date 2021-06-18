@@ -82,8 +82,10 @@
     }
     .display img {
       margin: auto;
-      width: 70%;
-      margin-top: -10em;
-      
+      width: 300px;
+      margin-top: -14.4em;
+    }
+    .display section:nth-child(even) img {
+      margin-top: -17.5em;
     }
 }
