@@ -75,8 +75,11 @@
     .display section:nth-child(even) p {
       grid-column: 2/3;
     }
-    .event-2 .event-3 {
+    .event-2 {
       display: grid;
       grid-template-columns: 1fr 1fr;
+    }
+    .event-2 img {
+      grid-column: 1/2;
     }
 }
