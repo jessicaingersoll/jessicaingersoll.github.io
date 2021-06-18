@@ -10,7 +10,7 @@ const requestURL =
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++) {
-      
+      if (towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven" || towns[i].name == "Preston")
         let display = document.createElement('section');
         let h2 = document.createElement('h2');
         let p = document.createElement('p');
