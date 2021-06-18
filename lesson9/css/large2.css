@@ -8,6 +8,9 @@
   header p {
       font-size: 20px;
   }
+  .display section {
+    display: block;
+  }
   .display {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
