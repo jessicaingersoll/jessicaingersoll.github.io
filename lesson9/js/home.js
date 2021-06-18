@@ -34,6 +34,7 @@ const requestURL =
         display.appendChild(p2);
         display.appendChild(p3);
         display.appendChild(p4);
+        display.appendChild(img);
         
   
         document.querySelector('div.display').appendChild(display);
