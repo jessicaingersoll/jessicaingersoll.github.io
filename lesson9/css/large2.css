@@ -19,4 +19,8 @@
   .display section:nth-child(even) {
       grid-column: 2/3;
   }
+  .home-events {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
 }
