@@ -156,7 +156,7 @@ header {
 .display p:nth-child(2) {
   font-style: italic;
 }
-.article2pic {
+.article2pic .turkeyimg {
   display: block;
   float: right;
   margin-right: .5em;
