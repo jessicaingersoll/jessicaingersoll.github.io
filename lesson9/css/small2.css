@@ -145,6 +145,7 @@ header {
   }
   .display p {
     font-family: DM Sans, sans-serif;
+    font-style: italic;
   }
   .display {
     text-align: center;
