@@ -34,5 +34,8 @@
       margin: auto;
       width: 100%;
   }
+  .display img {
+      width: 70%;
+  }
 
 }
