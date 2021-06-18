@@ -173,7 +173,7 @@ header {
 .home-events {
   margin-bottom: 3em;
   padding-top: .5em;
-  background-color: 
+ 
 }
 .home-events div {
   padding: 1em;
@@ -181,4 +181,7 @@ header {
   color: white;
   font-family: DM Sans, sans-serif;
   margin-bottom: 1em;
+}
+.home-events h3 {
+  text-align: left;
 }
