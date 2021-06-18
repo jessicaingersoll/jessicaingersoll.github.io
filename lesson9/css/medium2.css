@@ -75,5 +75,7 @@
     .display section:nth-child(even) p {
       grid-column: 2/3;
     }
-    .
+    .turkeyimg {
+      width: 300px;
+    }
 }
