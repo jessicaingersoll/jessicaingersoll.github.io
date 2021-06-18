@@ -175,6 +175,6 @@ header {
   padding-top: .5em;
   background-color: #7eb4bd;
 }
-h3 .home-events {
-
+div .home-events {
+  background-color: #909888;
 }
