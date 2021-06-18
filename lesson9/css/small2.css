@@ -156,5 +156,6 @@ header {
 .display p:nth-child(2) {
   font-style: italic;
 }
-
-  
+.article2pic {
+  width: 60%;
+}
