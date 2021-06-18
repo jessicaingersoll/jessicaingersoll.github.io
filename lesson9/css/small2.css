@@ -120,10 +120,11 @@ header {
     color: #ddb850;
   }
 
-  main section {
+  .display section {
     background-color: #909888;
     color: white;
     padding: 1em;
+    margin-bottom: 1em;
   }
   section h2 {
     color: #ddb850;
@@ -146,7 +147,7 @@ header {
   .display p {
     font-family: DM Sans, sans-serif;
   }
-  .display{
+  .display {
     text-align: center;
     margin-bottom: 2em;
     margin-top: 1em;
@@ -154,6 +155,5 @@ header {
 .display p:nth-child(2) {
   font-style: italic;
 }
-  
-  
+
   
