@@ -36,6 +36,7 @@
   }
   .display img {
       width: 70%;
+      margin: auto;
   }
 
 }
