@@ -25,7 +25,7 @@ const requestURL =
         p2.textContent = "Year Founded: " + towns[i].yearFounded;
         p3.textContent = "Population: " + towns[i].currentPopulation;
         p4.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
-        img.setAttribute('src', 'images/${town.photo}');
+        img.setAttribute('src', `images/${town.photo}`);
       img.setAttribute('alt', "Photo of " + towns[i].name); 
         
   
