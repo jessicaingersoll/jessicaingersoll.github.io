@@ -81,6 +81,6 @@
     }
     .event-2 img {
       grid-column: 1/2;
-      width: 300px;
+      width: 400px;
     }
 }
