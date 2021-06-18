@@ -75,7 +75,7 @@
     .display section:nth-child(even) p {
       grid-column: 2/3;
     }
-    .event-2 {
+    .event-2 .event-3 {
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
