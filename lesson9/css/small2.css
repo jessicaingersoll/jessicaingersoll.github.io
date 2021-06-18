@@ -146,8 +146,8 @@ header {
   .display p {
     font-family: DM Sans, sans-serif;
   }
-  .display p:nth-child(1) {
-    font-style: italic;
+  .display {
+    text-align: center;
   }
 
   
