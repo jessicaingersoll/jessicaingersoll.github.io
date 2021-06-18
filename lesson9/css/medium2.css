@@ -47,6 +47,7 @@
     }
 
     .hero picture{
-      margin: auto;
+      margin-right: 2em;
+      marign-left: 2em;
     }
 }
