@@ -177,4 +177,6 @@ header {
 }
 .home-events div {
   padding: 1em;
+  background-color: #909888;
+  color: white;
 }
