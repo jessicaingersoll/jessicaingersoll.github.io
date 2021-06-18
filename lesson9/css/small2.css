@@ -123,7 +123,8 @@ header {
   .display section {
     background-color: #909888;
     color: white;
-    padding: 1em;
+    padding: .5em;
+     
     margin-bottom: 1em;
   }
   section h2 {
