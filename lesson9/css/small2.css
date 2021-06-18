@@ -146,6 +146,9 @@ header {
   .display p {
     font-family: DM Sans, sans-serif;
   }
+  .display p:nth-child(1) {
+    font-styyle: italic;
+  }
 
   
   
