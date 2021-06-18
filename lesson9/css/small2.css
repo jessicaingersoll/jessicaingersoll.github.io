@@ -143,6 +143,9 @@ header {
   picture img {
     width: 100%;
   }
+  display p {
+    font-family: DM Sans, sans-serif;
+  }
 
   
   
