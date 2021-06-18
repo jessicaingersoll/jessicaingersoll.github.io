@@ -83,4 +83,12 @@
       grid-column: 1/2;
       width: 400px;
     }
+    .event-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+    }
+    .event-3 img {
+      grid-column: 1/2;
+      width: 400px;
+    }
 }
