@@ -59,4 +59,7 @@
     .display section p {
       grid-column: 1/2;
     }
+    .display section img {
+      grid-column: 2/3;
+    }
 }
