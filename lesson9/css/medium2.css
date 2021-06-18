@@ -69,7 +69,7 @@
     .display section:nth-child(even) img {
       grid-column: 1/2;
     }
-    .display section:nth-child(even) h2 {
+    .display section:nth-child(even) h2 p{
       grid-column: 2/3;
     }
 }
