@@ -166,4 +166,5 @@ header {
 .turkeyimg {
   display: block;
   float: right;
+  width: 250px;
 }
