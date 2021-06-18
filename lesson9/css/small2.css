@@ -191,3 +191,6 @@ header {
   color: #ddb850;
   font-size: 40px;
 }
+.display img {
+  border: 2px solid grey;
+}
