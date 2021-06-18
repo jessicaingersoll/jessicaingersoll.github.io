@@ -83,7 +83,8 @@
     .display img {
       margin: auto;
       width: 70%;
-      vertical-align: middle;
+      margin-right: 5%;
+      margin-top: 15%;
       
     }
 }
