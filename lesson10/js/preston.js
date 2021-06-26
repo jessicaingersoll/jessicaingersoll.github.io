@@ -7,5 +7,5 @@ const apiURL =
     document.getElementById('temperature').textContent = jsObject.main.temp_max; 
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('windspeed').textContent = jsObject.wind.speed;
-    document.getElementById9('description').textContent = jsObject.weather[0].main;
+    document.getElementById('description').textContent = jsObject.weather[0].main;
   });
