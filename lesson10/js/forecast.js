@@ -13,7 +13,7 @@ const apiURL2 =
     const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
     const fiveDayForecast = jsObject.list.filter( forecast => forecast.dt_txt.includes('12:00:00'));
     console.log(fiveDayForecast);
-    thefive.forEach( x => {
+    fiveDayForecast.forEach( x => {
         let d = new Date(x.dt_txt);
         //console.log(d);
         document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
