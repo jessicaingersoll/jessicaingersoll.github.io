@@ -1,0 +1,18 @@
+@media only screen and (min-width: 80em) {
+    h1 {
+        font-size: 40px;
+    }
+  header {
+      grid-template-columns: 200px 1000px 1fr;
+  }
+  header p {
+      font-size: 20px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1700px;
+  }
+  figure:hover {
+  box-shadow: 0 0 50px #333;}
+ }
