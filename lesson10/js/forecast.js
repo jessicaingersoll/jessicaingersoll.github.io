@@ -1,3 +1,4 @@
+//from Brother Blazzard's screen cast 
 const cityid2 = "5604473";
 const appid2 = "f76def132e0211ea6635d4837cd91bdb";
 
@@ -10,6 +11,8 @@ const apiURL2 =
     console.log(jsObject);
     let day = 0;
     const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
+    const fiveDayForecast = jsObject.list.filter( forecast => forecast.dt_txt.includes('12:00:00'));
+    console.log(fiveDayForecast);
     thefive.forEach( x => {
         let d = new Date(x.dt_txt);
         //console.log(d);
