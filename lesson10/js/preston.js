@@ -5,5 +5,5 @@ const apiURL =
   .then((jsObject) => {
     console.log(jsObject);
     document.getElementById('temperature').textContent = jsObject.main.temp_max; 
-    document.getElementById('windspeed').textContent = jsObject.main.humidity;
+    document.getElementById('humidity').textContent = jsObject.main.humidity;
   });
