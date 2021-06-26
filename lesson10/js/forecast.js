@@ -18,7 +18,7 @@ const apiURL2 =
         //console.log(d);
         document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
         document.getElementById(`forecast${day+1}`).textContent = x.main.temp;
-        document.getElementById(`imgsrc${day+1}`).setAttribute('src', `https://openweathermap.org/img/w/${weatherForecast[x].weather[0].icon}.png`);
+        document.getElementById(`imgsrc${day+1}`).setAttribute('src', `https://openweathermap.org/img/w/${x.weather[0].icon}.png`);
        
         document.getElementById(`icon${day+1}`).setAttribute('alt', 'N/A'); 
         day++
