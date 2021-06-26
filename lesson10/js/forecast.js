@@ -17,9 +17,9 @@ const apiURL2 =
         let d = new Date(x.dt_txt);
         //console.log(d);
         document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
-        document.getElementById(`imgsrc${day+1}`).textContent = jsObject.weather[x].icon +".png";
+       /* document.getElementById(`imgsrc${day+1}`).textContent = jsObject.weather[x].icon +".png";
         document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
-        document.getElementById(`icon${day+1}`).setAttribute('alt', "N/A");
+        document.getElementById(`icon${day+1}`).setAttribute('alt', "N/A"); */
         document.getElementById(`forecast${day+1}`).textContent = x.main.temp;
         day++
     });
