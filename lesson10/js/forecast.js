@@ -11,7 +11,7 @@ const apiURL2 =
     console.log(jsObject);
     let day = 0;
     const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
-    const fiveDayForecast = jsObject.list.filter( forecast => forecast.dt_txt.includes('12:00:00'));
+    const fiveDayForecast = jsObject.list.filter( forecast => forecast.dt_txt.includes('18:00:00'));
     console.log(fiveDayForecast);
     fiveDayForecast.forEach( x => {
         let d = new Date(x.dt_txt);
