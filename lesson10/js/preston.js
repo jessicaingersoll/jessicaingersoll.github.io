@@ -8,8 +8,8 @@ const apiURL =
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('temperature').textContent = jsObject.main.temp_max; 
+    document.getElementById('temperature').textContent = Math.round(jsObject.main.temp_max); 
     document.getElementById('humidity').textContent = jsObject.main.humidity;
-    document.getElementById('windspeed').textContent = jsObject.wind.speed;
+    document.getElementById('windspeed').textContent = Math.round(jsObject.wind.speed);
     document.getElementById('description').textContent = jsObject.weather[0].description.toUpperCase();
   });
