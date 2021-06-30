@@ -1,8 +1,4 @@
-//from Brother Blazzard's screen cast 
-const cityid2 = "5604473";
-const appid2 = "f76def132e0211ea6635d4837cd91bdb";
-
-const apiURL2 =
+const apiURL =
     `https://api.openweathermap.org/data/2.5/forecast?id=${cityid}&appid=${appid}&units=imperial`;
 
  fetch(apiURL2)
