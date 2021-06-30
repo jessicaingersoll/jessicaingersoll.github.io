@@ -1,5 +1,5 @@
 var cityid2 = "";
-const appid = "f76def132e0211ea6635d4837cd91bdb";
+
 
 if (document.getElementById('city').textContent == "Preston") {
   var cityid2 = "5604473";
