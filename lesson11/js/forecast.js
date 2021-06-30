@@ -1,15 +1,7 @@
-var cityid2 = "";
+var cityid = "";
 const appid = "f76def132e0211ea6635d4837cd91bdb";
 
-if (document.getElementById('city').textContent == "Preston") {
-  var cityid = "5604473";
-}
-else if (document.getElementById('city').textContent == "Soda Springs") {
-  var cityid = "5607916";
-}
-else {
-  var cityid = "5585010";
-};
+
 const apiUR2L =
     `https://api.openweathermap.org/data/2.5/forecast?id=${cityid2}&appid=${appid}&units=imperial`;
 
