@@ -249,6 +249,10 @@
     margin-right: 5%;
     max-width: 500px;
   }
+  .report {
+    padding-top: 1em;
+    margin-top: -.5em;
+  }
   form fieldset {
       margin: 2rem 0;
       border: 2px solid #909888;
