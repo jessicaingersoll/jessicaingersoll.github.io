@@ -16,3 +16,36 @@
   figure:hover {
   box-shadow: 0 0 50px #333;}
  }
+ .display section {
+    display: block;
+  }
+  .display {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2em;
+  }
+  .display section:nth-child(even) {
+      grid-column: 2/3;
+  }
+  .home-events {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2em;
+  }
+  .article2pic {
+      float: none;
+      margin: auto;
+      width: 100%;
+  }
+  .turkeyimg {
+      float: none;
+      margin: auto;
+      width: 100%;
+  }
+  .display img {
+      width: 70%;
+      margin: auto;
+  }
+  .display section:nth-child(even) img {
+    margin-top: auto;
+  }
