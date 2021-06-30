@@ -298,9 +298,7 @@ form input.submitBtn {
   width: 96%;
   max-width: 20rem;
 }
-.report h2 {
-  padding-top: 1em;
-}
+
 form input:focus {
   background-color: #ddb850;
 }
