@@ -313,3 +313,54 @@ form input:hover {
   padding-bottom: 1em;
 
 }
+.display p {
+  font-family: DM Sans, sans-serif;
+}
+.display {
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+.display p:nth-child(2) {
+font-style: italic;
+}
+.article2pic {
+display: block;
+float: right;
+margin-right: .5em;
+width: 200px;
+}
+
+.turkeyimg {
+display: block;
+float: right;
+width: 200px;
+margin-right: .5em;
+}
+
+.home-events {
+margin-bottom: 3em;
+padding-top: .5em;
+
+}
+.home-events div {
+padding: 1em;
+background-color: #909888;
+color: white;
+font-family: DM Sans, sans-serif;
+margin-bottom: 1em;
+}
+.home-events h2 {
+text-align: left;
+margin-left: 1em;
+font-size: 50px;
+}
+.event-heading h2 {
+color: #ddb850;
+font-size: 40px;
+}
+.display img {
+border: 2px solid grey;
+width: 90%;
+vertical-align: middle;
+}
