@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Gallery Page</title>
+    <meta name="Gallery Page" content="Week 7 assignment" />
+    <link rel="shortcut icon" href="../lesson5/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../lesson6/css/small.css" />
+    <link rel="stylesheet" href="../lesson6/css/medium.css" />
+    <link rel="stylesheet" href="../lesson6/css/large.css" />
+    <script defer src="js/lazy.js"></script>
+    </head>
+
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="../lesson3/images/weatherlogo2.jpg"
+        alt="weather logo"
+      />
+      <section>
+        <h1>My Community Weather Channel</h1>
+        <p><i>What's going on in your town today?</i></p>
+      </section>
+      <a class="ham" href="#">&#9776;</a>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="">Home</a></li>
+        <li class="active"><a href="">Preston</a></li>
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="">Storm Center</a></li>
+        <li><a href="">Gallery</a></li>
+      </ul>
+    </nav>
+    <div class="background">
+    <h2 class="weatherheading">Weather Gallery</h2>
+    <div class="gallery">
+        <figure>
+            <img class="galleryimg" src='images/lazyplaceholder.jpg' data-src='images/clouds.jpg' alt='clouds'>
+            <figcaption> Clouds over Greenville</figcaption>
+        </figure>
+          <figure>
+            <img class="galleryimg" src='images/lazyplaceholder.jpg' data-src='images/lightning.jpg' alt='lightning'>
+            <figcaption> Lightning striking in Springfield</figcaption>
+          </figure>
+          <figure>
+              <img class="galleryimg" src='images/lazyplaceholder.jpg' data-src='images/sunintrees.jpg' alt='sunintrees'>
+              <figcaption>Sunlight in Clark County</figcaption>
+          </figure>
+        <figure>
+              <img class="galleryimg" src='images/lazyplaceholder.jpg' data-src='images/winterday.jpg' alt='winterday'>
+              <figcaption>Winter day in Franklin</figcaption>
+        </figure>
+        <figure>
+              <img class="galleryimg" src='images/lazyplaceholder.jpg' data-src='images/wildfire.jpg' alt='wildfire'>
+              <figcaption>Wildfire brewing</figcaption>
+        </figure>
+        <figure>
+            <img class="galleryimg" src='images/lazyplaceholder.jpg' data-src='images/tornado.jpg' alt='tornado'>
+            <figcaption>Tornado in Soda Springs </figcaption>
+        </figure>
+      <figure>
+        <img class="galleryimg" src='images/lazyplaceholder.jpg' data-src='images/rainbow.jpg' alt='rainbow'>
+        <figcaption>Rainbow over Franklin</figcaption>
+      </figure>
+  <figure>
+    <img class="galleryimg" src='images/lazyplaceholder.jpg' data-src='images/winterday.jpg' alt='winterday'>
+    <figcaption>Winter Day in Preston</figcaption>
+  </figure>
+<figure>
+    <img class="galleryimg" src='images/lazyplaceholder.jpg' data-src='images/lighting2.jpg' alt='lightning'>
+    <figcaption>Lightning striking in Clark County</figcaption>
+</figure>
+</div>
+</div>
+<div class="visit">
+   <span id="daysbetween"></span>
+</div>
+    <footer>
+        &copy; My Community Weather Page | Jessica Pasternak <br />
+        <span id="currentdate"></span>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="../lesson6/js/preston6.js"></script>
+      <script src="../lesson6/js/font.js"></script>
+      <script src="js/gallery.js"></script>
+    </body>
+    </html>
