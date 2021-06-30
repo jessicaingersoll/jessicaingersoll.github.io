@@ -18,7 +18,7 @@ var requestURL =
 
         events.appendChild(p);
 
-        document.querySelector('div.p-events').appendChild(events);
+        document.querySelector('div.s-events').appendChild(events);
         
       }
       else if ( towns[i].name == "Fish Haven"){
@@ -28,7 +28,7 @@ var requestURL =
 
         events.appendChild(p);
 
-        document.querySelector('div.p-events').appendChild(events);
+        document.querySelector('div.f-events').appendChild(events);
       }
      else if (towns[i].name == "Preston") {
         let p = document.createElement('p');
