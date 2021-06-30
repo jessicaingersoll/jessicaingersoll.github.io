@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>My Community Weather Channel</title>
+    <meta name="My Community Weather Channel" content="Week 4 assignment" />
+    <link rel="shortcut icon" href="../lesson5/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/banner.js"></script>
+    <script defer src="js/p.windchill.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="images/weatherlogo2.jpg"
+        alt="weather logo"
+      />
+      <section>
+        <h1>My Community Weather Channel</h1>
+        <p><i>What's going on in your town today?</i></p>
+      </section>
+      <a class="ham" href="#">&#9776;</a>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Preston</a></li>
+        <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <div class="background">
+      <main>
+        <section class="hero-banner">
+        <h2>Soda Springs</h2>
+        <picture class="hero">
+          <source class="photo-a" media="(max-width: 350px)" srcset="images/heroimage350.jpg">
+          <source class="photo-b" media="(max-width: 800px)" srcset="images/heroimage800.jpg">
+          <source class="photo-c" media="(max-width: 1700px)" srcset="images/heroimage1700.jpg">
+          <img
+            src="images/heropicture.jpg"
+            alt="hero image"
+          />
+        </picture>
+        <div class="weathersummary">
+          <h3>Weather Summary</h3>
+          <div class="weatherdetails">
+            <p>Currently: <span id="description"></span></p>
+            <p class="label">High: <span id="temperature"></span>&deg;F</p>
+            <p class="label">Wind Speed: <span id="windspeed"></span>mph</p>
+            <p class="label">Humidity: <span id="humidity"></span>%</p>
+            <p class="label">Wind Chill: <span class="windchill"></span>&deg;F</p>
+        </div>
+        </div>
+      </section>
+        <div class="fivedayforecast">
+          <h3>Five Day Forecast</h3>
+          <div class="fiveimages">
+            <div class="five-day">
+                <span id="dayofweek1"></span>: 
+                <img src="data:," alt="" id="icon1">
+                <span id="forecast1"></span>&deg;F
+             </div>
+             <div class="five-day">
+              <span id="dayofweek2"></span>: 
+              <img src="data:," alt="" id="icon2">
+            <span id="forecast2"></span>&deg;F
+             </div>
+             <div class="five-day">
+                <span id="dayofweek3"></span>: 
+                 <img src="data:," alt="" id="icon3">
+                <span id="forecast3"></span>&deg;F
+             </div>
+             <div class="five-day">
+                <span id="dayofweek4"></span>: 
+               <img src="data:," alt="" id="icon4">
+                <span id="forecast4"></span>&deg;F
+             </div>
+             <div class="five-day">
+                <span id="dayofweek5"></span>: 
+                <img src="data:," alt="" id="icon5">
+                <span id="forecast5"></span>&deg;F
+             </div>
+           </div>
+          </div>
+        <div class="article">
+          <h3>New Preston Recycling Program</h3>
+          <img class="articleimgone" src="images/blooddrive.jpg" alt="image" />
+          <p>
+            Dui nunc mattis enim ut tellus. Blandit volutpat maecenas volutpat
+            blandit aliquam etiam erat velit scelerisque. Eget aliquet nibh
+            praesent tristique magna sit amet purus gravida. Vel orci porta non
+            pulvinar neque laoreet suspendisse. Sapien eget mi proin sed libero
+            enim. Sollicitudin aliquam ultrices sagittis orci a scelerisque.
+            Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut.
+            Velit dignissim sodales ut eu sem integer vitae justo eget. Nunc sed
+            augue lacus viverra vitae. Mi in nulla posuere sollicitudin aliquam
+            ultrices sagittis orci a. Sollicitudin tempor id eu nisl nunc mi
+            ipsum faucibus. Ipsum faucibus vitae aliquet nec ullamcorper sit
+            amet. Elementum curabitur vitae nunc sed velit dignissim sodales ut.
+            Orci a scelerisque purus semper eget duis. Cursus vitae congue
+            mauris rhoncus aenean vel elit scelerisque mauris. Ultrices
+            tincidunt arcu non sodales. Morbi tempus iaculis urna id volutpat
+            lacus laoreet. Volutpat lacus laoreet non curabitur gravida. Morbi
+            tristique senectus et netus et malesuada fames. Feugiat sed lectus
+            vestibulum mattis ullamcorper velit sed ullamcorper morbi. Dui nunc
+            mattis enim ut tellus. Blandit volutpat maecenas volutpat blandit
+            aliquam etiam erat velit scelerisque. Eget aliquet nibh praesent
+            tristique magna sit amet purus gravida. Vel orci porta non pulvinar
+            neque laoreet suspendisse. Sapien eget mi proin sed libero enim.
+            Sollicitudin aliquam ultrices sagittis orci a scelerisque. Eget nunc
+            scelerisque viverra mauris in aliquam sem fringilla ut. Velit
+            dignissim sodales ut eu sem integer vitae justo eget. Nunc sed augue
+            lacus viverra vitae. Mi in nulla posuere sollicitudin aliquam
+            ultrices sagittis orci a. Sollicitudin tempor id eu nisl nunc mi
+            ipsum faucibus.Volutpat lacus laoreet non curabitur gravida. Morbi
+            tristique senectus et netus et malesuada fames. Feugiat sed lectus
+            vestibulum mattis ullamcorper velit sed ullamcorper morbi. Dui nunc
+            mattis enim ut tellus. Blandit volutpat maecenas volutpat blandit
+            aliquam etiam erat velit scelerisque. Eget aliquet nibh praesent
+            tristique magna sit amet purus gravida. Vel orci porta non pulvinar
+            neque laoreet suspendisse. Sapien eget mi proin sed libero enim.
+            Sollicitudin aliquam ultrices sagittis orci a scelerisque. Eget nunc
+            scelerisque viverra mauris in aliquam sem fringilla ut. Velit
+            dignissim sodales ut eu sem integer vitae justo eget. Nunc sed augue
+            lacus viverra vitae. Mi in nulla posuere sollicitudin aliquam
+            ultrices sagittis orci a. Sollicitudin tempor id eu nisl nunc mi
+            ipsum faucibus.
+          </p>
+          <img class="articleimgtwo" src="images/blooddrive.jpg" alt="image" />
+        </div>
+        <section class="contactsection">
+          <div class="contact">
+              <div class="contact-map">
+                  <img class="map" src="images/contact.png" alt="map">
+              </div>
+              <div class="contact-info">
+                  <h2>Contact Information</h2>
+                  <div>
+                      <p class="addresss">XXX XXXXXX XXXX XXXXXXXX</p>
+                      <p class="phone">(XXX)-XXX-XXXX</p>
+                      <div class="social">
+                          <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+                          <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram icon"></a>
+                          <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter icon"></a>
+                      </div>
+                  </div>
+                  <div>
+                    <img class="map-two" src="images/contact.png" alt="map">
+                  </div>
+              </div>
+          </div>
+      </section>
+      </main>
+    </div>
+    <footer>
+      &copy; My Community Weather Page | Jessica Pasternak <br />
+      <span id="currentdate"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/ham.js"></script>
+    <script src="js/font.js"></script>
+    <script src="js/p.weathersummary.js"></script>
+    <script src="js/p.forecast.js"></script>
+  </body>
+</html>
