@@ -9,7 +9,7 @@ else if (document.getElementById('city').textContent == "Soda Springs") {
 }
 else {
   let cityid = "5585010";
-}
+};
 
 const apiURL =
     `https://api.openweathermap.org/data/2.5/weather?id=${cityid}&appid=${appid}&units=imperial`;
