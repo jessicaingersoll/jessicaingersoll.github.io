@@ -1,18 +1,18 @@
-var cityid = "";
-var appid = "f76def132e0211ea6635d4837cd91bdb";
+var cityid2 = "";
+var appid2 = "f76def132e0211ea6635d4837cd91bdb";
 
 if (document.getElementById('city').textContent == "Preston") {
-  var cityid = "5604473";
+  var cityid2 = "5604473";
 }
 else if (document.getElementById('city').textContent == "Soda Springs") {
-  var cityid = "5607916";
+  var cityid2 = "5607916";
 }
 else {
-  var cityid = "5585010";
+  var cityid2 = "5585010";
 };
 
-var apiURL =
-    `https://api.openweathermap.org/data/2.5/forecast?id=${cityid}&appid=${appid}&units=imperial`;
+var apiURL2 =
+    `https://api.openweathermap.org/data/2.5/forecast?id=${cityid2}&appid=${appid2}&units=imperial`;
 
  fetch(apiURL2)
   .then((response) => response.json())
