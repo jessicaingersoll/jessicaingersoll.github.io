@@ -1,14 +1,14 @@
-let cityid = "";
+var cityid = "";
 const appid = "f76def132e0211ea6635d4837cd91bdb";
 
 if (document.getElementById('city').textContent == "Preston") {
-  let cityid = "5604473";
+  var cityid = "5604473";
 }
 else if (document.getElementById('city').textContent == "Soda Springs") {
-  let cityid = "5607916";
+  var cityid = "5607916";
 }
 else {
-  let cityid = "5585010";
+  var cityid = "5585010";
 };
 
 const apiURL =
