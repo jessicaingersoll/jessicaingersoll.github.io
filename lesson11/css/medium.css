@@ -1,0 +1,109 @@
+@media only screen and (min-width: 40em) {
+    nav {
+      margin-top: -1em;
+    }
+    .ham {
+      display: none;
+    }
+  
+    .navigation {
+      display: flex;
+    }
+    .navigation li {
+      display: block; /* change state in small view */
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+    header h1 {
+      margin-top: 0em;
+    }
+  header {
+    grid-template-columns: 25% 70%;
+  }
+    main {
+      max-width: 1700px;
+      margin: 2em;
+      margin-top: -1em;
+    }
+    h2 {
+      text-align: left;
+    }
+    .hero {
+      width: 100%;
+    }
+    .hero-banner {
+      position: relative;
+    }
+    .weathersummary {
+      background: #909888;
+      color: white;
+      width: 200px;
+      position: absolute;
+      float: left;
+      margin-left: 5%;
+      top: 15%;
+    }
+    .weathersummary h3 {
+      border-bottom: 2px solid white;
+    }
+  
+    .fivedayforecast {
+      margin-bottom: 2em;
+      text-align: left;
+      margin-top: -em;
+      padding-top: 1em;
+      text-align: center;
+      border-top: none;
+    }
+    .fivedayforecast h3 {
+      font-size: 50px;
+    }
+    .fiveimages img {
+      display: block;
+      width: 80%;
+      margin: auto;
+    }
+    .fiveimages {
+      color: white;
+      display: grid;
+      grid-template-columns: 19% 19% 19% 19% 19%;
+      grid-gap: 0.5em;
+      margin-left: -1em;
+    }
+    .article {
+      border: 2px solid #909888;
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+    .articleimgone {
+      display: block;
+      width: 300px;
+      float: right;
+      margin: 10px;
+      height: 250px;
+    }
+    .articleimgtwo {
+      display: none;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+    .map {
+        display: block;
+        width: 100%;
+    }
+    .map-two {
+        display: none;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }

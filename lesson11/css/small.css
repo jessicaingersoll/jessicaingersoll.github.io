@@ -1,0 +1,226 @@
+#banner {
+    display: none;
+    font-family: DM Sans, sans-serif;
+    text-align: center;
+    background-color: #ddb850;
+    color: white;
+    padding: 0.7em;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 30% 50% 15%;
+    grid-gap: 0.5em;
+    color: #7eb4bd;
+    font-family: Suez One, serif;
+    font-size: 15px;
+    background-color: #b6d7d940;
+    align-items: center;
+  }
+  header h1 {
+    justify-content: center;
+  }
+  .ham {
+    grid-column: 3/4;
+    font-size: 50px;
+    color: #7eb4bd;
+    text-decoration: none;
+    text-align: center;
+  }
+  .ham:hover {
+    background-color: #909888;
+    color: white;
+  }
+  header p {
+    font-family: DM Sans, sans-serif;
+    color: #ddb850;
+  }
+  .logo {
+    width: 90%;
+    border-radius: 50px 50px 50px 50px;
+    padding: 2em;
+    padding-left: 1em;
+    justify-content: center;
+  }
+  .background {
+    background-color: #b6d7d940;
+    margin-top: -2em;
+  }
+  nav {
+    background-color: #7eb4bd;
+    color: white;
+    margin-top: -1em;
+  }
+  
+  .navigation {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: none;
+  }
+  .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: DM Sans, sans-serif;
+  }
+  .navigation a:hover {
+    color: white;
+    background-color: #ddb850;
+  }
+  .responsive li {
+    display: block;
+  }
+  .active {
+    text-decoration: underline;
+  }
+  h2 {
+    color: #909888;
+    font-family: DM Sans, sans-serif;
+    text-align: center;
+    font-size: 30px;
+  }
+  .background {
+    margin-top: -1em;
+  }
+  main {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: -1em;
+  }
+  footer {
+    font-family: DM Sans, sans-serif;
+    background-color: #ddb850;
+    color: white;
+    padding: 4em;
+    text-align: center;
+    margin-top: -2em;
+  }
+  picture .photo-a{
+    width: 100%;
+  }
+  picture .photo-b {
+    width: 100%;
+    
+  }
+  picture .photo-c {
+    width: 100%;
+    
+  }
+  picture img {
+    width: 100%;
+  }
+  .weathersummary {
+    font-family: DM Sans, sans-serif;
+    color: white;
+    background-color: #909888;
+    padding: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+  }
+  .weathersummary h3 {
+    border-bottom: 2px solid white;
+  }
+  .weatherdetails {
+    text-align: left;
+  }
+  
+  .fivedayforecast {
+    font-family: DM Sans, sans-serif;
+    color: #909888;
+    font-size: 30px;
+    padding: 2em;
+    text-align: center;
+    margin-top: -2em;
+  
+  }
+  .five-day {
+    text-align: center;
+    background-color: #909888;
+    color: white;
+    margin-bottom: .5em;
+  }
+  .fiveimages img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+  }
+  .article {
+    font-family: DM Sans, sans-serif;
+    color: #909888;
+    padding: 1.5em;
+    border-top: 2px solid #909888;
+  }
+  .articleimgone {
+    display: none;
+  }
+  .articleimgtwo {
+    width: 100%;
+  }
+  .contactsection {
+    background-color: #7eb4bd;
+    color: white;
+    font-family: DM Sans, sans-serif;
+    padding: 1.5em;
+  }
+  .contactsection h2 {
+      color: white;
+      text-align: left;
+  }
+  .map {
+    display: none
+  }
+  .map-two {
+      width: 100%;
+      margin-top: 1em;
+  }
+  .social img{
+      width: 10%;
+  }
+  
+  .weatherheading {
+    font-family: DM Sans, sans-serif;
+    color: #909888;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-top: -.5em;
+  }
+  img[data-src] {
+    filter: blur(.2em);
+  }
+  
+  img {
+    filter: blur(0em);
+    transition: filter 1s;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+  figcaption {
+      font-family: DM Sans, sans-serif;
+      color: #909888;
+      margin-left: .5em;
+      margin-bottom: .5em;
+   }
+  
+  .visit {
+    padding: 2em;
+    padding-bottom: 4em;
+    background-color: #7eb4bd;
+    color: white;
+    text-align: center;
+    font-family: DM Sans, sans-serif;
+    font-style: italic;
+    margin-top: -2.2em;
+  }
+  img {
+    width: 100%;
+  }
