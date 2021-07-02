@@ -18,11 +18,10 @@ var requestURL =
 
         events.appendChild(p);
 
-        document.querySelector('div.s-events').appendChild(events);
+        document.querySelector('s-events').appendChild(events);
         
-      }};
-      for (let i = 0; i < towns.length; i++) {
-       if ( towns[i].name == "Fish Haven"){
+      }
+      else if ( towns[i].name == "Fish Haven"){
         let events = document.createElement('section');
         let p = document.createElement('p');
 
@@ -30,10 +29,9 @@ var requestURL =
 
         events.appendChild(p);
 
-        document.querySelector('div.f-events').appendChild(events);
-      }};
-      for (let i = 0; i < towns.length; i++) {
-     if (towns[i].name == "Preston") {
+        document.querySelector('f-events').appendChild(events);
+      }
+      else if (towns[i].name == "Preston") {
       let events = document.createElement('section');
         let p = document.createElement('p');
 
@@ -41,7 +39,7 @@ var requestURL =
 
         events.appendChild(p);
 
-        document.querySelector('div.p-events').appendChild(events);
+        document.querySelector('p-events').appendChild(events);
      }
     };
 
