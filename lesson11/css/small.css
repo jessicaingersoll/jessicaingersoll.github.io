@@ -335,6 +335,7 @@ section h2 {
 }
 .display p {
   font-family: DM Sans, sans-serif;
+  font-size: 17px;
 }
 .display {
   text-align: center;
@@ -369,7 +370,6 @@ background-color: #909888;
 color: white;
 font-family: DM Sans, sans-serif;
 margin-bottom: 1em;
-font-size: 17px;
 }
 .home-events h2 {
 text-align: left;
