@@ -297,7 +297,7 @@ form label.top input, form label.top select {
 form label.sbs {
   display: block;
   padding: 1rem 0;
-  color: #909888;
+  color: #508EA6;
 }
 form input.submitBtn {
   border: none;
@@ -320,11 +320,11 @@ form input:hover {
 }
 .thanks p {
   font-family: DM Sans, sans-serif;
-  color: #909888;
+  color: #508EA6;
   margin-left: 2%;
 }
 .thanks {
-  padding-bottom: 1em;
+  padding-bottom: 3em;
 
 }
 
