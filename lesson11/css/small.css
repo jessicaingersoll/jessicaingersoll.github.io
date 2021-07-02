@@ -2,7 +2,7 @@
     display: none;
     font-family: DM Sans, sans-serif;
     text-align: center;
-    background-color: #ddb850;
+    background-color: #B0781C;
     color: white;
     padding: 0.7em;
   }
@@ -32,7 +32,7 @@
   }
   header p {
     font-family: DM Sans, sans-serif;
-    color: #ddb850;
+    color: #B0781C;
   }
   .logo {
     width: 90%;
@@ -70,7 +70,7 @@
   }
   .navigation a:hover {
     color: white;
-    background-color: #ddb850;
+    background-color: #B0781C;
   }
   .responsive li {
     display: block;
