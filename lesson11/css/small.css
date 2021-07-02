@@ -120,6 +120,7 @@
     color: white;
     background-color: #909888;
     padding: 1.5em;
+    font-size: 17px;
     text-align: center;
     margin-top: 1em;
   }
@@ -325,7 +326,7 @@ form input:hover {
   background-color: #909888;
   color: white;
   padding: .5em;
-  font-size: 15px;
+  
   margin-bottom: 1em;
 }
 
