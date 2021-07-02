@@ -99,7 +99,7 @@
     padding: 4em;
     text-align: center;
     margin-top: -2em;
-    font-size: 30px;
+    font-size: 20px;
   }
   picture .photo-a{
     width: 100%;
@@ -121,10 +121,10 @@
     background-color: #383638;
     padding-right: 1em;
     padding-left: 1em;
-    padding-botton: .25em;
-    font-size: 20px;
+    padding-bottom: .25em;
+    font-size: 17px;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 1.5em;
   }
   .weathersummary h3 {
     border-bottom: 2px solid white;
@@ -173,7 +173,7 @@
     font-family: DM Sans, sans-serif;
     padding: 1.5em;
     padding-bottom: 2.5em;
-    font-size: 30px;
+    font-size: 20px;
   }
   .contactsection h2 {
       color: white;
