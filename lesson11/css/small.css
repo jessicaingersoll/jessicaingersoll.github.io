@@ -193,7 +193,7 @@
   
   .weatherheading {
     font-family: DM Sans, sans-serif;
-    color: #909888;
+    color: #508EA6;
     padding-top: 1em;
     padding-left: 1em;
     margin-top: -.5em;
@@ -215,7 +215,7 @@
   }
   figcaption {
       font-family: DM Sans, sans-serif;
-      color: #909888;
+      color: #508EA6;
       margin-left: .5em;
       margin-bottom: .5em;
    }
@@ -223,12 +223,13 @@
   .visit {
     padding: 2em;
     padding-bottom: 4em;
-    background-color: #7eb4bd;
+    background-color: #383638;
     color: white;
     text-align: center;
     font-family: DM Sans, sans-serif;
     font-style: italic;
     margin-top: -2.2em;
+    margin-bottom: 1em;
   }
   img {
     width: 100%;
@@ -313,7 +314,7 @@ form input.submitBtn {
 }
 
 form input:focus {
-  background-color: #ddb850;
+  background-color: #B0781C;
 }
 form input:hover {
   background-color: #B2D3E1;
@@ -385,7 +386,7 @@ text-align: left;
 margin-left: 1em;
 }
 .event-heading h2 {
-color: #ddb850;
+color: #B0781C;
 font-size: 50px;
 }
 .display img {
