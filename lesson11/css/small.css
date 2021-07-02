@@ -119,8 +119,9 @@
     font-family: DM Sans, sans-serif;
     color: white;
     background-color: #909888;
-    padding: 1.5em;
+    padding: 1em;
     font-size: 17px;
+    font-weight: bold;
     text-align: center;
     margin-top: 1em;
   }
