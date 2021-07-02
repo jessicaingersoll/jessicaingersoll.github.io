@@ -301,7 +301,7 @@ form label.sbs {
 }
 form input.submitBtn {
   border: none;
-  background-color: #508EA6;
+  background-color: #B0781C;
   color: white;
   font-family: DM Sans, sans-serif;
   border-radius: 1rem;
@@ -316,7 +316,7 @@ form input:focus {
   background-color: #ddb850;
 }
 form input:hover {
-  background-color: #B0781C;
+  background-color: #B2D3E1;
 }
 .thanks p {
   font-family: DM Sans, sans-serif;
