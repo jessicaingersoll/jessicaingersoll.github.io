@@ -13,6 +13,9 @@ var requestURL =
     
     for (let i = 0; i < towns.length; i++) {
       if (towns[i].name == pagename) {
-        console.log(towns[i].events)
+        var events = towns[i].events;
+        for(let i=0; i < towns[i].events.length; i++) {
+          console.log(events);
+        }
         
       }}});
