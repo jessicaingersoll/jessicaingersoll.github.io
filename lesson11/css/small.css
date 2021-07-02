@@ -186,6 +186,9 @@
   .social img{
       width: 10%;
   }
+  .address {
+    font-size: 20px;
+  }
   
   .weatherheading {
     font-family: DM Sans, sans-serif;
