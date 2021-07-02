@@ -341,7 +341,7 @@ section h2 {
 }
 .display p {
   font-family: DM Sans, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 .display {
   text-align: center;
@@ -368,7 +368,7 @@ margin-right: .5em;
 .home-events {
 margin-bottom: 3em;
 padding-top: .5em;
-font-size: 20px;
+font-size: 30px;
 
 }
 .home-events div {
