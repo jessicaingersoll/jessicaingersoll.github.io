@@ -1,12 +1,12 @@
 @media only screen and (min-width: 80em) {
     h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
   header {
       grid-template-columns: 200px 1000px 1fr;
   }
   header p {
-      font-size: 20px;
+      font-size: 30px;
   }
   .gallery {
     display: grid;
