@@ -171,6 +171,7 @@
     color: white;
     font-family: DM Sans, sans-serif;
     padding: 1.5em;
+    font-size: 20px;
   }
   .contactsection h2 {
       color: white;
@@ -186,9 +187,7 @@
   .social img{
       width: 10%;
   }
-  .address {
-    font-size: 20px;
-  }
+  
   
   .weatherheading {
     font-family: DM Sans, sans-serif;
