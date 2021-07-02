@@ -17,6 +17,7 @@ var requestURL =
         p.textContent = towns[i].events;
 
         events.appendChild(p);
+        console.log(events);
 
         document.querySelector('s-events').appendChild(events);
         
