@@ -332,8 +332,8 @@ form input:hover {
 }
 
 .display section {
-  background-color: #508EA6;
-  color: white;
+  background-color: #B2D3E1;
+  color: #383638;
   padding: .5em;
   
   margin-bottom: 1em;
@@ -377,8 +377,9 @@ font-size: 30px;
 }
 .home-events div {
 padding: 1em;
-background-color: #508EA6;
-color: white;
+background-color: #B2D3E1;
+color: 
+;
 font-family: DM Sans, sans-serif;
 margin-bottom: 1em;
 }
