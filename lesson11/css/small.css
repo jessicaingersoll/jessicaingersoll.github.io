@@ -119,7 +119,9 @@
     font-family: DM Sans, sans-serif;
     color: white;
     background-color: #909888;
-    padding: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-botton: .25em;
     font-size: 20px;
     text-align: center;
     margin-top: 1em;
