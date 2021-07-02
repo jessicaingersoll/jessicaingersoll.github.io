@@ -17,9 +17,9 @@ var requestURL =
         p.textContent = towns[i].events;
 
         events.appendChild(p);
-        console.log(events);
+       console.log(events);
 
-        document.querySelector('s-events').appendChild(events);
+        document.querySelector('.s-events').appendChild(events);
         
       }
       else if ( towns[i].name == "Fish Haven"){
@@ -29,8 +29,8 @@ var requestURL =
         p.textContent = towns[i].events;
 
         events.appendChild(p);
-
-        document.querySelector('f-events').appendChild(events);
+        console.log(events);
+        document.querySelector('.f-events').appendChild(events);
       }
       else if (towns[i].name == "Preston") {
       let events = document.createElement('section');
@@ -39,8 +39,8 @@ var requestURL =
         p.textContent = towns[i].events;
 
         events.appendChild(p);
-
-        document.querySelector('p-events').appendChild(events);
+        console.log(events);
+        document.querySelector('.p-events').appendChild(events);
      }
     };
 
