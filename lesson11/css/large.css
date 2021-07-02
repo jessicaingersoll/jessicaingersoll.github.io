@@ -14,7 +14,7 @@
     max-width: 1700px;
   }
   figure:hover {
-  box-shadow: 0 0 50px #333;}
+  box-shadow: 0 0 50px #333;
  }
  .display section {
     display: block;
@@ -49,3 +49,4 @@
   .display section:nth-child(even) img {
     margin-top: auto;
   }
+}
