@@ -146,5 +146,7 @@
     .display section:nth-child(even) img {
       margin-top: -17.5em;
     }
-
+    .thanks {
+      text-align: left;
+    }
   }
