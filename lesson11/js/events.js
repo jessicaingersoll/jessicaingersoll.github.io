@@ -9,7 +9,7 @@ var requestURL =
   })
   .then(function (jsonObject) {
     var towns = jsonObject['towns'];
-    var pagename = document.getElementById('.city');
+    var pagename = document.getElementById('.city').innerHTML;
     console.log(pagename);
     for (let i = 0; i < towns.length; i++) {
       if (towns[i].name == "Soda Springs") {
