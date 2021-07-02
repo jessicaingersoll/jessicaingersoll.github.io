@@ -39,6 +39,9 @@ var requestURL =
 
         document.querySelector('div.p-events').appendChild(events);
      }
+     else {
+       let p = "";
+     }
     };
 
    
