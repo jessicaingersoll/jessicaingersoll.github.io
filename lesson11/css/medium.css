@@ -21,6 +21,9 @@
       margin-top: 0em;
       font-size: 40px;
     }
+    header p {
+      font-size: 30px;
+    }
   header {
     grid-template-columns: 25% 70%;
   }
