@@ -9,6 +9,8 @@ var requestURL =
   })
   .then(function (jsonObject) {
     var towns = jsonObject['towns'];
+    var pagename = document.getElementById('.city');
+    console.log(pagename);
     for (let i = 0; i < towns.length; i++) {
       if (towns[i].name == "Soda Springs") {
         let events = document.createElement('section');
