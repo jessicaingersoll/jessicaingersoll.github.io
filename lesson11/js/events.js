@@ -15,7 +15,10 @@ var requestURL =
       if (towns[i].name == pagename) {
         var events = towns[i].events;
         for(let i=0; i < towns[i].events.length; i++) {
-          console.log(events);
+          let p =  document.createElement('p');
+
+          p.textContent = events[i];
+          document.querySelector('div.events').appendChild(p);
         }
         
       }}});
