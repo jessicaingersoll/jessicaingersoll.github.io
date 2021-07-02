@@ -318,6 +318,18 @@ form input:hover {
   padding-bottom: 1em;
 
 }
+
+.display section {
+  background-color: #909888;
+  color: white;
+  padding: .5em;
+   
+  margin-bottom: 1em;
+}
+
+section h2 {
+  color: #ddb850;
+}
 .display p {
   font-family: DM Sans, sans-serif;
 }
