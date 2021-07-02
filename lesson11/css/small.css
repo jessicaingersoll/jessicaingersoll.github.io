@@ -135,7 +135,7 @@
   
   .fivedayforecast {
     font-family: DM Sans, sans-serif;
-    color: #909888;
+    color: #383638;
     font-size: 30px;
     padding: 2em;
     text-align: center;
@@ -156,10 +156,11 @@
   }
   .article {
     font-family: DM Sans, sans-serif;
-    color: #508EA6;
+    background-color: #B2D3E1;
+    color: white;
     font-size: 25px;
     padding: 1.5em;
-    border-top: 2px solid #508EA6;
+    border: 2px solid #508EA6;
   }
   .articleimgone {
     display: none;
