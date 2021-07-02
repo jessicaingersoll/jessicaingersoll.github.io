@@ -121,7 +121,6 @@
     background-color: #909888;
     padding: 1em;
     font-size: 17px;
-    font-weight: bold;
     text-align: center;
     margin-top: 1em;
   }
@@ -370,6 +369,7 @@ background-color: #909888;
 color: white;
 font-family: DM Sans, sans-serif;
 margin-bottom: 1em;
+font-size: 15px;
 }
 .home-events h2 {
 text-align: left;
