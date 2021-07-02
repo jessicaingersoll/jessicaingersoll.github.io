@@ -368,6 +368,7 @@ margin-right: .5em;
 .home-events {
 margin-bottom: 3em;
 padding-top: .5em;
+font-size: 20px;
 
 }
 .home-events div {
@@ -380,7 +381,6 @@ margin-bottom: 1em;
 .home-events h2 {
 text-align: left;
 margin-left: 1em;
-font-size: 50px;
 }
 .event-heading h2 {
 color: #ddb850;
