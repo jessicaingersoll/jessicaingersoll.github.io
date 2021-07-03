@@ -388,13 +388,17 @@ vertical-align: middle;
 }
 .article2 {
   font-family: DM Sans, sans-serif;
-  color: #909888;
+  color: white;
+  background-color: #508EA6;
   padding: 1.5em;
   border-top: 2px solid #909888;
 }
 .articleimgone {
   display: none;
+  width: 250px;
 }
 .articleimgtwo {
   width: 100%;
+  width: 250px;
+  
 }
