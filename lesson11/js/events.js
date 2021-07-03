@@ -1,3 +1,4 @@
+//worked on code with study group partner Sterling Shaw
 var requestURL =
   'https://byui-cit230.github.io/weather/data/towndata.json';
 
