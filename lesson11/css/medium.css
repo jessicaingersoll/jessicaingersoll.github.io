@@ -40,7 +40,9 @@
       text-align: left;
     }
     .hero {
-      width: 100%;
+      margin: 2em;
+      margin-top: 0em;
+      height: 100px;
     }
     .hero-banner {
       position: relative;
@@ -86,16 +88,7 @@
       margin-bottom: 1em;
       margin-top: 1em;
     }
-    .articleimgone {
-      display: block;
-      width: 300px;
-      float: right;
-      margin: 10px;
-      height: 250px;
-    }
-    .articleimgtwo {
-      display: none;
-    }
+    
     .contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -136,19 +129,14 @@
     .display section:nth-child(even) p {
       grid-column: 2/3;
     }
-    .turkeyimg {
-      width: 300px;
-    }
-    .article2pic {
-      width: 300px;
-    }
+    
     .display img {
       margin: auto;
       width: 300px;
-      margin-top: -14.4em;
+      margin-top: -14.2em;
     }
     .display section:nth-child(even) img {
-      margin-top: -17.5em;
+      margin-top: -17.2em;
     }
     .thanks {
       text-align: left;
