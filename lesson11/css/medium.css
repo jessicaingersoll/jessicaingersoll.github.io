@@ -24,9 +24,10 @@
     header p {
       font-size: 30px;
     }
-  header {
-    grid-template-columns: 25% 70%;
+    header {
+      grid-template-columns: 200px 1fr;
   }
+  
   .logo {
     width: 150px;
   }
