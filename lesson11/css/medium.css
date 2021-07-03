@@ -25,11 +25,11 @@
       font-size: 10px;
     }
     header {
-      grid-template-columns: 120px 1fr;
+      grid-template-columns: 90px 1fr;
   }
   
   .logo {
-    width: 100px;
+    width: 70px;
   }
     main {
       max-width: 1700px;
