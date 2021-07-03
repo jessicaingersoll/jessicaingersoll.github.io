@@ -8,7 +8,7 @@
   }
   header {
     display: grid;
-    grid-template-columns: 20% 50% 15%;
+    grid-template-columns: 20% 60% 15%;
     grid-gap: 0.5em;
     color: #508EA6;
     font-family: Suez One, serif;
@@ -36,7 +36,7 @@
     color: #B0781C;
   }
   .logo {
-    width: 60%;
+    width: 90%;
     border-radius: 50px 50px 50px 50px;
     padding: 2em;
     padding-left: 1em;
