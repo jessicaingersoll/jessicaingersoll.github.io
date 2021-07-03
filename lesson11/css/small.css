@@ -8,11 +8,11 @@
   }
   header {
     display: grid;
-    grid-template-columns: 20% 60% 15%;
-    grid-gap: 0.5em;
+    grid-template-columns: 15% 60% 30%;
+    grid-gap: ;
     color: #508EA6;
     font-family: Suez One, serif;
-    font-size: 15px;
+    font-size: 12px;
     background-color: #B2D3E133;
     
     align-items: center;
@@ -22,7 +22,7 @@
   }
   .ham {
     grid-column: 3/4;
-    font-size: 50px;
+    font-size: 40px;
     color: #508EA6;
     text-decoration: none;
     text-align: center;
@@ -36,7 +36,7 @@
     color: #B0781C;
   }
   .logo {
-    width: 90%;
+    width: 50px;
     border-radius: 50px 50px 50px 50px;
     padding: 2em;
     padding-left: 1em;
