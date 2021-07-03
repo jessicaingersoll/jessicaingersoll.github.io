@@ -19,17 +19,17 @@
     
     header h1 {
       margin-top: 0em;
-      font-size: 40px;
-    }
-    header p {
       font-size: 30px;
     }
+    header p {
+      font-size: 20px;
+    }
     header {
-      grid-template-columns: 200px 1fr;
+      grid-template-columns: 120px 1fr;
   }
   
   .logo {
-    width: 150px;
+    width: 100px;
   }
     main {
       max-width: 1700px;
@@ -42,7 +42,7 @@
     .hero {
       margin: 2em;
       margin-top: 0em;
-      height: 100px;
+
     }
     .hero-banner {
       position: relative;
