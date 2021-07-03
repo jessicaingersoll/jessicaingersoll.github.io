@@ -337,9 +337,7 @@ form input:hover {
   
   margin-bottom: 1em;
 }
-.display img {
-  width: 200px;
-}
+
 
 section h2 {
   color: #383638;
@@ -384,6 +382,6 @@ font-size: 50px;
 }
 .display img {
 border: 2px solid grey;
-width: 90%;
+width: 400px;
 vertical-align: middle;
 }
