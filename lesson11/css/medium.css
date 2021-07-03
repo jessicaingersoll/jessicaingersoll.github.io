@@ -139,6 +139,6 @@
       text-align: left;
     }
     .articleimg2 {
-      display: float;
+      float: right;
     }
   }
