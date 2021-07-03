@@ -2,9 +2,7 @@
     h1 {
         font-size: 50px;
     }
-  header {
-      grid-template-columns: 200px 1000px 1fr;
-  }
+  
   header p {
       font-size: 30px;
   }

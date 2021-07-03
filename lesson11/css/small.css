@@ -346,11 +346,11 @@ form input:hover {
 section h2 {
   color: #383638;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
 }
 .display p {
   font-family: DM Sans, sans-serif;
-  font-size: 17px;
+  font-size: 15px;
 }
 .display {
   text-align: center;
@@ -377,7 +377,7 @@ margin-right: .5em;
 .home-events {
 margin-bottom: 3em;
 padding-top: .5em;
-font-size: 30px;
+font-size: 17px;
 
 }
 .home-events div {
