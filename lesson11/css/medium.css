@@ -42,8 +42,8 @@
       position: relative;
     }
     .weathersummary {
-      background: #383638;
-      color: white;
+      background: #B2D3E1;
+      color: #383638;
       width: 200px;
       position: absolute;
       float: left;
@@ -51,7 +51,7 @@
       top: 15%;
     }
     .weathersummary h3 {
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid #383638;
     }
   
     .fivedayforecast {
