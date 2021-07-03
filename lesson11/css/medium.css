@@ -138,4 +138,7 @@
     .thanks {
       text-align: left;
     }
+    .articleimg2 {
+      display: float;
+    }
   }
