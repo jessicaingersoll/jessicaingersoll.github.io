@@ -8,6 +8,7 @@
   
     .navigation {
       display: flex;
+      margin-top: -1em;
     }
     .navigation li {
       display: block; /* change state in small view */
