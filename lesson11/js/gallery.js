@@ -1,14 +1,14 @@
 //from Brother Blazzard's lab video
-const imagesToLoad = document.querySelectorAll('img[data-src]');
+var imagesToLoad = document.querySelectorAll('img[data-src]');
 
-const loadImages = (image) => {
+var loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
         image.removeAttribute('data-src');
     };
 }
 
-const imgOptions = {
+var imgOptions = {
     rootMargin: '0px 0px 50px 0px',
     threshold: 1
 };
