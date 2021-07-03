@@ -96,12 +96,12 @@
   }
   footer {
     font-family: DM Sans, sans-serif;
-    background-color: #508EA6;
+    background-color: #B0781C;
     color: white;
     padding: 4em;
     text-align: center;
     margin-top: -2em;
-    font-size: 30px;
+    font-size: 15px;
   }
   picture .photo-a{
     width: 100%;
@@ -382,7 +382,7 @@ font-size: 50px;
 }
 .display img {
 border: 2px solid grey;
-width: 400px;
+width: 60%;
 vertical-align: middle;
 
 }
