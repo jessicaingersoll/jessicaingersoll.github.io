@@ -388,11 +388,14 @@ vertical-align: middle;
 }
 .article2 {
   font-family: DM Sans, sans-serif;
-  color: white;
-  background-color: #508EA6;
+  color: #383638;
+  background-color: #B2D3E1;
   padding: 1.5em;
-  border-top: 2px solid #909888;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 2px solid #383638;
 }
+
 .articleimgone {
   display: none;
   width: 250px;
@@ -400,5 +403,6 @@ vertical-align: middle;
 .articleimgtwo {
   width: 100%;
   width: 250px;
+  margin: auto;
   
 }
