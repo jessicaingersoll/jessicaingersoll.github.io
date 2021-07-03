@@ -22,6 +22,7 @@
   }
   .ham {
     grid-column: 3/4;
+    padding: 2em;
     font-size: 50px;
     color: #508EA6;
     text-decoration: none;
@@ -38,7 +39,7 @@
   .logo {
     width: 60px;
     border-radius: 30px 30px 30px 30px;
-    padding: 2em;
+    padding: ;
     padding-left: 1em;
     justify-content: center;
   }
