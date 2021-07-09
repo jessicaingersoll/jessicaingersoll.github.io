@@ -10,4 +10,9 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+.herotext p {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+}
 }
