@@ -136,7 +136,7 @@ picture img {
 .highlights h2:after {
     content: "";
     display: block;
-    width: 50%;
+    width: 200px;
     height: 2px;
     background: #000;
     right: 0;
