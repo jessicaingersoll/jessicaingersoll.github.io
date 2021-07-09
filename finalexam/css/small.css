@@ -107,3 +107,6 @@ picture img {
 .herotext p {
     display: none;
 }
+.herotext h1 {
+    font-size: 20px;
+}
