@@ -77,4 +77,6 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
+picture .photo-a {
+    width: 100%;
+}
