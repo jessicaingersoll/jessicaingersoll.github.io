@@ -131,6 +131,7 @@ picture img {
 }
 .highlights h2 {
     font-family: Poppins, sans-serif;
+    position: relative;
 }
 .highlights h2:after {
     content: "";
