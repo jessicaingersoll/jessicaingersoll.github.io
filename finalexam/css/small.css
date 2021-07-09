@@ -104,3 +104,6 @@ picture img {
     font-family: Poppins, sans-serif;
     text-align: center;
 }
+.herotext p {
+    display: none;
+}
