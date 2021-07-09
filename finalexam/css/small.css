@@ -111,7 +111,7 @@ picture img {
 .herotext h1 {
     font-size: 20px;
 }
-.about {
+.about1 {
     background-color: #5B4E93;
     color: white;
     text-align: center;
@@ -125,4 +125,7 @@ picture img {
 }
 .about img {
     display: none;
+}
+.about {
+    margin-top: -4px;
 }
