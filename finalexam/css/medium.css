@@ -18,4 +18,11 @@ footer {
 .herotext h1 {
     font-size: 30px;
 }
+.herotext a {
+    color: white;
+    text-decoration: none;
+}
+.herotext a:hover {
+    color: #55BF90;
+}
 }
