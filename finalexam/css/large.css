@@ -46,4 +46,18 @@ header {
     background-color: white;
     text-decoration: underline;
 }
+.about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.about img {
+    display: block;
+    grid-column: 2/3;
+}
+.about p {
+    grid-column: 1/2;
+}
+
+
 }
