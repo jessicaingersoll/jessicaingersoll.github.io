@@ -132,3 +132,18 @@ picture img {
 .highlights h2 {
     font-family: Poppins, sans-serif;
 }
+.highlights h2:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height:2px;
+    background: #000;
+    right: 0;
+    top: 50%;
+    position: absolute;
+
+
+}
+.highlights h3 {
+    font-family: Poppins, sans-serif;
+}
