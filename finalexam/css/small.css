@@ -5,6 +5,7 @@
 .logo {
     width: 150px;
     grid-column: 2/3;
+    margin: auto;
 }
 .ham {
     font-size: 50px;
@@ -13,6 +14,7 @@
     text-align: center;
     grid-column: 3/4;
     margin-top: .25em;
+    margin-right: 5%;
 }
 
 .ham:hover {
@@ -94,4 +96,10 @@ picture .photo-c {
 }
 picture img {
     width: 100%;
+}
+.herotext {
+    position: relative;
+}
+.herotext h1 {
+    margin-top: 10%;
 }
