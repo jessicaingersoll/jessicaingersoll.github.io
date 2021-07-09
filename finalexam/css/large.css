@@ -1,0 +1,50 @@
+@media only screen and (min-width: 70em) {
+.social img {
+    width: 10%;
+}
+.ham {
+    display: none;
+}
+nav {
+    background-color: white;
+    margin-left: 0em;
+    text-align: right;
+}
+.navigation {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+ 
+ 
+}
+
+.navigation li {
+    display: block;   
+}
+
+.navigation a {
+    text-align: center;
+    color: #5B4E93;
+    font-size: 20px;
+}
+.navigation a:hover {
+    color: #55BF90;
+    background-color: white;
+}
+
+.social img {
+    display: inline;
+    width: 30px;
+}
+.top {
+    display: block;
+}
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr 100px;
+}
+.active {
+    background-color: white;
+    text-decoration: underline;
+}
+}
