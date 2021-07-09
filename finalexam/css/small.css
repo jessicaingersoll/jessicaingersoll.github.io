@@ -143,8 +143,10 @@ picture img {
     top: 50%;
     position: absolute;
 
-
 }
 .highlights h3 {
     font-family: Poppins, sans-serif;
+}
+.highlights p {
+    font-family: Open Sans, sans-serif;
 }
