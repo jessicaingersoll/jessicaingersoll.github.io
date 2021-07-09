@@ -103,6 +103,7 @@ picture img {
     color: white;
     font-family: Poppins, sans-serif;
     text-align: center;
+    margin-left: 10px;
 }
 .herotext p {
     display: none;
