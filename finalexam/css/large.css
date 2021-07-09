@@ -48,16 +48,19 @@ header {
 }
 .about {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 65% 35%;
+
 }
 
 .about img {
+    width: 100%;
     display: block;
     grid-column: 2/3;
 
 }
 .about p {
     grid-column: 1/2;
+    line-height: 1.6;
 }
 
 
