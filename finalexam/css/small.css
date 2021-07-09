@@ -111,3 +111,18 @@ picture img {
 .herotext h1 {
     font-size: 20px;
 }
+.about {
+    background-color: #5B4E93;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.about h2 {
+    font-family: Poppins, sans-serif;
+}
+.about p {
+    font-family: Open sans, sans-serif;
+}
+.about img {
+    display: none;
+}
