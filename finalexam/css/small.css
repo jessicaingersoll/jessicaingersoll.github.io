@@ -129,3 +129,6 @@ picture img {
 .about {
     margin-top: -4px;
 }
+.highlights h2 {
+    font-family: Poppins, sans-serif;
+}
