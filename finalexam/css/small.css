@@ -161,3 +161,10 @@ picture img {
 .highlights a:hover {
     color: #E65C46;
 }
+
+.comp1 p{
+  border-bottom: 1px solid grey;
+}
+.comp2 p {
+    border-bottom: 1px solid grey;
+}
