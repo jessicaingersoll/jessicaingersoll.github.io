@@ -28,14 +28,7 @@ footer {
 .highlightgrid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    
 }
-.comp1 {
-    grid-column: 1/2;
-}
-.comp2 {
-    grid-column: 2/3;
-}
-.comp3 {
-    grid-column: 3/4;
-}
+
 }
