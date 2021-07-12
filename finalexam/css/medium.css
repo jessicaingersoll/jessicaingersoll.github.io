@@ -29,7 +29,7 @@ footer {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 1em;
-    margin-left: 1em;
+    margin-right: 1em;
     
 }
 
