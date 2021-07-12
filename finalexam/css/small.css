@@ -153,3 +153,6 @@ picture img {
 .weather h2 {
     font-family: Poppins, sans-serif;
 }
+.highlights img {
+    width: 100%;
+}
