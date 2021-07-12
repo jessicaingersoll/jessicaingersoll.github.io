@@ -154,14 +154,12 @@ picture img {
 .highlights p {
     font-family: Open Sans, sans-serif;
     font-style: italic;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid grey;
 }
 .weather h2 {
     font-family: Poppins, sans-serif;
 }
 .highlights img {
     width: 100%;
-   
-}
-.highlights div {
-    border-bottom: 1px solid grey; 
 }
