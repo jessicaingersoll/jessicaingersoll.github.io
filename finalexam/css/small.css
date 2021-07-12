@@ -187,4 +187,9 @@ h2:after {
 .weather {
     margin-left: 1em;
     margin-right: 1em;
+    font-family: Open Sans, sans-serif;
+}
+.weather1 {
+    border: 1px solid grey;
+    padding: 1em;
 }
