@@ -150,6 +150,7 @@ picture img {
 }
 .highlights h3 {
     font-family: Poppins, sans-serif;
+    padding-bottom: .5em;
 }
 .highlights p {
     font-family: Open Sans, sans-serif;
@@ -165,8 +166,8 @@ picture img {
 }
 .highlights a {
     text-decoration: none;
-    color: #E65C46;
+    color: #55BF90;
 }
 .highlights a:hover {
-    color: #55BF90;
+    color: #E65C46;
 }
