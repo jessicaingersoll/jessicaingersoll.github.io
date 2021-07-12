@@ -135,14 +135,17 @@ picture img {
 }
 h2 {
     font-family: Poppins, sans-serif;
+    overflow: hidden;
 }
 h2:after {
-    position: absolute;
-    content: "";
-    height: 2px;
-    width: 50%;
-    margin-left: 15%;
-    top: 50%;
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid black;
 }
 
 
