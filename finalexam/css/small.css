@@ -163,3 +163,7 @@ picture img {
 .highlights img {
     width: 100%;
 }
+.highlights a {
+    text-decoration: none;
+    color: #E65C46;
+}
