@@ -25,7 +25,7 @@ footer {
 .herotext a:hover {
     color: #55BF90;
 }
-.highlights {
+.highlightgrid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }

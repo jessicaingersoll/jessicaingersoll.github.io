@@ -161,6 +161,3 @@ picture img {
 .highlights a:hover {
     color: #E65C46;
 }
-.highlights p:nth-child(2) {
-    font-style: none;
-}
