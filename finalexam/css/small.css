@@ -161,6 +161,4 @@ picture img {
 .highlights a:hover {
     color: #E65C46;
 }
-.highlights p:nth-child(2) {
-    border-bottom: 1px solid white;
-}
+
