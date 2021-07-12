@@ -136,7 +136,7 @@ picture img {
 h2 {
     font-family: Poppins, sans-serif;
 }
-h2::after {
+h2:after {
     position: absolute;
     content: "";
     height: 2px;
