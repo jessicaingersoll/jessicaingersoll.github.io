@@ -141,6 +141,15 @@ picture img {
 .highlights h3 {
     font-family: Poppins, sans-serif;
     padding-bottom: .5em;
+   
+}
+.highlights h3:after {
+   position: absolute;
+   content: "";
+   height: 2px;
+   width: 50%;
+   margin-left: 15%;
+   top: 50%;
 }
 .highlights p {
     font-family: Open Sans, sans-serif;
@@ -167,4 +176,5 @@ picture img {
 }
 .comp2 p {
     border-bottom: 1px solid grey;
+    margin-top: -1.2em;
 }
