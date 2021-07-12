@@ -137,7 +137,7 @@ picture img {
     font-family: Poppins, sans-serif;
     position: relative;
 }
-r
+
 .highlights h3 {
     font-family: Poppins, sans-serif;
     padding-bottom: .5em;
@@ -160,4 +160,7 @@ r
 }
 .highlights a:hover {
     color: #E65C46;
+}
+.comp3 p {
+    border-bottom: 1px solid white;
 }
