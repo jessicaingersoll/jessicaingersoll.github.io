@@ -135,7 +135,7 @@ picture img {
 }
  h2 {
     font-family: Poppins, sans-serif;
-    overflow: ;
+    overflow: hidden;
 }
 h2:after {
     content:"";
@@ -183,4 +183,8 @@ h2:after {
 .comp2 p {
     border-bottom: 1px solid grey;
     margin-top: -1.2em;
+}
+.weather {
+    margin-left: 1em;
+    margin-right: 1em;
 }
