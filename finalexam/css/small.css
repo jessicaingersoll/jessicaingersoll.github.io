@@ -135,7 +135,7 @@ picture img {
 }
  h2 {
     font-family: Poppins, sans-serif;
-    overflow: hidden;
+    overflow: ;
 }
 h2:after {
     content:"";
@@ -145,7 +145,7 @@ h2:after {
     width: 100%;
     margin-right: -100%;
     margin-left: 10px;
-    border-top: 2px solid black;r
+    border-top: 2px solid black;
 }
 
 .about h2:after {
