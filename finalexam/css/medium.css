@@ -29,8 +29,12 @@ footer {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 1em;
-    margin-right: 1em;
-    
+    margin-right: 1em; 
 }
-
+.comp1 p {
+    border-bottom: none;
+}
+.comp2 p {
+    border-bottom: none;
+}
 }
