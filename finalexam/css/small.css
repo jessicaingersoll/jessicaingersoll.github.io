@@ -137,17 +137,7 @@ picture img {
     font-family: Poppins, sans-serif;
     position: relative;
 }
-.highlights h2:after {
-    content: "";
-    display: block;
-    width: 200px;
-    height: 2px;
-    background: #000;
-    right: 0;
-    top: 50%;
-    position: absolute;
-
-}
+r
 .highlights h3 {
     font-family: Poppins, sans-serif;
     padding-bottom: .5em;
