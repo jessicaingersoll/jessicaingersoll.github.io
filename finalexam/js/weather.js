@@ -6,8 +6,8 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('high').textContent = jsObject.daily.max; 
-    document.getElementById('low').textContent = jsObject.daily.temp.min;
+    document.getElementById('high').textContent = jsObject.daily[0].max; 
+    document.getElementById('low').textContent = jsObject.daily[0].temp.min;
     document.getElementById('humidity').textContent = jsObject.current.humidity;
     document.getElementById('currenttemp').textContent = jsObject.current.temp;
   });
