@@ -129,6 +129,10 @@ picture img {
 .about {
     margin-top: -4px;
 }
+.highlights {
+    margin-right: 1em;
+    margin-left: 1em;
+}
 .highlights h2 {
     font-family: Poppins, sans-serif;
     position: relative;
@@ -149,10 +153,15 @@ picture img {
 }
 .highlights p {
     font-family: Open Sans, sans-serif;
+    font-style: italic;
 }
 .weather h2 {
     font-family: Poppins, sans-serif;
 }
 .highlights img {
     width: 100%;
+    padding-bottom: 1em;
+}
+.highlights div {
+    border-bottom: 2px solid grey; 
 }
