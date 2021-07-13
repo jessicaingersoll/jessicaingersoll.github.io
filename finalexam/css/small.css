@@ -213,6 +213,13 @@ h2:after {
 .calendar {
     margin-left: 1em;
     margin-right: 1em;
+    padding-bottom: 2em;
+}
+.calendar h3 {
+    font-family: Poppins, sans-serif;
+}
+.calendar p {
+    font-family: Open Sans, sans-serif;
 }
 .events img {
     width: 100%;
@@ -223,5 +230,5 @@ h2:after {
 }
 .event2 {
     border-bottom: 1px solid grey;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
