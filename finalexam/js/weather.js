@@ -13,17 +13,15 @@ fetch(apiURL)
     document.getElementById('currenttemp').textContent = Math.round(jsObject.current.temp);
     document.getElementById('currenticon').setAttribute('src', `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`);
     document.getElementById('currenticon').setAttribute('alt', 'N/A');
-    });
 
-
-
-   /* fiveDayForecast.forEach( x => {
+    const threeDayForecast = "";
+    threeDayForecast( x => {
         let d = new Date(x.dt_txt);
         //console.log(d);
         document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
-        document.getElementById(`forecast${day+1}`).textContent = Math.round(x.main.temp);
-        document.getElementById(`icon${day+1}`).setAttribute('src', `https://openweathermap.org/img/w/${x.weather[0].icon}.png`);
+        document.getElementById(`forecast${day+1}`).textContent = Math.round(jsObject.daily[x].temp.max);
+        document.getElementById(`icon${day+1}`).setAttribute('src', `https://openweathermap.org/img/w/${jsObject.currrent.weather[x].icon}.png`);
        
         document.getElementById(`icon${day+1}`).setAttribute('alt', 'N/A'); 
         day++
-  })});*/
+  })});
