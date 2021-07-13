@@ -60,6 +60,7 @@ footer {
 .todaysweather {
     display: grid;
     grid-template-columns: 60% 38%;
+    grid-gap: 1em;
 }
 .weather1 {
     grid-column: 1/2;
