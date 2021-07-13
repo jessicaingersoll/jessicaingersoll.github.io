@@ -48,4 +48,7 @@ footer {
 .event2 {
     border-bottom: none;
 }
+.event3 {
+    grid-column: 2/3;
+}
 }
