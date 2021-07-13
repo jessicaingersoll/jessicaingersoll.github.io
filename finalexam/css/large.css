@@ -62,6 +62,9 @@ header {
     grid-column: 1/2;
     line-height: 1.6;
 }
+.todaysweather {
+    grid-template-columns: 50% 50%;
+}
 
 
 }
