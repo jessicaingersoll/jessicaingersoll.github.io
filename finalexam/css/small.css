@@ -237,3 +237,6 @@ h2:after {
     padding: 1em;
     margin-bottom: 1em;
 }
+#currenticon {
+    width: 100px;
+}
