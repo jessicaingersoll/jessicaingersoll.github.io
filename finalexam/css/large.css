@@ -64,6 +64,8 @@ header {
 }
 .todaysweather {
     grid-template-columns: 50% 50%;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 .days {
     display: grid;
