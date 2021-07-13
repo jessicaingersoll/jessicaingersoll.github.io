@@ -11,7 +11,7 @@ fetch(apiURL)
     document.getElementById('low').textContent = Math.round(jsObject.daily[0].temp.min);
     document.getElementById('humidity').textContent = jsObject.current.humidity;
     document.getElementById('currenttemp').textContent = Math.round(jsObject.current.temp);
-    document.getElementById('currenticon').setAttribute('src', `https://openweathermap.org/img/w/weather[0].icon}.png`);
+    document.getElementById('currenticon').setAttribute('src', `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`);
     document.getElementById('currenticon').setAttribute('alt', 'N/A');
     });
 
