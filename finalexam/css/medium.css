@@ -46,7 +46,6 @@ footer {
     border-bottom: none;
 }
 .event2 {
-    border-bottom: 1px solid grey;
-    padding-bottom: 1em;
+    border-bottom: none;
 }
 }
