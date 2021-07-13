@@ -210,14 +210,11 @@ h2:after {
     margin-left: 10px;
     border-top: 1px solid grey;
 }
-.eventsection {
+.calendar {
     margin-left: 1em;
     margin-right: 1em;
 }
 .events img {
     width: 100%;
 }
-.events {
-    margin-left: 1em;
-    margin-right; 1em;
-}
+
