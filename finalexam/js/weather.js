@@ -16,7 +16,14 @@ fetch(apiURL)
     
     let day = 0;
     const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
-    fiveDayForecast.forEach( x => {
+
+    threeDayForecast.forEach(x => {
+        let d = new Date(x.dt_txt);
+    })
+
+
+
+   /* fiveDayForecast.forEach( x => {
         let d = new Date(x.dt_txt);
         //console.log(d);
         document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
