@@ -17,9 +17,10 @@ fetch(apiURL)
     let day = 0;
     const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
     const threeDayForecast = jsObject.daily;
+    console.log(threeDayForecast);
     threeDayForecast.forEach( x => {
         let d = new Date(x);
-        //console.log(d);
+        console.log(d);
         document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
         document.getElementById(`forecast${day+1}`).textContent = Math.round(x.temp.max);
         document.getElementById(`icon${day+1}`).setAttribute('src', `https://openweathermap.org/img/w/${x.weather[0].icon}.png`);
