@@ -14,8 +14,10 @@ fetch(apiURL)
     document.getElementById('currenticon').setAttribute('src', `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`);
     document.getElementById('currenticon').setAttribute('alt', 'N/A');
 
-    const threeDayForecast = "";
-    threeDayForecast( x => {
+    let day = 0;
+    const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
+    const threeDayForecast = 
+    threeDayForecast.foreach( x => {
         let d = new Date(x.dt_txt);
         //console.log(d);
         document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
