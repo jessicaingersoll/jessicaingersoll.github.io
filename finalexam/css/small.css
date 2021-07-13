@@ -231,5 +231,9 @@ h2:after {
 .event2 {
     border-bottom: 1px solid grey;
     padding-bottom: 1em;
-    
+}
+.three-day {
+    border: 1px solid grey;
+    padding: 1em;
+    margin-bottom
 }
