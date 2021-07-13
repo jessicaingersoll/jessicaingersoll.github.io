@@ -217,4 +217,11 @@ h2:after {
 .events img {
     width: 100%;
 }
-
+.event1 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 2em;
+}
+.event2 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 2em;
+}
