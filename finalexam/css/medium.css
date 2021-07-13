@@ -37,4 +37,8 @@ footer {
 .comp2 p {
     border-bottom: none;
 }
+.events {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
 }
