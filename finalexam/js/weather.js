@@ -19,7 +19,7 @@ fetch(apiURL)
     const threeDayForecast = jsObject.daily;
     console.log(threeDayForecast);
     threeDayForecast.forEach( x => {
-        let d = new Date(x);
+        let d = new Date(x.dt);
         console.log(d);
         document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
         document.getElementById(`forecast${day+1}`).textContent = Math.round(x.temp.max);
