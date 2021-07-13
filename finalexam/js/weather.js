@@ -13,13 +13,7 @@ fetch(apiURL)
     document.getElementById('currenttemp').textContent = Math.round(jsObject.current.temp);
     document.getElementById('currenticon').setAttribute('src', `https://openweathermap.org/img/w/weather[0].icon}.png`);
     document.getElementById('currenticon').setAttribute('alt', 'N/A');
-    
-    let day = 0;
-    const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
-
-    threeDayForecast.forEach(x => {
-        let d = new Date(x.dt_txt);
-    })
+    });
 
 
 
@@ -32,4 +26,4 @@ fetch(apiURL)
        
         document.getElementById(`icon${day+1}`).setAttribute('alt', 'N/A'); 
         day++
-  })});
+  })});*/
