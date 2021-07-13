@@ -39,9 +39,14 @@ footer {
 }
 .events {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 60% 38%;
     grid-gap: 1em;
-    margin-right: 1em;
-    margin-left: 1em;
+}
+.event1 {
+    border-bottom: none;
+}
+.event2 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1em;
 }
 }
