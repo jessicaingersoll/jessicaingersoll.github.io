@@ -61,4 +61,10 @@ footer {
     display: grid;
     grid-template-columns: 60% 38%;
 }
+.weather1 {
+    grid-column: 1/2;
+}
+.forecast {
+    grid-column: 2/3;
+}
 }
