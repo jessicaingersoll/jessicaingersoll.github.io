@@ -249,3 +249,7 @@ h2:after {
 .three-day img {
     width: 80px;
 }
+form {
+    margin-right: 1em;
+    margin-left: 1em;
+}
