@@ -36,9 +36,36 @@
     </div>
 </header>
 <body>
+<h2>Membership Application</h2>
+<fieldset>
+  <legend>Personal Information</legend>
+  <label class="top">First Name*<input type="text" name="fname" pattern="[A-Za-z]{5,}" required></label>
+  <label class="top">Last Name*<input type="text" name="lname" required></label>
+  <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+  <label class="top">Phone Number<input type="tel" name="phone" placeholder="1234555123"></label>
+</fieldset>
+<fieldset>
+  <legend>Business Information</legend>
+  <label class="top">Business Name<input type="text" name="bname" required></label>
+  <label class="top">Business Address<input type="text" name="baddress"></label>
+  <label class="top">Business Website<input></label>
+  <label class="top">Business Description 
+    <textarea id="bdescription" name="descr"></textarea>
+  </label>
+  <div>Membership level</div>
+  <label class="sbs"><input type="radio" name="membership" value="non-profit">Non-profit ($100)</label>
+  <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze ($200)</label>
+  <label class="sbs"><input type="radio" name="membership" value="silver">Silver ($400)</label>
+  <label class="sbs"><input type="radio" name="membership" value="gold">Gold ($1000)</label>
+</fieldset>
+
+
+
+
+
+
 
 </body>
-
 <footer>
     <div class="footer1"> 
         <h3>Miami Beach Chamber of Commerce</h3>
