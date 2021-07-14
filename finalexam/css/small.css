@@ -240,6 +240,6 @@ h2:after {
 #currenticon {
     width: 100px;
 }
-#forecast1 {
+.three-temp {
     font-size: 50px;
 }
