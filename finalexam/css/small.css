@@ -192,6 +192,7 @@ h2:after {
 .weather1 {
     border: 1px solid grey;
     padding: 1em;
+    background-color: #d8d8d8;
 }
 .currently {
     font-family: Poppins, sans-serif;
