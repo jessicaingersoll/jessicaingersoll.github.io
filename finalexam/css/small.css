@@ -237,12 +237,14 @@ h2:after {
     border: 1px solid grey;
     padding: 1em;
     margin-bottom: 1em;
+    background-color: #d8d8d8;
 }
 #currenticon {
     width: 100px;
 }
 .three-temp {
     font-size: 50px;
+    text-align: center;
 }
 .three-day img {
     width: 80px;
