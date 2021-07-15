@@ -1,8 +1,9 @@
 @media only screen and (min-width: 70em) {
-.social img {
-    width: 10%;
-    margin-top: 20px;
-}
+ .joinnow {
+        background-color: #E65C46;
+        font-family: Poppins, sans-serif;
+    }
+
 .ham {
     display: none;
 }
