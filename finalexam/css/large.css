@@ -15,6 +15,9 @@
 .joinnow a:hover {
     background-color: #55BF90;
 }
+.topjoin {
+    display: none;
+}
 
 .ham {
     display: none;
