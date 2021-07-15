@@ -1,8 +1,14 @@
 @media only screen and (min-width: 70em) {
  .joinnow {
      display: block;
-        font-family: Poppins, sans-serif;
+     font-family: Poppins, sans-serif;
     }
+.joinnow a{
+    background-color: #E65C46;
+    color: white;
+    margin-right: 1em;
+    padding: .25em;
+}
 
 .ham {
     display: none;
@@ -41,7 +47,7 @@ nav {
 }
 header {
     display: grid;
-    grid-template-columns: 300px 1fr 100px;
+    grid-template-columns: 300px 1fr 150px;
 }
 .active {
     background-color: white;
