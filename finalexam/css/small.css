@@ -257,6 +257,7 @@ h2:after {
 form {
     max-width: 500px;
     margin: auto;
+    font-family: Open Sans, sans-serif;
 }
 form fieldset {
     margin: 2rem 0;
