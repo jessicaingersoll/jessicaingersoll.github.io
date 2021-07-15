@@ -55,8 +55,12 @@ nav {
     display: block;
 }
 
-.social img {
+.social {
    display: none;
+}
+.social {
+    background-color: #E65C46;
+    font-family: Poppins, sans-serif;
 }
 .active {
     background-color: #55BF90;
