@@ -10,6 +10,9 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+.topjoin a {
+    font-size: 1em;
+}
 .herotext p {
     display: block;
     text-align: left;
