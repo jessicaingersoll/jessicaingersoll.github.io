@@ -2,6 +2,7 @@
  .joinnow {
      display: block;
      font-family: Poppins, sans-serif;
+     margin-top: 1em;
     }
 .joinnow a{
     background-color: #E65C46;
@@ -10,7 +11,9 @@
     padding: .25em;
     text-decoration: none;
     font-size: 20px;
-    margin-top: -1em;
+}
+.joinnow a:hover {
+    background-color: #55BF90;
 }
 
 .ham {
@@ -72,14 +75,5 @@ header {
     grid-column: 1/2;
     line-height: 1.6;
 }
-.todaysweather {
-    grid-template-columns: 50% 50%;
-    margin-left: 2em;
-    margin-right: 2em;
-}
-.days {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 1em;
-}
+
 }
