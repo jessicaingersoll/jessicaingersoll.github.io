@@ -24,19 +24,22 @@ body {
     color: #55BF90;
 }
 .topjoin {
-    background-color: #E65C46;
-    color: white;
-    text-decoration: none;
     text-align: center;
     font-family: Poppins, sans-serif;
     font-size: 20px;
     margin-top: 1em;
-    padding: 1em;
+    padding: .5em;
     margin-left: 5%;
     margin-bottom: 1em;
 }
-
-
+.topjoin a:hover {
+    background-color: #55BF90;
+}
+.topjoin a {
+    background-color: #E65C46;
+    color: white;
+    text-decoration: none;
+}
 nav {
     background-color: black;
     color: white;
