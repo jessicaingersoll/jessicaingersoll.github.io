@@ -308,3 +308,11 @@ form input.submitBtn {
     background-color: #E65C46;
     border: #E65C46;
 }
+.sucess p{
+    font-family: Open Sans, sans-serif;
+}
+.sucess {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 2em;
+}
