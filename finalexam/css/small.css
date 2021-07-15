@@ -254,3 +254,9 @@ h2:after {
     margin-right: 1em;
     padding-bottom: 1em;
 }
+form {
+    max-width: 500px;
+}
+form fieldset {
+    margin: 2rem 0;
+}
