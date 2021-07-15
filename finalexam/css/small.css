@@ -23,6 +23,10 @@ body {
 .ham:hover {
     color: #55BF90;
 }
+.topjoin a{
+    background-color: #E65C46;
+    color: white;
+}
 
 nav {
     background-color: black;
