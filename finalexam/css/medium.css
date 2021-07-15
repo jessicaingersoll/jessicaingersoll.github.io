@@ -58,9 +58,13 @@ footer {
     border-bottom: none;
 }
 .todaysweather {
+    display: grid;
     grid-template-columns: 50% 50%;
     margin-left: 2em;
     margin-right: 2em;
+    grid-gap: 1em;
+}
+
 }
 .days {
     display: grid;
@@ -68,4 +72,3 @@ footer {
     grid-gap: 1em;
 }
 
-}
