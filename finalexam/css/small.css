@@ -256,7 +256,11 @@ h2:after {
 }
 form {
     max-width: 500px;
+    margin: auto;
 }
 form fieldset {
     margin: 2rem 0;
+}
+form legend {
+    font-family: Poppins, sans-serif;
 }
