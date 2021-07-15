@@ -264,4 +264,5 @@ form fieldset {
 }
 form legend {
     font-family: Poppins, sans-serif;
+    font-size: 1.5em;
 }
