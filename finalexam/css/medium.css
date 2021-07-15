@@ -72,3 +72,9 @@ footer {
     grid-gap: 1em;
 }
 
+ .three-temp {
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
