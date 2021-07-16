@@ -216,6 +216,7 @@ h2:after {
     border: 1px solid grey;
     padding: 1em;
     background-color: #d8d8d8;
+    font-family: Open-Sans, sans-serif;
 }
 .currently {
     font-family: Poppins, sans-serif;
