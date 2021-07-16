@@ -224,6 +224,7 @@ h2:after {
 }
 .days {
     display:block;
+    font-family: Open-sans, sans-serif;
 }
 .forecastheading {
     overflow: hidden;
