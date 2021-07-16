@@ -224,7 +224,6 @@ h2:after {
 }
 .days {
     display:block;
-    font-family: Open-sans, sans-serif;
 }
 .forecastheading {
     overflow: hidden;
@@ -266,7 +265,6 @@ h2:after {
     padding: 1em;
     margin-bottom: 1em;
     background-color: #d8d8d8;
-    font-family: Open Sans, sans-serif;
 }
 #currenticon {
     width: 100px;
