@@ -403,7 +403,7 @@ form p {
 .contactmain {
     margin-left: 1em;
     margin-right: 1em;
-    border-bottom: 1px solid grey;
+    
 }
 .contactmain h3 {
     font-family: Poppins, sans-serif;
@@ -414,3 +414,6 @@ form p {
 .googlemap iframe {
     width: 100%;
 }
+.membercontact {
+    border-bottom: 1px solid grey;
+} 
