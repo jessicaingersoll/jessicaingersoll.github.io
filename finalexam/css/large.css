@@ -82,4 +82,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.history img {
+    width: 500px;
+}
 }
