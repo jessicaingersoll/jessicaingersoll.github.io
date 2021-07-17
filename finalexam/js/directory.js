@@ -1,4 +1,4 @@
-const file = require(''./json/business.json');
+const file = require('./json/business.json');
 console.log(file);
 
  fetch(file)
