@@ -464,6 +464,7 @@ form p {
 }
 .contactmain {
     background-color: #d8d8d8;
+    padding-top: 1em;
 }
 .board h4 {
     font-family: Open Sans, sans-serif;
@@ -475,6 +476,8 @@ form p {
 .board div {
     padding-bottom: 1em;
     border-bottom: 1px solid grey;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 .board div:nth-child(5) {
     border-bottom: none;
