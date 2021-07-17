@@ -414,11 +414,31 @@ form p {
 .googlemap iframe {
     width: 100%;
     padding-bottom: 2em;
+    
 }
 .h2contact {
     margin-left: .5em;
     margin-right: 1em;
 }
-.contactpic {
+.cpic img {
     display: none;
+}
+.csubmitBtn {
+    font-family: Open Sans, sans-serif;
+    background-color: #1cb8d1;
+    color: white;
+    padding: .5em;
+    border: none;
+}
+.csubmitBtn:hover {
+    background-color: #E65C46;
+}
+.contactformsection form {
+    margin-bottom: 2em;
+}
+#comments {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
 }
