@@ -86,8 +86,6 @@ header {
     width: 500px;
 }
 
-.board div:nth-child(5) {
-   grid-column: 1/3;
-}
+
 
 }

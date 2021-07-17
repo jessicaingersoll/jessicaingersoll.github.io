@@ -94,6 +94,9 @@ form {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+.board div:nth-child(5) {
+    grid-column: 1/3;
+ }
 
 
 
