@@ -1,2 +1,2 @@
-const data = require('./json/business.json');
+const data = require('./business.json');
 console.log(data);
