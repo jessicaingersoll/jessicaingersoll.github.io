@@ -420,9 +420,7 @@ form p {
     margin-left: .5em;
     margin-right: 1em;
 }
-.cpic img {
-    display: none;
-}
+
 .csubmitBtn {
     font-family: Open Sans, sans-serif;
     background-color: #1cb8d1;
@@ -441,4 +439,9 @@ form p {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
+}
+.contactformsection h3 {
+    background-color: grey;
+    padding: 1em;
+    margin-bottom: -2em;
 }
