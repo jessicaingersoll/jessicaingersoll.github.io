@@ -431,8 +431,12 @@ form p {
 .csubmitBtn:hover {
     background-color: #E65C46;
 }
+.contactformsection {
+    margin-left: 1em;
+    margin-right: 1em;
+}
 .contactformsection form {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 #comments {
     -webkit-box-sizing: border-box;
