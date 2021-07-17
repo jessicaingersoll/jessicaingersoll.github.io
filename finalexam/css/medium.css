@@ -81,5 +81,8 @@ footer {
     .funfacts {
         grid-template-columns: 33% 33% 33%;
     }
+.history img {
+    float: left;
+}
 }
 
