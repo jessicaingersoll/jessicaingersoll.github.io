@@ -358,3 +358,13 @@ form p {
     grid-template-columns: 50% 50%;
     grid-gap: 1em;
 }
+.stats {
+    text-align: center;
+}
+.stats h3{
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+}
+.stats p {
+    font-family: Open-Sans, sans-serif;
+}
