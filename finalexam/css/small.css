@@ -456,3 +456,6 @@ form p {
     padding-bottom: 1em;
     border-bottom: 1px solid grey;
 }
+.board div:nth-child(3) {
+    border-bottom: none;
+}
