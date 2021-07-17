@@ -462,6 +462,9 @@ form p {
     padding: 2em;
     margin-bottom: -2em;
 }
+.contactmain {
+    background-color: #d8d8d8;
+}
 .board h4 {
     font-family: Open Sans, sans-serif;
    
