@@ -218,7 +218,7 @@ h2:after {
     padding: 1em;
     background-color: #d8d8d8;
     font-family: Open-Sans, sans-serif;
-    max-width: 500px;
+    
     margin: auto;
 }
 .currently {
@@ -268,9 +268,8 @@ h2:after {
     padding: 1em;
     margin-bottom: 1em;
     background-color: #d8d8d8;
-    max-width: 300px;
-    margin-left: 10%;
-    margin-right: 10%;
+   margin-left: 2em;
+   margin-right: 2em;
 }
 #currenticon {
     width: 100px;
