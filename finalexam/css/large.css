@@ -89,5 +89,9 @@ header {
 .miamieventgrid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.miamievents img {
+    width: 100%;
+    height: 177px;
+}
 
 }
