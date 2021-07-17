@@ -476,3 +476,13 @@ form p {
 .membercontact {
     text-align: center;
 }
+.miamievents img {
+    width: 100%;
+}
+.miamievents h3 {
+    font-family: Poppins, sans-serif;
+}
+.miamievents p {
+    font-family: Opens Sans, sans-serif;
+    
+}
