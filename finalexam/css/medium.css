@@ -98,6 +98,9 @@ form {
 .membercontact {
     grid-column: 1/2;
 }
-
+.contactformsection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 }
 
