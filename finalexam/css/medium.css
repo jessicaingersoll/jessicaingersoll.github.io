@@ -60,9 +60,7 @@ footer {
     grid-row: 2/3;
     border-bottom: none;
 }
-.forecast {
-    grid-column: 2/3;
-}
+
 .todaysweather {
     display: grid;
     grid-template-columns: 40% 40%;
@@ -71,6 +69,7 @@ footer {
     margin-right: 2em;
     grid-gap: 1em;
 }
+
 
 .days {
     display: grid;
