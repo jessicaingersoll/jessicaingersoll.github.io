@@ -63,11 +63,11 @@ footer {
 
 .todaysweather {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 1fr 1fr;
     max-width: 1000px;
     margin-left: 10%;
     margin-right: 10%;
-    grid-gap: 1em;
+    grid-gap: .5em;
 }
 
 
