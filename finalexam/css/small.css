@@ -419,3 +419,6 @@ form p {
     margin-left: .5em;
     margin-right: 1em;
 }
+.contactpic {
+    display: none;
+}
