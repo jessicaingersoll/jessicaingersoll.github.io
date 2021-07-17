@@ -85,5 +85,9 @@ header {
 .history img {
     width: 500px;
 }
+.contactmain {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 }
