@@ -60,9 +60,13 @@ footer {
     grid-row: 2/3;
     border-bottom: none;
 }
+.forecast {
+    grid-column: 2/3;
+}
 .todaysweather {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 40%;
+    max-width: 1000px;
     margin-left: 2em;
     margin-right: 2em;
     grid-gap: 1em;
