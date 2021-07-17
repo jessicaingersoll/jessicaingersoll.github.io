@@ -91,6 +91,12 @@ form {
     margin-right: 2em;
 }
 
-
+.contactmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.membercontact {
+    grid-column: 1/2;
+}
 }
 
