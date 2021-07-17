@@ -413,4 +413,9 @@ form p {
 }
 .googlemap iframe {
     width: 100%;
+    padding-bottom: 2em;
+}
+.h2contact {
+    margin-left: .5em;
+    margin-right: 1em;
 }
