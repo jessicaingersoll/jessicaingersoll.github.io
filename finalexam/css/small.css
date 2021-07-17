@@ -404,3 +404,9 @@ form p {
     margin-left: 1em;
     margin-right: 1em;
 }
+.contactmain h3 {
+    font-family: Poppins, sans-serif;
+}
+.contact p {
+    font-family: Open Sans, sans-serif;
+}
