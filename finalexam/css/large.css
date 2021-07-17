@@ -78,5 +78,8 @@ header {
     grid-column: 1/2;
     line-height: 1.6;
 }
-
+.funfacts {
+    display: flex;
+    justify-content: space-between;
+}
 }
