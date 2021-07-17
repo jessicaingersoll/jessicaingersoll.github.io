@@ -437,6 +437,8 @@ form p {
 }
 .contactformsection form {
     margin-bottom: 3em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid grey;
 }
 #comments {
     -webkit-box-sizing: border-box;
@@ -446,7 +448,7 @@ form p {
 }
 .contactformsection h3 {
     background-color: grey;
-    padding: 1em;
+    padding: 2em;
     margin-bottom: -2em;
 }
 .board h4 {
@@ -462,4 +464,10 @@ form p {
 }
 .board div:nth-child(5) {
     border-bottom: none;
+}
+.contactformsection p {
+    font-family: Open Sans, sans-serif;
+}
+.membercontact {
+    text-align: center;
 }
