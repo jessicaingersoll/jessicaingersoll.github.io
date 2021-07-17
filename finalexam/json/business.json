@@ -1,0 +1,49 @@
+{
+    "business": [
+        {
+            "name": "Pura Vida",
+            "address": "110 Washington Ave - Miami Beach",
+            "phone": "(305)-478-8274",
+            "website": "https://www.puravidamiami.com/",
+            "logo": "puravidalogo.jpg"
+
+    
+},
+{
+        "name": "The Standard Hotel",
+        "address": "40 Island Ave - Miami Beach",
+        "phone": "(305)-673-1717",
+        "website": "https://www.standardhotels.com/miami/properties/miami-beach",
+        "logo": "standardlogo.jpg"
+
+},
+{
+    "name": "Miami Beach Paddle Board",
+    "address": "1701 Purdy Ave Shot C-102 - Miami Beach",
+    "phone": "(786)-428-4402",
+    "website": "https://miamibeachpaddleboard.com/en/",
+    "logo": "miamibeachpaddleboardlogo.jpg"
+},
+{   
+    "name": "Trader Joes",
+    "address": "1983 West Ave - Miami Beach",
+    "phone": "(305)-534-4951",
+    "website": "https://www.traderjoes.com/home",
+    "logo": "traderjoes.jpg"
+},
+{
+    "name": "New World Symphony",
+    "address": "500 17th St. - Miami Beach",
+    "phone": "(305)-902-6856", 
+    "website": "https://www.nws.edu/",
+    "logo": "nwslogo.jpg"
+},
+{
+    "name": "Jungle Island",
+    "address": "1111 Parrot Jungle Trail - Miami Beach",
+    "phone": "(305)-400-7218",
+    "website": "https://www.jungleisland.com/",
+    "logo": "jungleisland.jpg"
+}
+]
+}

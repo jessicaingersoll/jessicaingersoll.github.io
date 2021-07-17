@@ -1,5 +1,2 @@
-fetch(".json/businesses.json")
-.then(response => {
-    return response.json();
-})
-.then(data => console.log(data));
+const file = 'json/business.json';
+console.log(file);
