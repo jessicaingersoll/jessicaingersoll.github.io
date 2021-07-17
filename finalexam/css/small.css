@@ -490,6 +490,8 @@ form p {
 .miamievents a {
     text-decoration: none;
     color: #55BF90;
+    font-family: Open Sans, sans-serif;
+    margin-top: 30px;
 }
 .miamievents a:hover {
     color: #E65C46;
