@@ -91,21 +91,7 @@ form {
     margin-right: 2em;
 }
 
-.contactmain {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-bottom: 1px solid grey;
-}
-.membercontact {
-    grid-column: 1/2;
-}
-.contactformsection {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-right: 1em;
-    margin-top: 2em;
-    padding-bottom: 1em;
-}
+
 
 
 
