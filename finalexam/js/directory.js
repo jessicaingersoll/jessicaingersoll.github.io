@@ -1,4 +1,4 @@
-const file = require('../business.json');
+const file = require('../json/business.json');
 console.log(file);
 
  fetch(file)
@@ -9,3 +9,4 @@ console.log(file);
     const business = jsonObject['business'];
     console.log(business);
  })
+ 
