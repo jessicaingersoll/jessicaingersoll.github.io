@@ -498,9 +498,9 @@ form p {
 }
 .miamievents {
     padding-bottom: 2em;
-    padding-right: 10px;
-    padding-left: 10px;
+  
 }
 .miamieventgrid {
     background-color: #d8d8d8;
+    padding: 1em;
 }
