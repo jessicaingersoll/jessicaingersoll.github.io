@@ -478,7 +478,7 @@ form p {
 }
 .miamievents img {
     width: 100%;
-    padding-bottom: 1em;
+    
 }
 .miamievents h3 {
     font-family: Poppins, sans-serif;
@@ -503,4 +503,7 @@ form p {
 .miamieventgrid {
     background-color: #d8d8d8;
     padding: 1em;
+}
+.miamievents div {
+    padding-bottom: 1em;
 }
