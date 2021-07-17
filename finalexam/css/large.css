@@ -64,12 +64,12 @@ header {
 }
 .about {
     display: grid;
-    grid-template-columns: 70% 28%;
+    grid-template-columns: 75% 25%;
 
 }
 
 .about img {
-    width: 80%;
+    width: 100%;
     display: block;
     grid-column: 2/3;
 
