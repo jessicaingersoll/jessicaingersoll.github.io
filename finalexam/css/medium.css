@@ -65,8 +65,8 @@ footer {
     display: grid;
     grid-template-columns: 40% 40%;
     max-width: 1000px;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
     grid-gap: 1em;
 }
 
@@ -74,7 +74,7 @@ footer {
 .days {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    grid-gap: 1em;
+    grid-gap: 2em;
 }
 
  .three-temp {
