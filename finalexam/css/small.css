@@ -388,4 +388,10 @@ form p {
 .veteran {
     color: #e7294a;
 }
-
+.history img {
+    width: 100%;
+}
+.history p {
+    font-family: Open Sans, sans-serif;
+    line-height: 1.6em;
+}
