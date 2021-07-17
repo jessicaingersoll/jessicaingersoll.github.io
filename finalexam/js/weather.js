@@ -15,10 +15,7 @@ fetch(apiURL)
     document.getElementById('currenticon').setAttribute('alt', 'N/A');
 
 
-    document.querySelector('#banner').textContent = jsObject.alerts.event;
-    doocument.querySelector('#banner').textContent = jsObject.alerts.description;
-    console.log('#banner');
-
+    
 
     let day = 0;
     const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
@@ -33,4 +30,11 @@ fetch(apiURL)
        
         document.getElementById(`icon${day+1}`).setAttribute('alt', 'N/A'); 
         day++
-  })});
+  })
+  document.querySelector('#banner').textContent = jsObject.alerts.event;
+  doocument.querySelector('#banner').textContent = jsObject.alerts.description;
+  console.log(jsObject.alerts);
+
+
+
+});
