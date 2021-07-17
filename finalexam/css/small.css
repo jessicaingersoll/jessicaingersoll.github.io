@@ -354,9 +354,9 @@ form p {
     margin-left: 1em;
     margin-right: 1em;
 }
-.miamihero picture {
+.miamihero img {
     width: 100%;
-    max-height: 250px;
+    max-height: 300px;
 }
 .funfacts {
     display: grid;
