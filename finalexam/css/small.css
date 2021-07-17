@@ -289,6 +289,7 @@ form {
 form fieldset {
     margin: 2rem 0;
     padding: .5rem 2%;
+    border: none;
    
 }
 form legend {
