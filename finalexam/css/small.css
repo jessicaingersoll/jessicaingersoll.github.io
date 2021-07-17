@@ -403,10 +403,14 @@ form p {
 .contactmain {
     margin-left: 1em;
     margin-right: 1em;
+    padding-bottom: 2em;
 }
 .contactmain h3 {
     font-family: Poppins, sans-serif;
 }
 .contactmain p {
     font-family: Open Sans, sans-serif;
+}
+.googlemap iframe {
+    width: 100%;
 }
