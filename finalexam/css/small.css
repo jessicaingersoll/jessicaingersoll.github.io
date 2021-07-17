@@ -218,6 +218,8 @@ h2:after {
     padding: 1em;
     background-color: #d8d8d8;
     font-family: Open-Sans, sans-serif;
+    max-width: 300px;
+    margin: auto;
 }
 .currently {
     font-family: Poppins, sans-serif;
@@ -225,6 +227,7 @@ h2:after {
 }
 .days {
     display:block;
+    margin-bottom: 1em;
 }
 .forecastheading {
     overflow: hidden;
@@ -266,6 +269,8 @@ h2:after {
     padding: 1em;
     margin-bottom: 1em;
     background-color: #d8d8d8;
+    max-width: 200px;
+    margin: auto;
 }
 #currenticon {
     width: 100px;
@@ -277,6 +282,7 @@ h2:after {
 .three-day img {
     width: 80px;
 }
+
 .join {
     margin-left: 1em;
     margin-right: 1em;
