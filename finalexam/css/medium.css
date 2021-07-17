@@ -63,8 +63,10 @@ footer {
 
 .todaysweather {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 30% 70%;
     max-width: 1200px;
+    grid-gap: 2em;
+    margin-left: 10%;
     
  
 }
@@ -72,7 +74,7 @@ footer {
 .days {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-   
+   grid-gap: .5em;
 
 }
 .three-day {
@@ -88,7 +90,7 @@ footer {
     }
  .funfacts {
         grid-template-columns: 33% 33% 33%;
-        grid-gap: .5em;
+        
     }
 .history img {
     float: left;
