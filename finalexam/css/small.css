@@ -449,3 +449,10 @@ form p {
     font-family: Open Sans, sans-serif;
    
 }
+.board {
+    text-align: center;
+}
+.board div {
+    padding-bottom: 1em;
+    border-bottom: 1px solid grey;
+}
