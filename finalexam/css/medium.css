@@ -80,6 +80,9 @@ footer {
  .three-temp {
         font-size: 50px;
         text-align: center;
+        margin-left: 0em;
+        margin-right: 0em;
+        padding: 10px;
     }
     .funfacts {
         grid-template-columns: 33% 33% 33%;
