@@ -1,2 +1,5 @@
-const data = require('./business.json');
-console.log(data);
+fetch(".json/businesses.json")
+.then(response => {
+    return response.json();
+})
+.then(data => console.log(data));
