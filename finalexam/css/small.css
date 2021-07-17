@@ -482,6 +482,13 @@ form p {
 .board div:nth-child(5) {
     border-bottom: none;
 }
+.membercontact h3 {
+    font-family: Poppins, sans-serif;
+}
+.membercontact p {
+    font-family: Open Sans, sans-serif;
+    line-height: 1.6em;
+}
 .contactformsection p {
     font-family: Open Sans, sans-serif;
 }
