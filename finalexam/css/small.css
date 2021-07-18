@@ -546,7 +546,7 @@ form p {
 }
 .businessdirectory p {
     font-family: Open Sans, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 .businessdirectory {
     text-align: center;
@@ -554,9 +554,11 @@ form p {
     padding-top: 2em;
     padding-bottom: 2em;
     margin-bottom: 1em;
+    border-bottom: 1px solid grey;
 }
 .businessdirectory div {
     margin-right: 1em;
+    margin-bottom: 2em;
 }
 #btnContainer {
    display: none;
