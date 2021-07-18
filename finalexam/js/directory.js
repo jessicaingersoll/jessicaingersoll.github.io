@@ -1,3 +1,3 @@
-var jsonFile = require('../business.json');
+var jsonFile = require('./business.json');
 console.log(jsonFile);
 
