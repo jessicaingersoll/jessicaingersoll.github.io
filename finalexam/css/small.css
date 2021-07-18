@@ -539,5 +539,11 @@ form p {
 }
 .directorymain {
     margin-left: 1em;
-    marign-right: 1em;
+    margin-right: 1em;
+}
+.businessdirectory h3 {
+    font-family: Poppins, sans-serif;
+}
+.businessdirectory p {
+    font-family: Open Sans, sans-serif;
 }
