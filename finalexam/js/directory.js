@@ -8,7 +8,7 @@ fetch("./business.json")
     const business = jsonObject.business;
 
     for(let i=0; i< business.length; i++) {
-    let card = document.createElement('section');
+    let card = document.createElement('div');
     let h3 = document.createElement('h3');
     let p = document.createElement('p');
     let p2 = document.createElement('p');
@@ -22,11 +22,11 @@ fetch("./business.json")
     img.setAttribute('src', `images/${business.name}.jpg`);
     img.setAttribute('alt', "Photo of" + business[i].name);
 
-    display.appendChild(h3);
-    display.appendChild(p);
-    display.appendChild(p2);
-    display.appendChild(p3);
-    display.appendChild(img);
+ card.appendChild(h3);
+    card.appendChild(p);
+    card.appendChild(p2);
+    card.appendChild(p3);
+    card.appendChild(img);
 
     document.querySelector('div.businessdirectory').appendChild(card);
 }
