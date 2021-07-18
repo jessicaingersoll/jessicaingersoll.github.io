@@ -131,11 +131,15 @@ form {
 }
 
 
-
+.businessdirectory div{
+    justify-content: end;
+}
 
 .liststyle {
     display: block;
 }
-
+#gridbtn {
+    display: inline-block;
+}
 }
 
