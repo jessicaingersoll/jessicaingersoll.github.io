@@ -554,11 +554,14 @@ form p {
     padding-top: 2em;
     padding-bottom: 2em;
     margin-bottom: 1em;
-    border-bottom: 1px solid grey;
+   
 }
 .businessdirectory div {
     margin-right: 1em;
     margin-bottom: 2em;
+}
+.businessdirectory p {
+    margin-bottom: -.5em;
 }
 #btnContainer {
    display: none;
