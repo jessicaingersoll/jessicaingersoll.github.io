@@ -537,3 +537,7 @@ form p {
 .businessdirectory img {
     width: 200px;
 }
+.directorymain {
+    margin-left: 1em;
+    marign-right: 1em;
+}
