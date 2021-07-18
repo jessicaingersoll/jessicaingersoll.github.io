@@ -535,7 +535,7 @@ form p {
     margin-right: 1em;
 }
 .businessdirectory img {
-    width: 50%;
+    width: 40%;
 }
 .directorymain {
     margin-left: 1em;
@@ -546,6 +546,7 @@ form p {
 }
 .businessdirectory p {
     font-family: Open Sans, sans-serif;
+    font-size: 10px;
 }
 .businessdirectory {
     text-align: center;
@@ -554,9 +555,18 @@ form p {
     padding-bottom: 2em;
     margin-bottom: 1em;
 }
-
+.businessdirectory div {
+    margin-right: 1em;
+}
 .btn {
     margin-bottom: 1em;
     padding: .5em;
-    
+}
+.gridstyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+.liststyle {
+    display: block;
 }
