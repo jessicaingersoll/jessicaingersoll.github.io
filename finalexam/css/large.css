@@ -93,5 +93,11 @@ header {
     width: 100%;
     height: 177px;
 }
+.businessdirectory p {
+    font-size: 20px;
+}
+.businessdirectory h3 {
+    font-size: 30px;
+}
 
 }
