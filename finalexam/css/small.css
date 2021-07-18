@@ -564,6 +564,21 @@ form p {
     margin-bottom: -.5em;
 }
 #btnContainer {
-   display: none;
+    background-color: #d8d8d8;
+    padding: 1em;
+}
+.gridimg {
+    width: 15px;
+}
+.gridbtn {
+    display: none;
+}
+.liststyle {
+    display: block;
+    text-align: left;
+    padding-left: 1em;
+}
+.liststyle img{
+    display: none;
 }
 
