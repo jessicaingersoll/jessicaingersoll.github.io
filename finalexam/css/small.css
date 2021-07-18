@@ -571,6 +571,6 @@ form p {
 .liststyle {
     display: block;
 }
-.btnContainer img {
-    width: 10px;
+.gridimg {
+    width: 20px;
 }
