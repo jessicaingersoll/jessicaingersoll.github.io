@@ -535,7 +535,7 @@ form p {
     margin-right: 1em;
 }
 .businessdirectory img {
-    width: 40%;
+    width: 30%;
 }
 .directorymain {
     margin-left: 1em;
@@ -558,9 +558,10 @@ form p {
 .businessdirectory div {
     margin-right: 1em;
 }
-.btn {
-    margin-bottom: 1em;
-    padding: .5em;
+#btnContainer {
+    background-color: #d8d8d8;
+    padding: 1em;
+
 }
 .gridstyle {
     display: grid;
