@@ -132,9 +132,19 @@ form {
 .liststyle {
     display: block;
 }
-.gridstyle {
-    grid-template-columns: 1fr 1fr 1fr;
+
+#btnContainer {
+    display: block;
+    background-color: #d8d8d8;
+    padding: 1em;
+
 }
 
+.liststyle {
+    display: block;
+}
+.gridimg {
+    width: 15px;
+}
 }
 

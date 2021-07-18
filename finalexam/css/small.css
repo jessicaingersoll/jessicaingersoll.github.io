@@ -559,22 +559,6 @@ form p {
     margin-right: 1em;
 }
 #btnContainer {
-    background-color: #d8d8d8;
-    padding: 1em;
+   display: none;
+}
 
-}
-.gridstyle {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    
-}
-.gridstyle div {
-    justify-self: end;
-}
-.liststyle {
-    display: block;
-}
-.gridimg {
-    width: 15px;
-}
