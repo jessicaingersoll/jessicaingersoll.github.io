@@ -535,7 +535,7 @@ form p {
     margin-right: 1em;
 }
 .businessdirectory img {
-    width: 200px;
+    width: 50%;
 }
 .directorymain {
     margin-left: 1em;
@@ -554,8 +554,13 @@ form p {
     padding-bottom: 2em;
     margin-bottom: 1em;
 }
-.gridstyle {
+.businessdirectory {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+}
+.btn {
+    margin-bottom: 1em;
+    padding: .5em;
+    
 }
