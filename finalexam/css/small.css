@@ -473,6 +473,9 @@ form p {
 .board {
     text-align: center;
 }
+.board img {
+    margin-top: 2em;
+}
 .board div {
     padding-bottom: 1em;
     border-bottom: 1px solid grey;
