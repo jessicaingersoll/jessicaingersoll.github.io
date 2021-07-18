@@ -554,3 +554,8 @@ form p {
     padding-bottom: 2em;
     margin-bottom: 1em;
 }
+.gridstyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
