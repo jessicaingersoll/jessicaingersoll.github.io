@@ -609,3 +609,10 @@ form p {
     font-family: Open Sans, sans-serif;
     padding: 1em;
 }
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #1cb8d1;
+}
