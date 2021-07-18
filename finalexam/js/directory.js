@@ -19,7 +19,7 @@ fetch("./business.json")
     p.textContent = business[i].address;
     p2.textContent = business[i].phone;
     p3.textContent = business[i].website;
-    img.setAttribute('src', `images/${business.name}.jpg`);
+    img.setAttribute('src', `images/${business[i].shortcut}.jpg`);
     img.setAttribute('alt', "Photo of" + business[i].name);
 
  card.appendChild(h3);
