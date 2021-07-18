@@ -4,9 +4,9 @@ console.log(thedate.getDay());
 if (thedate.getDay() == 0) {
     document.querySelector("#banner").style.display = "block"
 };
-const div = document.querySelector("#banner");
-const btn = document.querySelector("bannerbtn");
-
-function remove(elem) {
-    Element.parentNode.removeChild(elem);
-}
+document.body.addEventListener("mousedown", function(e) {
+    console.log(e.target.nodeName, e.target.id)
+    if (e.target.nodeName == "DIV") {
+        document.getElementById(e.target.id).outerHTML = ""
+    }
+}, false)
