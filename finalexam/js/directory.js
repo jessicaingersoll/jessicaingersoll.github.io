@@ -9,6 +9,7 @@ fetch("./business.json")
 
     for(let i=0; i< business.length; i++) {
     let card = document.createElement('div');
+    card.className += "cardcss";
     let h3 = document.createElement('h3');
     let p = document.createElement('p');
     let p2 = document.createElement('p');
