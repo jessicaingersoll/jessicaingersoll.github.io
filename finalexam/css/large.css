@@ -99,5 +99,8 @@ header {
 .businessdirectory h3 {
     font-size: 30px;
 }
+.gridstyle {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }
