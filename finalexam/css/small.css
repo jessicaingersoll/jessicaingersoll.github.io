@@ -530,3 +530,6 @@ form p {
     width: 100%;
     max-height: 300px;
 }
+.staffheading {
+    margin-left: 1em;
+}
