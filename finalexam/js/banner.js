@@ -7,7 +7,6 @@ if (thedate.getDay() == 0) {
 const div = document.querySelector("#banner");
 const btn = document.querySelector("bannerbtn");
 
-function remove(div) {
-    var element = div;
-    element.remove()
+function remove(elem) {
+    Element.parentNode.removeChild(elem);
 }
