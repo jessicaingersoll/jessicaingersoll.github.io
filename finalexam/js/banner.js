@@ -7,8 +7,7 @@ if (thedate.getDay() == 0) {
 const div = document.querySelector("#banner");
 const btn = document.querySelector("bannerbtn");
 
-btn.addEventListener('click', () =>{
-    while (div.firstChild) {
-        element.removeChild(element.firstChild);
-    }
-})
+function remove(div) {
+    var element = div;
+    element.remove()
+}
