@@ -135,5 +135,11 @@ form {
 .gridstyle {
     grid-template-columns: 1fr 1fr 1fr;
 }
+.businessdirectory p {
+    font-size: 20px;
+}
+.businessdirectory h3 {
+    font-size: 30px;
+}
 }
 
