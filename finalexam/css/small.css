@@ -602,3 +602,10 @@ form p {
 .cardcss img {
     width: 25%;
 }
+#banner {
+    background-color: #8cc44c;
+    color: white;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    padding: 1em;
+}
