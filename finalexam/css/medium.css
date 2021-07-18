@@ -124,5 +124,10 @@ form {
     width: 100%;
     height: 250px;
 }
+.businessdirectory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
 }
 

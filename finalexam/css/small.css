@@ -554,11 +554,7 @@ form p {
     padding-bottom: 2em;
     margin-bottom: 1em;
 }
-.businessdirectory {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-}
+
 .btn {
     margin-bottom: 1em;
     padding: .5em;
