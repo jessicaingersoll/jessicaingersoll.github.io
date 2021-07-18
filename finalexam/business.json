@@ -43,6 +43,14 @@
     "shortcut": "newworldsymphony"
 },
 {
+    "name": "Anatomy",
+    "address": "1220 20th St - Miami Beach",
+    "phone": "(786)-213-1220",
+    "website":"https://anatomyfitness.com/",
+    "logo": "anatomy.jpg",
+    "shortcut": "anatomy"
+},
+{
     "name": "Jungle Island",
     "address": "1111 Parrot Jungle Trail - Miami Beach",
     "phone": "(305)-400-7218",
