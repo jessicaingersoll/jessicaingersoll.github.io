@@ -15,7 +15,7 @@ fetch("./business.json")
     let p3 = document.createElement('p');
     let img = document.createElement('img');
 
-    h2.textContent = business[i].name;
+    h3.textContent = business[i].name;
     p.textContent = business[i].address;
     p2.textContent = business[i].phone;
     p3.textContent = business[i].website;
