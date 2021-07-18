@@ -547,3 +547,8 @@ form p {
 .businessdirectory p {
     font-family: Open Sans, sans-serif;
 }
+.businessdirectory {
+    text-align: center;
+    background-color: #d8d8d8;
+    padding-top: 2em;
+}
