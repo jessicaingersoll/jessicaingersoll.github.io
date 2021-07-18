@@ -4,7 +4,7 @@ fetch("./business.json")
 })
 .then(data => console.log(data));
 
-.then(function (jsonObject){
+/*
 
 const business = jsonObject['business'];
 for(let i=0; i< business.length; i++) {
@@ -31,3 +31,4 @@ for(let i=0; i< business.length; i++) {
     document.querySelector('div.businessdirectory').appendChild(card);
 }
 });
+*/
