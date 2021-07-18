@@ -2,7 +2,8 @@ fetch("./business.json")
 .then(response => {
    return response.json();
 })
-.then(data => console.log(data));
+
+
 .then(function (jsonObject){
 
 const business = jsonObject['business'];
