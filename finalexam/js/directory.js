@@ -22,12 +22,12 @@ fetch("./business.json")
     p2.textContent = business[i].phone;
     p3.textContent = business[i].website;
   
-
+    card.appendChild(img);
  card.appendChild(h3);
     card.appendChild(p);
     card.appendChild(p2);
     card.appendChild(p3);
-    card.appendChild(img);
+    
 
     document.querySelector('div.businessdirectory').appendChild(card);
 }
