@@ -2,10 +2,10 @@ fetch("./business.json")
 .then(response => {
    return response.json();
 })
-.then(data => console.log(data));
+/*.then(data => console.log(data)); */
 
 .then(function (jsonObject) {
-    const business = jsonObject['business'];
+    const business = jsonObject.business;
 
     for(let i=0; i< business.length; i++) {
     let card = document.createElement('section');
@@ -22,7 +22,7 @@ fetch("./business.json")
     img.setAttribute('src', `images/${business.name}.jpg`);
     img.setAttribute('alt', "Photo of" + business[i].name);
 
-    display.appendChild(h2);
+    display.appendChild(h3);
     display.appendChild(p);
     display.appendChild(p2);
     display.appendChild(p3);
@@ -31,4 +31,3 @@ fetch("./business.json")
     document.querySelector('div.businessdirectory').appendChild(card);
 }
 });
-*/
