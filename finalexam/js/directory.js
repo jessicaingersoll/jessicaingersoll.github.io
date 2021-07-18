@@ -2,8 +2,8 @@ fetch("./business.json")
 .then(response => {
    return response.json();
 })
-.then(data => console.log(data));
-console.log(jsonFile);
+.then(function (jsonObject){
+
 const business = jsonObject['business'];
 for(let i=0; i< business.length; i++) {
     let card = document.createElement('section');
@@ -28,3 +28,4 @@ for(let i=0; i< business.length; i++) {
 
     document.querySelector('div.businessdirectory').appendChild(card);
 }
+});
