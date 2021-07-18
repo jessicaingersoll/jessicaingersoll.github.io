@@ -23,7 +23,7 @@ fetch("./business.json")
     p3.textContent = business[i].website;
   
     card.appendChild(img);
- card.appendChild(h3);
+    card.appendChild(h3);
     card.appendChild(p);
     card.appendChild(p2);
     card.appendChild(p3);
