@@ -1,4 +1,4 @@
 function gridView() {
-    var element = document.getElementById(".businessdirectory");
+    var element = document.getElementById("#directory");
     element.classList.toggle("gridstyle");
 }
