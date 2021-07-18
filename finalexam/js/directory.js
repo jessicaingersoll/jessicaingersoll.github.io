@@ -15,12 +15,13 @@ fetch("./business.json")
     let p3 = document.createElement('p');
     let img = document.createElement('img');
 
+    img.setAttribute('src', `images/${business[i].shortcut}.jpg`);
+    img.setAttribute('alt', "Photo of" + business[i].name);
     h3.textContent = business[i].name;
     p.textContent = business[i].address;
     p2.textContent = business[i].phone;
     p3.textContent = business[i].website;
-    img.setAttribute('src', `images/${business[i].shortcut}.jpg`);
-    img.setAttribute('alt', "Photo of" + business[i].name);
+  
 
  card.appendChild(h3);
     card.appendChild(p);
