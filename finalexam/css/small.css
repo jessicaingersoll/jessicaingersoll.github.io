@@ -572,9 +572,13 @@ form p {
 }
 .gridimg {
     width: 15px;
+    margin-top: 2px;
 }
 #gridbtn {
     display: none;
+}
+#listbtn {
+    padding-top: 2px;
 }
 .liststyle {
     display: block;
