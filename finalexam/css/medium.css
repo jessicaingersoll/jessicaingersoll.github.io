@@ -129,16 +129,9 @@ form {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
 }
-.liststyle {
-    display: block;
-}
 
-#btnContainer {
-    display: block;
-    background-color: #d8d8d8;
-    padding: 1em;
 
-}
+
 
 .liststyle {
     display: block;
