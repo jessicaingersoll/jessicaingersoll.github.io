@@ -570,7 +570,7 @@ form p {
 .gridimg {
     width: 15px;
 }
-.gridbtn {
+#gridbtn {
     display: none;
 }
 .liststyle {
