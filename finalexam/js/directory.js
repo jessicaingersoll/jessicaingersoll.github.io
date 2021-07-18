@@ -4,10 +4,10 @@ fetch("./business.json")
 })
 .then(data => console.log(data));
 
-/*
+.then(function (jsonObject) {
+    const business = jsonObject['business'];
 
-const business = jsonObject['business'];
-for(let i=0; i< business.length; i++) {
+    for(let i=0; i< business.length; i++) {
     let card = document.createElement('section');
     let h3 = document.createElement('h3');
     let p = document.createElement('p');
